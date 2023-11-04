@@ -1,5 +1,7 @@
 onEvent("recipes", (event) => {
-  event.shaped("kubejs:pellet_wand", [" W ", " S ", " S "], {
+  const { kubejs } = event.recipes;
+
+  kubejs.shaped("kubejs:pellet_wand", [" W ", " S ", " S "], {
     S: "kubejs:rainbow_rod",
     W: "mekanism:pellet_antimatter",
   });
@@ -31,7 +33,7 @@ onEvent("recipes", (event) => {
         ]),
         event.recipes.createDeploying("kubejs:middle_blackiron_ingot", [
           "kubejs:middle_blackiron_ingot",
-          "#forge:pw",
+          "#forge:pellet_wand",
         ]),
         event.recipes.createFilling("kubejs:middle_blackiron_ingot", [
           "kubejs:middle_blackiron_ingot",
@@ -106,19 +108,19 @@ onEvent("recipes", (event) => {
     .transitionalItem("create:incomplete_precision_mechanism")
     .loops(1);
 
-  event.shaped("entangled:block", ["WAW", "ASA", "WAW"], {
+  kubejs.shaped("entangled:block", ["WAW", "ASA", "WAW"], {
     S: "mekanism:pellet_antimatter",
     W: "modularrouters:blank_module",
     A: "minecraft:obsidian",
   });
   event.remove({ id: "entangled:block" });
 
-  event.shaped("kubejs:rainbow_rod", [" W ", " S ", " W "], {
+  kubejs.shaped("kubejs:rainbow_rod", [" W ", " S ", " W "], {
     S: "kubejs:nether_end",
     W: "kubejs:mix_ingot",
   });
 
-  event.shapeless("minecraft:crimson_nylium", [
+  kubejs.shapeless("minecraft:crimson_nylium", [
     "minecraft:netherrack",
     "minecraft:crimson_fungus",
   ]);
@@ -126,26 +128,26 @@ onEvent("recipes", (event) => {
   event.remove({ output: "mekanism:yellow_cake_uranium" });
   event.remove({ output: "mekanism:supercharged_coil" });
 
-  event.shaped("minecraft:shulker_shell", ["SSS", "S S", "   "], {
+  kubejs.shaped("minecraft:shulker_shell", ["SSS", "S S", "   "], {
     S: "minecraft:amethyst_shard",
   });
 
   event.remove({ id: "botania:mana_infusion/ender_pearl_from_ghast_tear" });
 
-  event.shapeless("botania:glimmering_livingwood", [
+  kubejs.shapeless("botania:glimmering_livingwood", [
     "botania:livingwood_log",
     "minecraft:glowstone_dust",
   ]);
 
-  event.shapeless("bigreactors:yellorium_ingot", [
+  kubejs.shapeless("bigreactors:yellorium_ingot", [
     "immersiveengineering:ingot_uranium",
   ]);
 
-  event.shapeless("9x kubejs:mix_ingot", ["kubejs:mix_block"]);
-  event.shapeless("9x kubejs:nether_star_fragment", ["minecraft:nether_star"]);
-  event.shapeless("4x kubejs:nether_quartz_shard", ["minecraft:quartz"]);
-  event.shapeless("4x kubejs:flint_chips", ["minecraft:flint"]);
-  event.shapeless("9x kubejs:emerald_chips", ["minecraft:emerald"]);
-  event.shapeless("9x kubejs:diamond_chips", ["minecraft:diamond"]);
-  event.shapeless("9x kubejs:obsidian_chips", ["minecraft:obsidian"]);
+  kubejs.shapeless("9x kubejs:mix_ingot", ["kubejs:mix_block"]);
+  kubejs.shapeless("9x kubejs:nether_star_fragment", ["minecraft:nether_star"]);
+  kubejs.shapeless("4x kubejs:nether_quartz_shard", ["minecraft:quartz"]);
+  kubejs.shapeless("4x kubejs:flint_chips", ["minecraft:flint"]);
+  kubejs.shapeless("9x kubejs:emerald_chips", ["minecraft:emerald"]);
+  kubejs.shapeless("9x kubejs:diamond_chips", ["minecraft:diamond"]);
+  kubejs.shapeless("9x kubejs:obsidian_chips", ["minecraft:obsidian"]);
 });

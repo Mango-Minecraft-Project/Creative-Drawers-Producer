@@ -1,3 +1,3 @@
 onEvent("item.tags", (event) => {
-  event.get("forge:pw").add("kubejs:pellet_wand");
+  event.add("forge:pellet_wand", "kubejs:pellet_wand");
 });

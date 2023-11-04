@@ -1,18 +1,18 @@
 onEvent("recipes", (event) => {
   event.shaped("custom:cobblestone_machine", ["ASA", "AWA", "ASA"], {
     S: "extrautilitiesrebirth:quadruple_compressed_cobblestone",
-    W: "#forge:sc",
+    W: "#forge:stone_hammer",
     A: "extrautilitiesrebirth:triple_compressed_cobblestone",
   });
 
   event.shaped("custom:gravel_machine", ["SSS", "SWS", "SSS"], {
     S: "extrautilitiesrebirth:double_compressed_gravel",
-    W: "#forge:sc",
+    W: "#forge:stone_hammer",
   });
 
   event.shaped("custom:dirt_machine", ["SSS", "SWS", "SSS"], {
     S: "extrautilitiesrebirth:double_compressed_dirt",
-    W: "#forge:sc",
+    W: "#forge:stone_hammer",
   });
 
   event.shaped("custom:sand_machine", ["SAS", "SWS", "SBS"], {
