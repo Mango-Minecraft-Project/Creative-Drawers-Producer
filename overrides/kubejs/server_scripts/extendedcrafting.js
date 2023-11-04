@@ -211,7 +211,8 @@ onEvent("recipes", (event) => {
       },
     ],
     result: {
-      item: "4x extendedcrafting:ender_ingot",
+      item: "extendedcrafting:ender_ingot",
+      count: 4,
     },
   });
 
