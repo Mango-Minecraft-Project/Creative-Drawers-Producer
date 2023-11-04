@@ -76,7 +76,7 @@ onEvent("recipes", (event) => {
       Item.of("minecraft:ghast_tear").withChance(0.08),
       Item.of("minecraft:crimson_fungus").withChance(0.08),
     ],
-    "kubejs:netherrack_crushed"
+    "kubejs:crushed_netherrack"
   );
 
   // end_stone
@@ -86,7 +86,7 @@ onEvent("recipes", (event) => {
       Item.of("kubejs:nether_star_fragment").withChance(0.01),
       Item.of("minecraft:chorus_fruit").withChance(0.08),
     ],
-    "kubejs:endstone_crushed"
+    "kubejs:crushed_endstone"
   );
 
   // otherworld

@@ -25,7 +25,7 @@ onEvent("recipes", (event) => {
     "#minecraft:logs",
   ]);
 
-  kubejs.shaped("kubejs:wood_gear", [" W ", "WSW", " W "], {
+  kubejs.shaped("kubejs:wooden_gear", [" W ", "WSW", " W "], {
     S: "#minecraft:planks",
     W: "minecraft:stick",
   });
@@ -36,7 +36,7 @@ onEvent("recipes", (event) => {
   );
 
   kubejs.shaped("create:water_wheel", ["KWK", "WSW", "KWK"], {
-    S: "kubejs:wood_gear",
+    S: "kubejs:wooden_gear",
     W: "#minecraft:planks",
     K: "minecraft:stick",
   });
@@ -45,7 +45,7 @@ onEvent("recipes", (event) => {
 
   kubejs.shaped("4x minecraft:chest", ["SSS", "SWS", "SSS"], {
     S: "#minecraft:logs",
-    W: "kubejs:wood_gear",
+    W: "kubejs:wooden_gear",
   });
 
   kubejs.shaped("2x minecraft:dirt", ["SW ", "WS ", "   "], {
@@ -53,8 +53,8 @@ onEvent("recipes", (event) => {
     W: "#forge:sapling",
   });
 
-  kubejs.shaped("kubejs:hammer_wood", ["KWK", " S ", " S "], {
-    W: "kubejs:wood_gear",
+  kubejs.shaped("kubejs:wooden_hammer", ["KWK", " S ", " S "], {
+    W: "kubejs:wooden_gear",
     K: "#minecraft:planks",
     S: "minecraft:stick",
   });
@@ -103,7 +103,7 @@ onEvent("recipes", (event) => {
     Fluid.of("minecraft:water", 1000),
   ]);
 
-  kubejs.shaped("kubejs:hammer_stone", ["KWK", " S ", " S "], {
+  kubejs.shaped("kubejs:stone_hammer", ["KWK", " S ", " S "], {
     W: "kubejs:stone_gear",
     K: "#forge:stone",
     S: "kubejs:stone_rod",
@@ -115,51 +115,51 @@ onEvent("recipes", (event) => {
     S: "kubejs:iron_rod",
   });
 
-  kubejs.shaped("kubejs:hammer_gold", ["KWK", " S ", " S "], {
+  kubejs.shaped("kubejs:golden_hammer", ["KWK", " S ", " S "], {
     W: "thermal:gold_gear",
     K: "minecraft:gold_ingot",
     S: "kubejs:gold_rod",
   });
 
-  kubejs.shaped("kubejs:hammer_diamond", ["KWK", " S ", " S "], {
+  kubejs.shaped("kubejs:diamond_hammer", ["KWK", " S ", " S "], {
     W: "thermal:diamond_gear",
     K: "minecraft:diamond",
     S: "kubejs:diamond_rod",
   });
 
   event.smithing(
-    "kubejs:hammer_netherite",
+    "kubejs:netherite_hammer",
     "#forge:diamond_hammer",
     "minecraft:netherite_ingot"
   );
 
-  kubejs.shaped("kubejs:compressed_hammer_wood", ["SSS", "SSS", "SSS"], {
-    S: "kubejs:hammer_wood",
+  kubejs.shaped("kubejs:compressed_wooden_hammer", ["SSS", "SSS", "SSS"], {
+    S: "kubejs:wooden_hammer",
   });
 
-  kubejs.shaped("kubejs:compressed_hammer_stone", ["SSS", "SSS", "SSS"], {
-    S: "kubejs:hammer_stone",
+  kubejs.shaped("kubejs:compressed_stone_hammer", ["SSS", "SSS", "SSS"], {
+    S: "kubejs:stone_hammer",
   });
 
   kubejs.shaped("kubejs:compressed_hammer_iron", ["SSS", "SSS", "SSS"], {
     S: "kubejs:hammer_iron",
   });
 
-  kubejs.shaped("kubejs:compressed_hammer_gold", ["SSS", "SSS", "SSS"], {
-    S: "kubejs:hammer_gold",
+  kubejs.shaped("kubejs:compressed_golden_hammer", ["SSS", "SSS", "SSS"], {
+    S: "kubejs:golden_hammer",
   });
 
-  kubejs.shaped("kubejs:compressed_hammer_diamond", ["SSS", "SSS", "SSS"], {
-    S: "kubejs:hammer_diamond",
+  kubejs.shaped("kubejs:compressed_diamond_hammer", ["SSS", "SSS", "SSS"], {
+    S: "kubejs:diamond_hammer",
   });
 
-  kubejs.shaped("kubejs:compressed_hammer_netherite", ["SSS", "SSS", "SSS"], {
-    S: "kubejs:hammer_netherite",
+  kubejs.shaped("kubejs:compressed_netherite_hammer", ["SSS", "SSS", "SSS"], {
+    S: "kubejs:netherite_hammer",
   });
 
   kubejs.shaped("create:cogwheel", [" S ", "SWS", " S "], {
     S: "#minecraft:planks",
-    W: "kubejs:wood_gear",
+    W: "kubejs:wooden_gear",
   });
 
   event.remove({ id: "extrautilitiesrebirth:com_dirt_1rev_rcp" });

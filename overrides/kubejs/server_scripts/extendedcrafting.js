@@ -2,7 +2,7 @@ onEvent("recipes", (event) => {
   const { kubejs } = event.recipes;
 
   kubejs.shapeless("2x extendedcrafting:redstone_ingot", [
-    "kubejs:mix_ingot",
+    "kubejs:mixed_ingot",
     "minecraft:redstone",
   ]);
 
@@ -89,7 +89,7 @@ onEvent("recipes", (event) => {
       { item: "thermal:signalum_ingot" },
       { item: "thermal:enderium_ingot" },
       { item: "industrialforegoing:pink_slime_ingot" },
-      { item: "kubejs:mix_ingot" },
+      { item: "kubejs:mixed_ingot" },
     ],
     result: { item: "extendedcrafting:the_ultimate_ingot" },
   });
@@ -97,7 +97,7 @@ onEvent("recipes", (event) => {
   event.custom({
     type: "extendedcrafting:shapeless_ender_crafter",
     ingredients: [
-      { item: "kubejs:mix_ingot" },
+      { item: "kubejs:mixed_ingot" },
       { item: "minecraft:ender_pearl" },
     ],
     result: {

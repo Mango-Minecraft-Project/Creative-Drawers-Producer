@@ -117,7 +117,7 @@ onEvent("recipes", (event) => {
 
   kubejs.shaped("kubejs:rainbow_rod", [" W ", " S ", " W "], {
     S: "kubejs:nether_end",
-    W: "kubejs:mix_ingot",
+    W: "kubejs:mixed_ingot",
   });
 
   kubejs.shapeless("minecraft:crimson_nylium", [
@@ -143,7 +143,7 @@ onEvent("recipes", (event) => {
     "immersiveengineering:ingot_uranium",
   ]);
 
-  kubejs.shapeless("9x kubejs:mix_ingot", ["kubejs:mix_block"]);
+  kubejs.shapeless("9x kubejs:mixed_ingot", ["kubejs:mix_block"]);
   kubejs.shapeless("9x kubejs:nether_star_fragment", ["minecraft:nether_star"]);
   kubejs.shapeless("4x kubejs:nether_quartz_shard", ["minecraft:quartz"]);
   kubejs.shapeless("4x kubejs:flint_chips", ["minecraft:flint"]);

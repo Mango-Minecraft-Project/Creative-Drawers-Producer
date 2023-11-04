@@ -25,13 +25,13 @@ onEvent("recipes", (event) => {
     .energy(2000);
 
   thermal
-    .smelter("3x pneumaticcraft:ingot_iron_compressed", "kubejs:mix_ingot")
+    .smelter("3x pneumaticcraft:ingot_iron_compressed", "kubejs:mixed_ingot")
     .energy(2000);
 
   thermal
     .smelter("2x immersiveengineering:ingot_steel", [
       "pneumaticcraft:ingot_iron_compressed",
-      "kubejs:mix_ingot",
+      "kubejs:mixed_ingot",
     ])
     .energy(2000);
 

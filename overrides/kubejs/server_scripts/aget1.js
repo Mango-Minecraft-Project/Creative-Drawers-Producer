@@ -1,24 +1,30 @@
 onEvent("item.tags", (event) => {
   // hammer
-  event.add("kubejs:wooden_hammer", "kubejs:hammer_wood");
-  event.add("kubejs:stone_hammer", "kubejs:hammer_stone");
+  event.add("kubejs:wooden_hammer", "kubejs:wooden_hammer");
+  event.add("kubejs:stone_hammer", "kubejs:stone_hammer");
   event.add("kubejs:iron_hammer", "kubejs:hammer_iron");
-  event.add("kubejs:golden_hammer", "kubejs:hammer_gold");
-  event.add("kubejs:diamond_hammer", "kubejs:hammer_diamond");
-  event.add("kubejs:netherite_hammer", "kubejs:hammer_netherite");
+  event.add("kubejs:golden_hammer", "kubejs:golden_hammer");
+  event.add("kubejs:diamond_hammer", "kubejs:diamond_hammer");
+  event.add("kubejs:netherite_hammer", "kubejs:netherite_hammer");
 
   // compressed hammer
-  event.add("forge:compressed_wooden_hammer", "kubejs:compressed_hammer_wood");
-  event.add("forge:compressed_stone_hammer", "kubejs:compressed_hammer_stone");
+  event.add(
+    "forge:compressed_wooden_hammer",
+    "kubejs:compressed_wooden_hammer"
+  );
+  event.add("forge:compressed_stone_hammer", "kubejs:compressed_stone_hammer");
   event.add("forge:compressed_iron_hammer", "kubejs:compressed_hammer_iron");
-  event.add("forge:compressed_golden_hammer", "kubejs:compressed_hammer_gold");
+  event.add(
+    "forge:compressed_golden_hammer",
+    "kubejs:compressed_golden_hammer"
+  );
   event.add(
     "forge:compressed_diamond_hammer",
-    "kubejs:compressed_hammer_diamond"
+    "kubejs:compressed_diamond_hammer"
   );
   event.add(
     "forge:compressed_netherite_hammer",
-    "kubejs:compressed_hammer_netherite"
+    "kubejs:compressed_netherite_hammer"
   );
 
   // compressed items

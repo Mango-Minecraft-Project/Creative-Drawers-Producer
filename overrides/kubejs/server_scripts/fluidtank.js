@@ -2,7 +2,7 @@ onEvent("recipes", (event) => {
   const { kubejs } = event.recipes;
 
   kubejs.shaped("extrautilitiesrebirth:iron_drum", ["SWS", "SNS", "SWS"], {
-    S: "kubejs:mix_ingot",
+    S: "kubejs:mixed_ingot",
     W: "minecraft:heavy_weighted_pressure_plate",
     N: "minecraft:cauldron",
   });

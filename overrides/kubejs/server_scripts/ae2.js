@@ -28,7 +28,7 @@ onEvent("recipes", (event) => {
     mode: "inscribe",
     ingredients: {
       middle: { item: "kubejs:mix_rs_block" },
-      top: { item: "kubejs:rs_press" },
+      top: { item: "kubejs:refined_storage_press" },
     },
     result: { item: "kubejs:printed_rs" },
   });
@@ -38,7 +38,7 @@ onEvent("recipes", (event) => {
     mode: "inscribe",
     ingredients: {
       middle: { item: "kubejs:mix_mek_block" },
-      top: { item: "kubejs:mek_press" },
+      top: { item: "kubejs:mekanism_press" },
     },
     result: { item: "kubejs:printed_mek" },
   });

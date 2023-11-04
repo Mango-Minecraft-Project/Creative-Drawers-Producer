@@ -1,6 +1,6 @@
 onEvent("recipes", (event) => {
   event.shaped("shrink:shrinking_device", ["SBS", "SNS", "SAS"], {
-    S: "kubejs:mix_ingot",
+    S: "kubejs:mixed_ingot",
     A: "minecraft:stone_button",
     B: "minecraft:ender_pearl",
     N: "integratedtunnels:part_player_simulator",
