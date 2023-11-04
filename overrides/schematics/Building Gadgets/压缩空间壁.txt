@@ -1,0 +1,36 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "压缩空间壁",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 2,
+      "max_y": 2,
+      "max_z": 2
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 26,
+          "item": {
+            "id": "thermal:machine_frame"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "minecraft:redstone_block"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/41RsU7DMBR8dkKVZmFCQmLhG+iWj2BOukQvsZtYxAmyHQnYmJFY+QCm7kyI36kq/gKneSmhEx58p7PvnnWOAZYQCnQYAwCPRw4BxFYahY16ksYfQAxn1qGTEYS3qCVcuFoajU2isaxVK/ONGWT4d8Cl9q7S4MYlRgrrOp9RNF15NzwouO9s6E1XMFuMkJ8IjJCfXGCE/GgYHYyQTwlslBgjndBfYJTDKOfPBEbIp4mMdEJO6HdOOZxyfM+LWqKQJoIF9q7uDCyzPFXY3axW/rDo+lbYAELfUjaYRppOFB/WQ9JIs1+aTlS168NsX3c71H2+e33Zf23328/vt4/d+7MvefZB0eH110WvGqHaqkJRSWcT0Wv9mM/+8QepIXMlLgIAAA\u003d\u003d"
+}

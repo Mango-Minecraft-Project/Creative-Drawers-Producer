@@ -1,0 +1,43 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "模块化物品生产者",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 2,
+      "max_y": 2,
+      "max_z": 2
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:modular_master"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "modularrouters:modular_router"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 25,
+          "item": {
+            "id": "refinedstorage:quartz_enriched_iron_block"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/4VSsY4TMRAdO3vRZnskJISEdBUt16WmoUGUyTXWZD1JrFvbh+0F7iooKJDoQFChExXHL/A9hOMz8GZn73IRCBd+M+OZ9+zxVAATKDQmrABgVPU2jKCKFAw25pxCPoAKDmLCRCUUT9ESPAy0NI50TD7giqbPWwzpXJELpl6TViZ4pxaNr0+62i1pCROL9TpXPXkMd+o2l9qp9bptMCiLMWWlfV0x6FZQPQv+lEIyFEsYL7E2bgXFS4oJhkv9gxT++6o99rJGp8iaBAdLbGJ+9BjrZF7Qjf9X/fssHHybdeP1PXq/6/To1MciC9+DnSUY5V5AMMq9BMEo5XXysAlOE8wjOk8IjjN2IeYRzHNLQTDKQVFwnFEy5l0yj2QeWcF4TagpdD1r09oHmMzVzKB/dHSUDxe+dTqOoLDGzbui3pwNJr467ph6c35jzgbTuOOtdu6563p+99fl182Xz5v3n67efd98eHP18eLnj2+/X7/N3d757XJ73QeL1jQ6f9wK9YpSnOrW2jO1MxSH/QjxoIazae8rDqhkGoI/Xt4ygjUDAAA\u003d"
+}

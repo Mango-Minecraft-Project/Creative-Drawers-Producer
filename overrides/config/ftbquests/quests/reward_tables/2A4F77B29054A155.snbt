@@ -1,0 +1,17 @@
+{
+	id: "2A4F77B29054A155"
+	order_index: 4
+	title: "终极钱币奖励"
+	icon: "thermal:netherite_coin"
+	loot_size: 1
+	rewards: [
+		{ item: "thermal:gold_coin", count: 16, weight: 60 }
+		{ item: "thermal:gold_coin", count: 32, weight: 65 }
+		{ item: "thermal:netherite_coin", count: 2, weight: 320 }
+		{ item: "thermal:netherite_coin", count: 4, weight: 280 }
+		{ item: "thermal:netherite_coin", count: 8, weight: 120 }
+		{ item: "thermal:netherite_coin", count: 16, weight: 40 }
+		{ item: "thermal:netherite_coin", count: 32, weight: 8 }
+		{ item: "thermal:netherite_coin", count: 64 }
+	]
+}

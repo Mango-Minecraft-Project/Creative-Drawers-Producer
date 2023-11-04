@@ -1,0 +1,50 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "沙砾粉碎锤",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 0,
+      "max_y": 2,
+      "max_z": 1
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "create:deployer"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "create:depot"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "extrautilitiesrebirth:double_compressed_dirt"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:gravel_machine"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/4VRsU7DMBC9NmmVRkiwsCOxMtEtMwsLYmy7WNf4mlhy4sh2oOUPWJhY2BDiC/oBfA4Vf4HdJG0lhOrF73y+e+/exQAjCDlajAEgjBsMAcSGtEApnki7BMQwMBYtRRDeYUFwkmpyYcKpUtanj9TFEN9rVZG2gkwEwwWmosxclXosIzjDpTAMpSozthDaWBgsUBqCju50TyfVyrduGSMYFZjmoqTbGzhPa2NVkWQaH0iyNvFHVO+IqIFRtc133P90PT5z1+CKllZjbYUUnkjTXGibJ1zVc0ksVUWlyRjijLt3v4+gUib064Dd6QH0/d1vg8BDN8gwJ+SknXhHkCsNoymbCFTX47FLzlVdchNAWIhy6isbOOkgLme+XQP9h34DJ/u/sy29G6Xc7uF7/bZ5/9qsnzcfLz+vn07swfDRVuDFvBaSOyMz5BlZk/C6KFbswKPLxtHWSb1KmrizljmnCH4BjTQQhpoCAAA\u003d"
+}

@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "09648D74820560E0", title: "主线" }
+		{ id: "096CB91396E10C63", title: "Chapter 1" }
+		{ id: "7B3AC22CD8E60CFC", title: "Chapter 2" }
+		{ id: "522B815F02CD197F", title: "Chapter 3" }
+		{ id: "7309DC73431430A6", title: "Chapter 4" }
+		{ id: "7186BEA3DCCD9782", title: "Chapter 5" }
+		{ id: "2C067EA168A8ADBD", title: "Chapter 6" }
+	]
+}

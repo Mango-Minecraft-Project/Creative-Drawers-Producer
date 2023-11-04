@@ -1,0 +1,85 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "血石砖制造者",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 8,
+      "max_y": 2,
+      "max_z": 8
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "bloodmagic:altar"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 4,
+          "item": {
+            "id": "minecraft:beacon"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 4,
+          "item": {
+            "id": "bloodmagic:bettercapacityrune"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 5,
+          "item": {
+            "id": "bloodmagic:blankrune"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 8,
+          "item": {
+            "id": "integrateddynamics:crystalized_chorus_block"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 4,
+          "item": {
+            "id": "integrateddynamics:crystalized_chorus_block_stairs"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:life_machine"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 41,
+          "item": {
+            "id": "minecraft:netherite_block"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 27,
+          "item": {
+            "id": "pneumaticcraft:reinforced_brick_slab"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/72VPW/UMBjHfYnt+AJDBSwMSEiwsbXbzSwsiLHtEvkSX2I1LyfHERxTFyQ+ASvlMyDxjVDLt8B2/ldSoIITtKeT/raT5/e82XFKyJzQQlqZEkLupuOYxCTtldGy1m+VcQ9ISlhvpVUpSV+Zbq2M1aoX5M5rt2bqrixVQdhK1r0ShNrNWhG+7KztGuLmL2WjyNN1q4ZGWp3nRq7swijdrjqTqyJbGp2fZH0tl97RHyLY8h42ulUjqlW2cu9alS3rLj/ZAfJMt1aVxq0UxaaVjc77RW427h1vUmR51Zmh3xm79yO2pZJ51/6F7U+VpZWsV9siXlNo1lfSVVr01khdVlYQvpK5bkv3pBtsdVn7/R3SzNyqNv0O2T5wdl3RyFLni2Ut2xMztGoH+0dTe2Vdnrlcuzzs5gpIkHkj88pV9sVzcj8feleYRa1XKsPyL55m19R2WyX6WvX2ski/Rd5y36iSk4hupm3/N+ArJbzZfbY32SeyttLc+qlqO/Ovp2pO4nXXUxdi5uOckfEXQWMohTIohybk8jfz/xk0gsZBI28f5gzKoQlciiuuZ6PRyInAicCJwInAicCJwIl81FEwpYTOxjmfTVMK/Bj8GPygFMqgHJqgFCIoI3Ew4Z4f5ixoglJFnh80BDHyKfgU/PCcQxOUWAQVPn7q+XFQ5v2EOQs69/nQsN2iaWtCXgx5Mfhl8MvglyEvhrwY/DLkxZAXQ16Tlgc+B5+Dz9EXDj4Hn4PPwefoi9M7ns/Rl8lWCvwE/AT8BPwE/AT8BPwE/ASbUGATCTRboCkCRRJIRsCpSAmvlCyUcSdLumuqM2R+lB1q2e0fHKT+dA5t0ceEulv0aIT64eF2KN8c+wjGoX8hGoeH21XdHpMxSNr6g3rv4tPp+cfP52cfvr7/8u307OL0nWvp5IshQgaPl4OuC3fQS1mUyvaLYmiaTTb5sDwZrwhcDmazGOfb2yKzulbkOxBW769TCQAA"
+}

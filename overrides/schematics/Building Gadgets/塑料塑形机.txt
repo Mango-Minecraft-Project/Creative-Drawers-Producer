@@ -1,0 +1,50 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "塑料塑形机",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 2,
+      "max_y": 3,
+      "max_z": 2
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 26,
+          "item": {
+            "id": "mekanism:dynamic_tank"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "create:fluid_tank"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 8,
+          "item": {
+            "id": "create:framed_glass"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:plastic_machine"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/41SvW7bMBA+kqohcwmKop0LNE/QbJq7ZAk6OlmEi8jYRERKICk4zltkKVCgS/sYBfo4yXOUNE+F3SBANPB+ePfdR30nAZZQKYwoAaCSxQcBMmhvsDf32qcLkPAmRIy6huoCrYb3Vt+iM8E2aufQmq6N6G5z3SsB3nVep7C58SlS7brHEF7RLkF+9cOofTQ61Cm5wVHDYmucGrY1iDiMUEU/pTmL6yHGwZYQ5rlv57n9ZNQx6RqWFruNcfr8C3zoppC6mzERi+l5dPOMGXuB2eIGO+PWUG11iP+mv4SaRBDjEKoEeAoHHyPLjxIMGF3wo4KUp0I+NwhqI8vFMTQjy2eX5YNn/H3AyeZUBmOc8pyoCcIhywX8x6hYPj+BlVGMUZ5sOjnx58SfEz4nfE74XMJio1Fpn34yTnEzeFhetiuDw+ezM5lln5wKAipr3GXByO5qdvHuqiBlNxeI4q7mrHFX+9lJNJdFO3n8+fD07Xs6H//8evrxO4l1sAP1nv3H68n0Kgm+RrXWMTRqsnbXHqzKpyI9Ke53TYnnFWij6TX8BRDHe/OPAwAA"
+}

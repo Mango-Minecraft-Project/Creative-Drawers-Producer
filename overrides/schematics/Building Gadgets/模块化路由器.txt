@@ -1,0 +1,71 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "模块化路由器",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 8,
+      "max_y": 8,
+      "max_z": 8
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 98,
+          "item": {
+            "id": "fluxnetworks:flux_block"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 98,
+          "item": {
+            "id": "thermal:machine_frame"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 92,
+          "item": {
+            "id": "minecraft:netherite_block"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 12,
+          "item": {
+            "id": "minecraft:redstone_block"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 264,
+          "item": {
+            "id": "minecraft:smooth_quartz"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "mekanism:steel_casing"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 44,
+          "item": {
+            "id": "compactmachines:wall"
+          }
+        }
+      ]
+    }
+  },
+  "body": "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"
+}

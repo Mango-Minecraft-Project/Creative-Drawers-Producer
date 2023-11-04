@@ -1,0 +1,465 @@
+{
+	id: "7FB77A9E3EB6B65C"
+	group: "7309DC73431430A6"
+	order_index: 15
+	filename: "7FB77A9E3EB6B65C"
+	title: "传输"
+	icon: "modularrouters:modular_router"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "高级传输"
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["6E468BD877E046EE"]
+			id: "6B9DB699B2D67F92"
+			tasks: [{
+				id: "1031F7310C3AC47D"
+				type: "checkmark"
+				title: "modular"
+			}]
+			rewards: [{
+				id: "0EDCED004D9E1F91"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["60BC6BB7841ABE88"]
+			id: "02F311D0801E080C"
+			tasks: [{
+				id: "7056FA688A48A712"
+				type: "item"
+				item: "industrialforegoing:item_transporter_type"
+			}]
+			rewards: [{
+				id: "31D588269C627B71"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["60BC6BB7841ABE88"]
+			id: "787877839853AFAB"
+			tasks: [{
+				id: "7169E0967A54B30F"
+				type: "item"
+				item: "industrialforegoing:fluid_transporter_type"
+			}]
+			rewards: [{
+				id: "2D92FEFED2395081"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["60BC6BB7841ABE88"]
+			id: "1D01EC5960630BD8"
+			tasks: [{
+				id: "58D5010DC1C2F020"
+				type: "item"
+				item: "industrialforegoing:world_transporter_type"
+			}]
+			rewards: [{
+				id: "3B5933230AA4F247"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			title: "工业先锋"
+			icon: "industrialforegoing:machine_frame_pity"
+			x: 0.0d
+			y: -1.5d
+			dependencies: [
+				"7CF8C1889892070F"
+				"6B9DB699B2D67F92"
+			]
+			id: "60BC6BB7841ABE88"
+			tasks: [{
+				id: "1C2C7E7BEAE4F85F"
+				type: "checkmark"
+				title: "工业先锋传输"
+			}]
+			rewards: [{
+				id: "5954663DA2858836"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			icon: "modularrouters:modular_router"
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["6B9DB699B2D67F92"]
+			id: "3796D011BDC5EF3D"
+			tasks: [{
+				id: "582ECA53D54EDF22"
+				type: "checkmark"
+				title: "模块化路由器"
+			}]
+			rewards: [
+				{
+					id: "00B2A3072DB2ADD1"
+					type: "item"
+					item: {
+						id: "create:schematic"
+						Count: 1b
+						tag: {
+							Owner: "Y_Xiao233"
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								9
+								9
+								9
+							]
+							Deployed: 0b
+							File: "模块化路由器.nbt"
+							Rotation: "NONE"
+							Mirror: "NONE"
+						}
+					}
+				}
+				{
+					id: "29267E080A802F0F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2635266014115610653L
+				}
+			]
+		}
+		{
+			icon: "xnet:connector_upgrade"
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["6B9DB699B2D67F92"]
+			id: "065BB34C40C40571"
+			tasks: [{
+				id: "2ED7782554C96991"
+				type: "checkmark"
+				title: "Xnet"
+			}]
+			rewards: [{
+				id: "5C7EF7279D60A0C6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["3796D011BDC5EF3D"]
+			id: "034BCCE846F9F078"
+			tasks: [{
+				id: "109BFDDE99E6575B"
+				type: "item"
+				item: "modularrouters:modular_router"
+			}]
+			rewards: [{
+				id: "44E0CB098B017606"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["034BCCE846F9F078"]
+			id: "0EBFBC223369C695"
+			tasks: [{
+				id: "171968B77CB83357"
+				type: "item"
+				item: "modularrouters:blank_module"
+			}]
+			rewards: [{
+				id: "3E84F897511CC6DA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["034BCCE846F9F078"]
+			id: "0D3AA62D870D69B6"
+			tasks: [{
+				id: "48CE2AE28E66AB7C"
+				type: "item"
+				item: "modularrouters:blank_upgrade"
+			}]
+			rewards: [{
+				id: "03D40C2CCFA7B6D6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["034BCCE846F9F078"]
+			id: "77DBEF04B81621E6"
+			tasks: [{
+				id: "24D5F9C4C42BC273"
+				type: "item"
+				item: "custom:modular_master"
+			}]
+			rewards: [
+				{
+					id: "5D86BA6DF11A0C29"
+					type: "item"
+					item: {
+						id: "create:schematic"
+						Count: 1b
+						tag: {
+							Owner: "Y_Xiao233"
+							Anchor: {
+								X: 46
+								Y: 65
+								Z: 45
+							}
+							Bounds: [
+								3
+								3
+								3
+							]
+							Deployed: 1b
+							File: "模块化物品生产者.nbt"
+							Rotation: "NONE"
+							Mirror: "NONE"
+						}
+					}
+				}
+				{
+					id: "5B0858C56FD4A65B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2635266014115610653L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			dependencies: ["0EBFBC223369C695"]
+			id: "4AD86A7324639A4B"
+			tasks: [{
+				id: "2A8D65581BEBD40B"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "19C35F612EDCB95A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["0EBFBC223369C695"]
+			id: "272E364B92D4977A"
+			tasks: [{
+				id: "4F3C8C1307295888"
+				type: "item"
+				item: {
+					id: "modularrouters:puller_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "713F31E83F7A07FE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			dependencies: ["0EBFBC223369C695"]
+			id: "2772307A17231FAB"
+			tasks: [{
+				id: "211705E5C697957A"
+				type: "item"
+				item: {
+					id: "modularrouters:energy_distributor_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B3A60BDD596A0DA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["0D3AA62D870D69B6"]
+			id: "53D0B8FC121745AF"
+			tasks: [{
+				id: "118283F8B0D6EFB1"
+				type: "item"
+				item: "modularrouters:stack_upgrade"
+			}]
+			rewards: [{
+				id: "54C13C919D79AAD6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			dependencies: ["0D3AA62D870D69B6"]
+			id: "641814FBAF4CD364"
+			tasks: [{
+				id: "7BA6F3DCF9DECB79"
+				type: "item"
+				item: "modularrouters:speed_upgrade"
+			}]
+			rewards: [{
+				id: "66B2F0F7A2D82D2A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			dependencies: ["0D3AA62D870D69B6"]
+			id: "0A9095092B42133A"
+			tasks: [{
+				id: "5EA6ABAFEA5ACF58"
+				type: "item"
+				item: "modularrouters:energy_upgrade"
+			}]
+			rewards: [{
+				id: "20075DEE2EE5E400"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["0EBFBC223369C695"]
+			id: "452B23672B91C593"
+			tasks: [{
+				id: "2F4C8AC0D8918B76"
+				type: "item"
+				item: {
+					id: "modularrouters:fluid_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							FluidDir: 0b
+							MaxTransfer: 1000
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "11B2A9BEB586AC0E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["0D3AA62D870D69B6"]
+			id: "6AA02E0767DDDF33"
+			tasks: [{
+				id: "3A8C37260FCCC0EC"
+				type: "item"
+				item: "modularrouters:fluid_upgrade"
+			}]
+			rewards: [{
+				id: "2CC3AE2B6BEA11B2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["6B9DB699B2D67F92"]
+			id: "187D8FF073B0F195"
+			tasks: [
+				{
+					id: "26333767E9E05AFA"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "2BC6AA1BBC2661D8"
+					type: "item"
+					item: {
+						id: "entangled:item"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "547B972659E6A416"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

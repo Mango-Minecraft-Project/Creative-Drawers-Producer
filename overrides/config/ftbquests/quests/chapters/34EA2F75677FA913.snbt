@@ -1,0 +1,235 @@
+{
+	id: "34EA2F75677FA913"
+	group: "522B815F02CD197F"
+	order_index: 1
+	filename: "34EA2F75677FA913"
+	title: "植物魔法"
+	icon: "botania:natura_pylon"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -8.5d
+			y: -0.5d
+			description: [
+				"因为作者不太喜欢此类mod"
+				"所以在该整合包中涉及较少此类mod"
+				"而在整合包中此类的魔改也较少"
+				"所以本章仅显示任务所需"
+			]
+			dependencies: ["4DC3ABC2E551B69B"]
+			id: "303D55DCCC0A3487"
+			tasks: [{
+				id: "16334D8A57A41B8C"
+				type: "checkmark"
+				title: "植物魔法"
+			}]
+			rewards: [{
+				id: "311ACB6BB1F1E516"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			dependencies: ["303D55DCCC0A3487"]
+			id: "5C42644D3A63070E"
+			tasks: [{
+				id: "3BF26C9CCE92DA24"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [{
+				id: "731B4F95F6E8BAF6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			dependencies: ["5C42644D3A63070E"]
+			id: "5CDEC9C2471A6576"
+			tasks: [
+				{
+					id: "6996899162EB1B2B"
+					type: "item"
+					item: "botania:white_mystical_flower"
+				}
+				{
+					id: "3A38E44AE5ACC1C6"
+					type: "item"
+					item: "botania:orange_mystical_flower"
+				}
+				{
+					id: "17C439707849A877"
+					type: "item"
+					item: "botania:magenta_mystical_flower"
+				}
+				{
+					id: "7D96BB5A31ED48AC"
+					type: "item"
+					item: "botania:light_blue_mystical_flower"
+				}
+				{
+					id: "77B65F9CBDA8FCB0"
+					type: "item"
+					item: "botania:yellow_mystical_flower"
+				}
+				{
+					id: "40C40EFDE0CE60D4"
+					type: "item"
+					item: "botania:lime_mystical_flower"
+				}
+				{
+					id: "555347C6E9BE037C"
+					type: "item"
+					item: "botania:pink_mystical_flower"
+				}
+				{
+					id: "32B44E1BB983C35D"
+					type: "item"
+					item: "botania:gray_mystical_flower"
+				}
+				{
+					id: "507C2432C0904AE9"
+					type: "item"
+					item: "botania:light_gray_mystical_flower"
+				}
+				{
+					id: "5D92C23015F86400"
+					type: "item"
+					item: "botania:cyan_mystical_flower"
+				}
+				{
+					id: "239AA500BB3678DF"
+					type: "item"
+					item: "botania:purple_mystical_flower"
+				}
+				{
+					id: "173D7E90C71F9162"
+					type: "item"
+					item: "botania:blue_mystical_flower"
+				}
+				{
+					id: "1DD0B80C9453DC74"
+					type: "item"
+					item: "botania:brown_mystical_flower"
+				}
+				{
+					id: "45F3BF91E5397EA8"
+					type: "item"
+					item: "botania:green_mystical_flower"
+				}
+				{
+					id: "7B4E3A43B9F1A5BB"
+					type: "item"
+					item: "botania:red_mystical_flower"
+				}
+				{
+					id: "26CB446B5961B250"
+					type: "item"
+					item: "botania:black_mystical_flower"
+				}
+			]
+			rewards: [{
+				id: "7098A32B8A4B38E1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["5CDEC9C2471A6576"]
+			id: "3CFDE93FED027962"
+			tasks: [{
+				id: "63E8A0F7C35DC63F"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "77779A7C7E2EB098"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["3CFDE93FED027962"]
+			id: "3F5E16E6EEC93476"
+			tasks: [{
+				id: "408BCF815F146515"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "3E4DAEBA68128F08"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			dependencies: ["3CFDE93FED027962"]
+			id: "7B604C22191EDB69"
+			tasks: [{
+				id: "13CB051AA51B90C8"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "39803837AD9F7EEE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			dependencies: [
+				"3F5E16E6EEC93476"
+				"7B604C22191EDB69"
+			]
+			id: "6E849AC3C0FCAAC5"
+			tasks: [{
+				id: "3F0417B35233C190"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "31EA7F695252B7AC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["6E849AC3C0FCAAC5"]
+			id: "72D6E4613876863F"
+			tasks: [{
+				id: "47AFFB0E7869CF94"
+				type: "item"
+				item: "powah:dielectric_paste"
+			}]
+			rewards: [{
+				id: "4B1DBFDDDC18637C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

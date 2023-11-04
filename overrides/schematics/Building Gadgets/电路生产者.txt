@@ -1,0 +1,50 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "电路生产者",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 2,
+      "max_y": 3,
+      "max_z": 2
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 8,
+          "item": {
+            "id": "integratedterminals:chorus_glass"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "pneumaticcraft:etching_tank"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:pcb_master"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 26,
+          "item": {
+            "id": "compactmachines:wall"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/5VSsU7kMBAdTwLaTXNCoqNBgi+ALvU115woF5po1jFZ6+Iksh3tLRUNf0BPSUmFkPgeJPgM7M0E7QLFXQq/8fP4zYtnMoAppCV5ygAgzYYYEsicsppqfaVsOIAMdpwnryaQ/iajYF+2piPpDcmFbpTLl1TXMe0f7x/qxqvKBqb0yhrdUO1yuWht74qqJuf+Q+uga1RvyGspLV36XPnoqSo8NX8+ZCYwZa+/fsKe7J1vTd7JeWHIBQdfqoixSgbZmW07Zb1WbgK7lySDOKRL5TyMFr4RDO+adK1Lg9YxbHyCEbcIAYIPcCsh8JyI44WErzFisi0tGHEMRVww6q83yBipKCaQeWRrCeswYgKfHA2I4y+IoZQQzDOGFdk/sn9kfWR9ZH3MYHehqFQ2vC/1PowBTM+Lmab25PQ0HM7bvildAmkYlPNBI4azMaS/F4NSDGNCMoSzkdXNxbp26FcT+/Xj9fbx7enh9fbu5fn+7fomNGuj/ZO1+8N5r+sy9LqislLe5WVvzKrYmJKjoes8V3aVD/uCicLrWsE7wPufKWIDAAA\u003d"
+}

@@ -1,0 +1,97 @@
+{
+    "name": "熔融塑料转化器",
+    "appearance": {
+        "block": "kubejs:oil_refine_machine",
+        "hardness": 1.5,
+        "tool": "pickaxe",
+        "mininglevel": 1,
+        "running": {
+            "block": "kubejs:oil_refine_machine"
+        }
+    },
+    "gui": [
+      {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 0,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 80,
+        "type": "custommachinery:player_inventory"     
+      },
+      {
+        "x": 47,
+        "y": 30,
+        "type": "custommachinery:energy",
+        "id": "flux1"
+      },
+      {
+        "id": "tank1",
+        "x": 67,
+        "y": 30,
+        "type": "custommachinery:fluid"
+      },
+      {
+        "id": "tank2",
+        "x": 149,
+        "y": 30,
+        "type": "custommachinery:fluid"
+      },
+      {
+        "id": "upgrade",
+        "x": 116,
+        "y": 50,
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 116,
+        "y": 30,
+        "type": "custommachinery:progress"
+      },
+      {
+        "x": 236,
+        "y": 5,
+        "type": "custommachinery:status"
+      },
+      {
+        "text": "熔融塑料转化器",
+        "x": 7,
+        "y": 5,
+        "type": "custommachinery:text"
+      }
+    ],
+    "components": [
+      {
+        "mode": "input",
+        "id": "flux1",
+        "capacity": 1000000,
+        "type": "custommachinery:energy"
+      },
+      {
+        "mode": "input",
+        "id": "tank1",
+        "capacity": 10000,
+        "type": "custommachinery:fluid"
+      },
+      {
+        "mode": "output",
+        "id": "tank2",
+        "capacity": 10000,
+        "type": "custommachinery:fluid"
+      },
+      {
+        "mode": "input",
+        "id": "upgrade",
+        "type": "custommachinery:item",
+        "variant": "custommachinery:upgrade",
+        "capacity": 16
+      },
+      {
+          "type": "custommachinery:redstone",
+          "poweroutput": 15
+      }
+    ],
+    "catalysts": []
+  }

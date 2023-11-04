@@ -1,0 +1,1006 @@
+{
+	id: "0721EB6DCA0D20CF"
+	group: ""
+	order_index: 1
+	filename: "0721EB6DCA0D20CF"
+	title: "&6商&4店"
+	icon: "thermal:gold_coin"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "商店"
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["1A9FF3BCD305DA49"]
+			can_repeat: true
+			id: "7723318ECEBD1061"
+			tasks: [{
+				id: "346B12BE2A682BCC"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "artifacts:whoopee_cushion"
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["5B546D873339B274"]
+			can_repeat: true
+			id: "40B48390BB310826"
+			tasks: [{
+				id: "5069326C62609E41"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2BAE7DF3CF472951"
+				type: "item"
+				item: "artifacts:whoopee_cushion"
+			}]
+		}
+		{
+			icon: "artifacts:bunny_hoppers"
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "4D51540100064B67"
+			tasks: [{
+				id: "592B227AC8B15CE9"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5F6784BD26B96AEC"
+				type: "item"
+				item: "artifacts:bunny_hoppers"
+			}]
+		}
+		{
+			icon: "artifacts:aqua_dashers"
+			x: -3.0d
+			y: -5.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "1B2E8B3B2C0B1B73"
+			tasks: [{
+				id: "0B3EA030F725A175"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5D0F04CA26B0B84A"
+				type: "item"
+				item: "artifacts:aqua_dashers"
+			}]
+		}
+		{
+			icon: "artifacts:antidote_vessel"
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "0F8F9E7D52C8B744"
+			tasks: [{
+				id: "1ACA9669DE4E55D5"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1991FEB1B85E1884"
+				type: "item"
+				item: "artifacts:antidote_vessel"
+			}]
+		}
+		{
+			icon: "artifacts:charm_of_sinking"
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "62249FE48320A88F"
+			tasks: [{
+				id: "6938F7CD6EEE2695"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "43D30072076190C8"
+				type: "item"
+				item: "artifacts:charm_of_sinking"
+			}]
+		}
+		{
+			icon: "artifacts:thorn_pendant"
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "6C4D5EC27BB80CC6"
+			tasks: [{
+				id: "1B8690063DB1918D"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00272EB5C7D0033D"
+				type: "item"
+				item: "artifacts:thorn_pendant"
+			}]
+		}
+		{
+			icon: "artifacts:flame_pendant"
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "433A4CA0711E35AB"
+			tasks: [{
+				id: "7D4E2E55B66461D8"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4FEED2C66C9736C3"
+				type: "item"
+				item: "artifacts:flame_pendant"
+			}]
+		}
+		{
+			icon: "artifacts:shock_pendant"
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "1BA0FA7CC4F4C08A"
+			tasks: [{
+				id: "126071AED607305C"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1282FAD69A2CEA99"
+				type: "item"
+				item: "artifacts:shock_pendant"
+			}]
+		}
+		{
+			icon: "artifacts:cross_necklace"
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "4A40D933F2F24FA0"
+			tasks: [{
+				id: "12A0E4A77D9DCE6B"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2B993C5DD2885B7E"
+				type: "item"
+				item: "artifacts:cross_necklace"
+			}]
+		}
+		{
+			icon: "artifacts:umbrella"
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "152834BCD9BE4DD1"
+			tasks: [{
+				id: "4A71AB4B66FF5A2D"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "58A9A93458587D59"
+				type: "item"
+				item: "artifacts:umbrella"
+			}]
+		}
+		{
+			icon: "artifacts:eternal_steak"
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "105C53C08C6B925F"
+			tasks: [{
+				id: "198FC81264F5C78B"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "70396B31BDC9635A"
+				type: "item"
+				item: "artifacts:eternal_steak"
+			}]
+		}
+		{
+			icon: "artifacts:plastic_drinking_hat"
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "182C1B4D4B9592D9"
+			tasks: [{
+				id: "506B8A0EA5394AD8"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "542182C7EB978B23"
+				type: "item"
+				item: "artifacts:plastic_drinking_hat"
+			}]
+		}
+		{
+			icon: "artifacts:novelty_drinking_hat"
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "4DD39EDCAC0A9D10"
+			tasks: [{
+				id: "4EA9FCA438224B51"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "25A59C5EFF2831F6"
+				type: "item"
+				item: "artifacts:novelty_drinking_hat"
+			}]
+		}
+		{
+			icon: "artifacts:snorkel"
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "59C4B6005A699C0E"
+			tasks: [{
+				id: "16A78611DD366C82"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "31265B8E804BB7EF"
+				type: "item"
+				item: "artifacts:snorkel"
+			}]
+		}
+		{
+			icon: "artifacts:night_vision_goggles"
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "67FCCBA5614F0DA3"
+			tasks: [{
+				id: "6424B2F1355798DA"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6F0A178CA5244B59"
+				type: "item"
+				item: "artifacts:night_vision_goggles"
+			}]
+		}
+		{
+			icon: "artifacts:villager_hat"
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "4AD289F072F1085A"
+			tasks: [{
+				id: "1FE7255BE2AFAD78"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "585879886EFA76D1"
+				type: "item"
+				item: "artifacts:villager_hat"
+			}]
+		}
+		{
+			icon: "artifacts:superstitious_hat"
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "7C60D03C5497F1E8"
+			tasks: [{
+				id: "24E9AA0C224EB03F"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6CA7BAD8D8C0F5D7"
+				type: "item"
+				item: "artifacts:superstitious_hat"
+			}]
+		}
+		{
+			icon: "artifacts:lucky_scarf"
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "1708B888B22BE8A3"
+			tasks: [{
+				id: "79714478EF11DC0D"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "19B7E6159DDD96EC"
+				type: "item"
+				item: "artifacts:lucky_scarf"
+			}]
+		}
+		{
+			icon: "artifacts:scarf_of_invisibility"
+			x: 1.0d
+			y: -5.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "04175DB075EBD6F3"
+			tasks: [{
+				id: "4DA112C8D7C5BD46"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5A2C23D4B9A910EA"
+				type: "item"
+				item: "artifacts:scarf_of_invisibility"
+			}]
+		}
+		{
+			icon: "artifacts:panic_necklace"
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "0ADC755FFFB56B99"
+			tasks: [{
+				id: "1317ED17B215CF23"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3D15D35A4BEBF35A"
+				type: "item"
+				item: "artifacts:panic_necklace"
+			}]
+		}
+		{
+			icon: "artifacts:cloud_in_a_bottle"
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "3060F22078FF353E"
+			tasks: [{
+				id: "2919BD748C4524B8"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2EE5E5522227B77F"
+				type: "item"
+				item: "artifacts:cloud_in_a_bottle"
+			}]
+		}
+		{
+			icon: "artifacts:obsidian_skull"
+			x: -2.0d
+			y: -5.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "6B69147CFAA53C30"
+			tasks: [{
+				id: "7D121273F2820253"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "035FF29C4D7029A9"
+				type: "item"
+				item: "artifacts:obsidian_skull"
+			}]
+		}
+		{
+			icon: "artifacts:universal_attractor"
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "497CC1EA358917E2"
+			tasks: [{
+				id: "6893AE2E7B79A545"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6C9A461E475ECCA9"
+				type: "item"
+				item: "artifacts:universal_attractor"
+			}]
+		}
+		{
+			icon: "artifacts:crystal_heart"
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "2CEECDA5F891CAEA"
+			tasks: [{
+				id: "2029DCDE21DD10EF"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 6L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "143A528E60A39A7C"
+				type: "item"
+				item: "artifacts:crystal_heart"
+			}]
+		}
+		{
+			icon: "artifacts:helium_flamingo"
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "31C10E52E466FA52"
+			tasks: [{
+				id: "6EF9C51148EEFCC5"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 6L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1B59928C318F1633"
+				type: "item"
+				item: "artifacts:helium_flamingo"
+			}]
+		}
+		{
+			icon: "artifacts:digging_claws"
+			x: -1.0d
+			y: -5.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "248A132A1A1C67FD"
+			tasks: [{
+				id: "070A397D39B8061F"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 6L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2DBFBCB513972FC9"
+				type: "item"
+				item: "artifacts:digging_claws"
+			}]
+		}
+		{
+			icon: "artifacts:feral_claws"
+			x: -1.0d
+			y: -4.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "72578A09E6D3C244"
+			tasks: [{
+				id: "15D9C1D5EFEB15DB"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "21A94E6CED889747"
+				type: "item"
+				item: "artifacts:feral_claws"
+			}]
+		}
+		{
+			icon: "artifacts:power_glove"
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "4A0F0E462729D04A"
+			tasks: [{
+				id: "6C4F32FF3C101608"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6EC0AA7AF536E6FE"
+				type: "item"
+				item: "artifacts:power_glove"
+			}]
+		}
+		{
+			icon: "artifacts:fire_gauntlet"
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "46D00BDF3F24823B"
+			tasks: [{
+				id: "27CDE064F6E72332"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "40B522AD46222218"
+				type: "item"
+				item: "artifacts:fire_gauntlet"
+			}]
+		}
+		{
+			icon: "artifacts:pocket_piston"
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "1C84D007D12C578D"
+			tasks: [{
+				id: "3B35B1399548047E"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "29C1B19A1C9C24BA"
+				type: "item"
+				item: "artifacts:pocket_piston"
+			}]
+		}
+		{
+			icon: "artifacts:vampiric_glove"
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "60934A6EBA033B1A"
+			tasks: [{
+				id: "6DF75DE2BA4FF52D"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "06A44348958839DC"
+				type: "item"
+				item: "artifacts:vampiric_glove"
+			}]
+		}
+		{
+			icon: "artifacts:golden_hook"
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "2A9815C88B68F673"
+			tasks: [{
+				id: "0485C77524182087"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "238683BBAB3BBC07"
+				type: "item"
+				item: "artifacts:golden_hook"
+			}]
+		}
+		{
+			icon: "artifacts:kitty_slippers"
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "3F1387D31F1EDC85"
+			tasks: [{
+				id: "6749CDDB664DE72E"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7633BA9C3300F4B7"
+				type: "item"
+				item: "artifacts:kitty_slippers"
+			}]
+		}
+		{
+			icon: "artifacts:running_shoes"
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "117B4AD9F9001F9E"
+			tasks: [{
+				id: "0F079EF2F31807AC"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "792DB9F9C6F6A492"
+				type: "item"
+				item: "artifacts:running_shoes"
+			}]
+		}
+		{
+			icon: "artifacts:steadfast_spikes"
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "54183C120B93F1AB"
+			tasks: [{
+				id: "12B28DF1D2E2E100"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1685384E737DDAE8"
+				type: "item"
+				item: "artifacts:steadfast_spikes"
+			}]
+		}
+		{
+			icon: "artifacts:flippers"
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "0CDEE647B6E4AE05"
+			tasks: [{
+				id: "71B1C6D43CA0399D"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0E2450370143248C"
+				type: "item"
+				item: "artifacts:flippers"
+			}]
+		}
+		{
+			icon: {
+				id: "extrautilitiesrebirth:advanced_chicken_wing_ring"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: -6.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "0DC682E7FCFA826A"
+			tasks: [{
+				id: "28D345B2FDABDEF5"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7CDF51DDA642AA99"
+				type: "item"
+				item: {
+					id: "extrautilitiesrebirth:advanced_chicken_wing_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "extrautilitiesrebirth:chicken_wing_ring"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: -6.0d
+			dependencies: ["44911A780E25F3C9"]
+			can_repeat: true
+			id: "3ADBF756E79B79D6"
+			tasks: [{
+				id: "36ADF9078CE3964E"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "142BB4D7D0C1AE2A"
+				type: "item"
+				item: {
+					id: "extrautilitiesrebirth:chicken_wing_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: "angelring:resonant_angel_ring"
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["7723318ECEBD1061"]
+			can_repeat: true
+			id: "78D4D7DF842F96FD"
+			tasks: [{
+				id: "7DED462F06B6A373"
+				type: "item"
+				item: "thermal:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5A1A7FB0BE3E0B0B"
+				type: "item"
+				item: "angelring:resonant_angel_ring"
+			}]
+		}
+		{
+			icon: "angelring:itemring"
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["7723318ECEBD1061"]
+			can_repeat: true
+			id: "6B30649914EC3007"
+			tasks: [{
+				id: "0FB1D1658B571D12"
+				type: "item"
+				item: "thermal:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "033C69C92851C5C6"
+				type: "item"
+				item: "angelring:itemring"
+			}]
+		}
+		{
+			icon: {
+				id: "buildinggadgets:template"
+				Count: 1b
+				tag: {
+					template_id: [I;
+						-1503501402
+						74925475
+						-1795587668
+						35535424
+					]
+				}
+			}
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["7723318ECEBD1061"]
+			can_repeat: true
+			id: "2391A248D10995F3"
+			tasks: [{
+				id: "43B4667F3A0DAB27"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5B038EA04C151B9F"
+				type: "item"
+				item: {
+					id: "buildinggadgets:template"
+					Count: 1b
+					tag: {
+						template_id: [I;
+							-1503501402
+							74925475
+							-1795587668
+							35535424
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "无限圆石抽屉"
+			icon: "minecraft:cobblestone"
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["65201EA728BBC45A"]
+			id: "351C4323ADF854E3"
+			tasks: [{
+				id: "16D4D070C31955DB"
+				type: "item"
+				item: "thermal:netherite_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3865EB6607A22CCC"
+				type: "item"
+				item: {
+					id: "storagedrawers:oak_full_drawers_1"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Upgrades: [{
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+								Count: 1b
+							}]
+							id: "storagedrawers:standard_drawers_1"
+							Drawers: [{
+								Item: {
+									id: "minecraft:cobblestone"
+									Count: 1b
+								}
+								Count: 0
+							}]
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "无限圆石抽屉"
+			icon: "minecraft:cobblestone"
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["351C4323ADF854E3"]
+			id: "7445ED256D3B66CB"
+			tasks: [{
+				id: "144468EC03487300"
+				type: "item"
+				item: "thermal:netherite_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5C17B47A1B996CDD"
+				type: "item"
+				item: {
+					id: "storagedrawers:oak_full_drawers_1"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Upgrades: [{
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+								Count: 1b
+							}]
+							id: "storagedrawers:standard_drawers_1"
+							Drawers: [{
+								Item: {
+									id: "minecraft:cobblestone"
+									Count: 1b
+								}
+								Count: 0
+							}]
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "无限圆石抽屉"
+			icon: "minecraft:cobblestone"
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["7445ED256D3B66CB"]
+			can_repeat: true
+			id: "083E8BBA167A364F"
+			tasks: [{
+				id: "6B0F8DB865E1E08B"
+				type: "item"
+				item: "extrautilitiesrebirth:octuple_compressed_cobblestone"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5539047C8CED5EB9"
+				type: "item"
+				item: {
+					id: "storagedrawers:oak_full_drawers_1"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Upgrades: [{
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+								Count: 1b
+							}]
+							id: "storagedrawers:standard_drawers_1"
+							Drawers: [{
+								Item: {
+									id: "minecraft:cobblestone"
+									Count: 1b
+								}
+								Count: 0
+							}]
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

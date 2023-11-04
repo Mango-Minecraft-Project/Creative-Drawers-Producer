@@ -1,0 +1,50 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "沙子灌注机",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 0,
+      "max_y": 2,
+      "max_z": 1
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "create:depot"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:sand_machine"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "cookingforblockheads:sink"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "create:spout"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/5VRPU/DMBC9NmlJLCQGJjYk/gHdMrOwIMa2S3S1ncZqYke2IygbOwMrEj+AhQU2/g/lb2A3SVvxIUSWvLvzvXt3jwDEEDK0SAAgJA2GAIjhWmAhbrh2BSAwMBYtjyC8wJLDPtXchQnjlbK+/M8+U6l62xdBXCLNheTnZ3BIa2NVmRiULG3T34h7HTEBcqlVxbUV3EQwzJAKOXdFx59DN/ZHzr9VfyHfywpRVZzBIMPCuJ3iHE1KVaH0JjVow6tc+K1/0XNElVq4fKb0rFB0kXNkJjFCLrwfQaVM6O2AzdcD6Pt/vw0CD90Rhr6TazcIHb8bHE/SsUB1Ohq54kzVkpkAwlLIie9s4LiDeD31dA30D/oNHG/fTtfjnW7pdR+sXh7en+8/bu9Wr0+rxzcndud00Vrg8awWBXPLzZHNuTUJq8tyme5c+KRxo/VBL5Mm7oxJrSg4fAJ46xHGmgIAAA\u003d\u003d"
+}

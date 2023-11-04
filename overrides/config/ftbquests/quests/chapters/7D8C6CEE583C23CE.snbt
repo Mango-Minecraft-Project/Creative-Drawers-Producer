@@ -1,0 +1,679 @@
+{
+	id: "7D8C6CEE583C23CE"
+	group: "09648D74820560E0"
+	order_index: 5
+	filename: "7D8C6CEE583C23CE"
+	title: "6.结束了？"
+	icon: "extendedcrafting:ultimate_singularity"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "压缩！！！"
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["3DE33032E88E0045"]
+			id: "5C6CC6F051C4267A"
+			tasks: [{
+				id: "7D8F0E23EFA00888"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["5C6CC6F051C4267A"]
+			id: "51D3F6150DB85F12"
+			tasks: [{
+				id: "635A356B573C8F66"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+			rewards: [{
+				id: "5DA684E1E9C82103"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "38C985DB2BA88CF2"
+			tasks: [{
+				id: "64207D67709AB633"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:bronze"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "3BD3E34F3635711C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "7A7BB703CCD2AEE0"
+			tasks: [{
+				id: "3C1ACE48BE69F6D2"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:electrum"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "134B527A0B74CEAB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "3D6F314606CD6D76"
+			tasks: [{
+				id: "2762D2526E0D5C83"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:invar"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "723062BFE3DC4AE3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "343B52F74EA50C31"
+			tasks: [{
+				id: "1A5A502CF44D30F9"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:steel"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "2EAD2790C096AEF4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "2C1A625A21B5EE05"
+			tasks: [{
+				id: "3A2A0F18DE0E16DA"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lapis_lazuli"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "6BC11903090C726E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "4B214A0569AD12CB"
+			tasks: [{
+				id: "719B58DA64C3A165"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:emerald"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "50D512DBEC6BFB13"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "3E704B8633479AEC"
+			tasks: [{
+				id: "48740632DE290D3E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:coal"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "6A03FF0364E89292"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "06B697245812E536"
+			tasks: [{
+				id: "228557244B2939FA"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:redstone"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "052C4B681CB7F452"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "6F458B287F270FBA"
+			tasks: [{
+				id: "003692E2E2F1306A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:aluminum"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "2BBA271C85B08317"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "3476F6C5AE238EB7"
+			tasks: [{
+				id: "5C682B9B981141A8"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:silver"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "649F669E735AAE62"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "3067556E708CA01A"
+			tasks: [{
+				id: "44E41E16DBBA751D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:tin"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "7437B282779A7A60"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "2FF8D13CFCA1308F"
+			tasks: [{
+				id: "451A240FB4BF69EA"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:diamond"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "7AF01A8F6AF7476E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "4647BCC70EF3A668"
+			tasks: [{
+				id: "5549E707859E1446"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:copper"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "68B2F91C635C23BA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "05DA27D1C1BE1321"
+			tasks: [{
+				id: "4252C9A3E7B6AE35"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:iron"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "566AE67C567C0E3C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "4735596A8D7EB978"
+			tasks: [{
+				id: "562DB0B743D8382E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lead"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "1F013F55C966ECC1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "479C67F4A74216D6"
+			tasks: [{
+				id: "67EC53CD24A9623E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:nickel"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "60C10B512A4AA192"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "1C5788F5B527548B"
+			tasks: [{
+				id: "31A1C8AD1E862955"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:gold"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "705F81DFA42FE70B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "64260B38E06CA257"
+			tasks: [{
+				id: "117CDC32D1EEAB12"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:glowstone"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "2617609BA6B86BCB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			shape: "gear"
+			dependencies: [
+				"3D6F314606CD6D76"
+				"3E704B8633479AEC"
+				"7A7BB703CCD2AEE0"
+				"06B697245812E536"
+				"4B214A0569AD12CB"
+				"64260B38E06CA257"
+				"1C5788F5B527548B"
+				"343B52F74EA50C31"
+				"2FF8D13CFCA1308F"
+				"05DA27D1C1BE1321"
+				"4735596A8D7EB978"
+				"4647BCC70EF3A668"
+				"6F458B287F270FBA"
+				"3476F6C5AE238EB7"
+				"3067556E708CA01A"
+				"479C67F4A74216D6"
+				"2C1A625A21B5EE05"
+				"38C985DB2BA88CF2"
+			]
+			id: "5A48B4AD51501D0C"
+			tasks: [{
+				id: "7E95CB1ACC79CC83"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+			rewards: [{
+				id: "303572EE5D60B090"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "5C7BF6C18E465556"
+			tasks: [{
+				id: "34564F066144AFBE"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:pllet"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "11988705C19E2DF7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			shape: "heart"
+			dependencies: ["5A48B4AD51501D0C"]
+			optional: true
+			id: "20AC97D7DBB549F3"
+			tasks: [{
+				id: "57CAC32D8F6F9D97"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+				count: 48L
+			}]
+			rewards: [
+				{
+					id: "20AA7FD5D24AAF3B"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_1"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_1"
+								Drawers: [{
+									Item: {
+										id: "extendedcrafting:ultimate_singularity"
+										Count: 1b
+									}
+									Count: 1
+								}]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "490011305C3693E5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2635266014115610653L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "4E55BB0F0D1B5176"
+			tasks: [
+				{
+					id: "797A270BF38AC8A5"
+					type: "item"
+					item: "pipez:infinity_upgrade"
+				}
+				{
+					id: "2DE1D0B4D5650483"
+					type: "item"
+					item: "storagedrawers:creative_storage_upgrade"
+				}
+			]
+			rewards: [{
+				id: "0BEAF7226D6BCC8C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["51D3F6150DB85F12"]
+			id: "70E57CC37C3FFB7A"
+			tasks: [{
+				id: "367E3414B230966C"
+				type: "item"
+				item: "minecraft:bedrock"
+			}]
+			rewards: [{
+				id: "3EF822C4B6B3BD49"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2635266014115610653L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["5A48B4AD51501D0C"]
+			id: "20ADBEE73D521C7D"
+			tasks: [{
+				id: "5C3C011972E0DB92"
+				type: "item"
+				item: "kubejs:the_ultimate_upgrade"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["只是5重压缩圆石的无限"]
+			dependencies: ["5C7BF6C18E465556"]
+			id: "35C6F5E354A12038"
+			tasks: [{
+				id: "2170D61FFBD74072"
+				type: "item"
+				item: "extrautilitiesrebirth:octuple_compressed_cobblestone"
+				count: 500L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2EFA727241790B55"
+				type: "item"
+				item: {
+					id: "storagedrawers:oak_full_drawers_1"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Upgrades: [{
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+								Count: 1b
+							}]
+							id: "storagedrawers:standard_drawers_1"
+							Drawers: [{
+								Item: {
+									id: "extrautilitiesrebirth:quintuple_compressed_cobblestone"
+									Count: 1b
+								}
+								Count: 1
+							}]
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

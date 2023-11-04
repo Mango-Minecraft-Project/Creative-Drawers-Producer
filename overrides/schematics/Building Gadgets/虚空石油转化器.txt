@@ -1,0 +1,36 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "虚空石油转化器",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 0,
+      "max_y": 1,
+      "max_z": 0
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "create:mechanical_drill"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:void_oil_machine"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/3WQvU7DMBSFb2lapWZGrEi8Ad0ys7AgxpYluo1vE0v+qWyHUp6BGaksrCAxwQQSj9Ofx8BJWloJNcpw4nty/J3LAHoQcfTIAOCINRrawBxZgVI8kA0DYNBxHj0xYDfWTMh6QS6G42k4s9LkOXHojFE6iqE7xkzoPESZqYYYomtUBKeZpWBOFGUFapGhTLkVUlbZ9aUx9BRmhdB0dRncpfNGJXdG8NQImW5G/8haB8i2EB1nSl/sURzIDWtoT4yLqi3A39OqXwbdgpCTDbEY0oyF3jAdCDQX/X4YjkypuWtDpIQeVr81crCVeH+7k5Wh1cjBzlsbKkpdUZ6s58+rt+/Vy+fy42v98754fFrMXwPiXve4Jj0blULyUDRHnpN3CS+VmqV7KzpvGm962lnSfG+Lp15Igl+9clqIBwIAAA\u003d\u003d"
+}

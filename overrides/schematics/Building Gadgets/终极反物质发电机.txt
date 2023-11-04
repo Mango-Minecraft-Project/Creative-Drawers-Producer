@@ -1,0 +1,57 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "终极反物质发电机",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 4,
+      "max_y": 4,
+      "max_z": 4
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 64,
+          "item": {
+            "id": "mekanismgenerators:fusion_reactor_frame"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "mekanismgenerators:laser_focus_matrix"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 18,
+          "item": {
+            "id": "bigreactors:ludicrite_block"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:ultimate_controller"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "kubejs:ultimate_pllet_cell"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/5WTsY4TMRCGZz2+U7JPgI4GCSF6rktNQ4NokJJrVs6uk5jsriPbK93R0UGBTkiUiBp6aOB57sJj4F3/mzsJhLgoymdnxuNvspmcaEqyUkHlRHSUpzUx5V47o2rzWrsYoJyOfFBBT0g+V42mx43eqtb4Zq1b7VSwzs9WnTe2LZxWZdwXK9cn0n+XvL80a5z1s7qrTOlM0MWytuX2DmVOtt1Sv/Kzrg6mid8Xu7rWoSh1Xd+hyqO/9FereKZY2bLzRazszPmh4ISmjSo3ptXPntJJTAi2uTEobRucjRruj4uz8eKc8hfO7rQLRvsJHa9Uado1Sa18oENv/6gcnyPvrJex6Mu+I0HplWWJAmRwTMhAATIoxzgjDvK4l4gP76HcQAbj5xDKQAFyluISjAcz3Jf2jHOgAJmRB2YS94IMjp1loAAZlGPnWVLOQAFyhjwwfg4lxEDuPQU8BTwFPAU8BTxTnoTPQNn7CvimPHnwZfgyfBmeDE+GJ8OT4cnwZPyODD+GH8OP4cfwY3gxfkeG1+gxPOF470ABMhgTUhwUIINyjDPiII97STKn441WlXbxD6+6sLGOpotibpR9cnoag0vbtZWPBxrTLlJP/XI+LtX5WeqkXy5ulvNxadqzwTUOUNsP0L39z7fXn99cXb7fv/v669uXq8sP+4/frz/9iNNzazAnQ3sPlp2pqziFa1WtdfCzqmuai+LW/D5M84jRdxeztC/wRRFMrek3Ns5m9mMFAAA\u003d"
+}

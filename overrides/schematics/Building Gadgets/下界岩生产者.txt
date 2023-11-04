@@ -1,0 +1,43 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "下界岩生产者",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 2,
+      "max_y": 2,
+      "max_z": 2
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 25,
+          "item": {
+            "id": "minecraft:netherrack"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:netherrack_machine"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "minecraft:redstone_block"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/41SsU7DMBA9OylKPCIGEAsSf0C3ziwsiLHtErmJ21gkduU4EmViYYIRZkbEyoT4nqLyGTjNmaYgITLkvfju3vnuhQHEEGbccgYAAWs5BMAqYSQv5LUwLgAMepXlVkQQnvNSwF4plUgNn9qBEjYXxvD0sklb10cQlzzNXcrZKRykdWV12clLMPirDfFtGLALo+fCWCmqCHamPJVqBj2ljc3BX+IPZfj3JPubSYzInJ4SyaTQzTQxBHNdha7oEDoPQaRbBwQIBuiPBIJIvwt8RYvUS5IGaaNDUIegDkEdgjpbHQgi9R0JniNSRPemqENRhzLYyQXPhHFL5rXNtYF4lAwl1yf9vgtOdK2yKoDQbWnUFLV06Cm/GjdKLR1t6NBTqcbr3m7dqln37vLtbvV4//H6snp4Wr4/f97cuj13PIrWFz2a1LLInOczns2ErQZZXZaLpGPlcWs+Gm4Wg/bb/wGJlYWAL/l2ljffAgAA"
+}

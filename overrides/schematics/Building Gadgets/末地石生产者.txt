@@ -1,0 +1,43 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "末地石生产者",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 2,
+      "max_y": 2,
+      "max_z": 2
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 25,
+          "item": {
+            "id": "minecraft:end_stone"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:endstone_machine"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "minecraft:redstone_block"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/41Ru07DMBS9dgJKPcIAEgsSf0C3ziwsiLHtErnxbWuRR+U4EmVi4Q8YK3VkYEFi43uA8hk48U1bipDIck7u41zrHAHQgVBJKwUABMJzCECUaLRM9R0a1wABe6WVFiMIr2SGcJjpHBMjx7aHuYpLW+RYT/1z/XizblA12/EoLZKbtUYEnUwmUzd2eQFHSeVmsvqUn6XWr0OsPSRAXJtihsZqLCPYH8tE5xMIUZYW2lf8Kes8CWZFGTrFE9j6GCHfKTBCvjPACPl6wW8wQt4qMF9iDfJah5EOIx1GOj8uMELeXmRUJ+SEtSTpcNLhAvanKBUa546s7LQw0BnEfS2L827XNUdF5WwJIHRRDeolT/stlbfDWsnTwYb2W6rzYXPbuZ3Xbh98Lp4/Fi+r5evqcfn+9vR1/+B83sovah56Oqp0qlxYE6kmaMueqrJsHm/FfOZjo7DMvOf/2/Riq1OEb3egNlXZAgAA"
+}

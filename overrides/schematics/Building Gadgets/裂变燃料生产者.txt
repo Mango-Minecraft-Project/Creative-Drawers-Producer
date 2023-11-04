@@ -1,0 +1,50 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "Copy 1",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 6,
+      "max_y": 6,
+      "max_z": 6
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 2,
+          "item": {
+            "id": "minecraft:dirt"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:fissile_machine"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 60,
+          "item": {
+            "id": "mekanism:sps_casing"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 125,
+          "item": {
+            "id": "mekanism:structural_glass"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/5WVsW7bMBRFKfK9B0dDlwIFugXoF7TZvLZLl6JjksVgbMURatmGKANNv60fV0o8ShwUAdog8CEhkTyUni5r5y6cbOIQa+ec1KXtgqtT07dx1/5q+nzB1U7TEIdm4eRb7Br3tmt+xH2bumU6ptU6pna/He/6x+Hvn4cP/Wk9nPq4W213MaX/mORN1+6bdR/vh+Wm7YenkQt30cX1Q7749Yt7tz6l4dAt79uU2l2z4spfs1fz7LWrv/eHY9MPbZMWzu7jetybNDENbl76tVnzwwzHQ5I84e9R2bvyF6DAqpp+nYcBSlWuKywTVK6CHgYoUFnIXiyYx0EPAxSoiNkLwTwOehigQGUjBivlfhigKPuB3tCDYmWTRr/i38MAZWKeB46K0/oVQ3yhwTyw9GGeoPSF8cp4WBnrwgDFWBeWN1KVFYunx9PjOVF5c+aetjLR5q15+jBP4PH1+Hp8S1/pKyVleEAPAxSohoedl2JVVixSAf+Af8A/4D+/goB/wD/gH/AP+Af8A/4B/4B/wD/gH/CfFAJ9gWp42PknVJUVir8gJ/gL/oK/nJeQzaXk6cM8geAv+Av+gr/gL/gL/oK/8PwFf8Ff8OfLKSXsYYAycfpR6lupb8VX8VV8FV/FV/FV6lupb6W+FU/FU/FU6vusZKeWUSzGQ5+Yc8vILSO3jNyariscP2lyy8gtI7eM3DJya7rfYF7QyC0jt4zcMnLLyK0yDmZBI7eM3DJyy8gtI7fKOJhzy8gtI7eM3DJyy8gtI7eM3LLa2UMTN02fD4l4Gh4Ovbu4WV238fDp6ipfvDuc9puUCyofUzdlb2Pzem7Gn7dlB2Pz5rl5PTfb/e20t3zo7MdDxz4fjo+XH/MZc3Z0LaaHfXl3anebfE5t42bbDGm5OXXd4+rshPtQTiwOqv5xWfrzybUa8jHm/gAAFMSdDggAAA\u003d\u003d"
+}

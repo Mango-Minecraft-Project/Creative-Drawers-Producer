@@ -1,0 +1,656 @@
+{
+	id: "17C41F9465DA708C"
+	group: "522B815F02CD197F"
+	order_index: 2
+	filename: "17C41F9465DA708C"
+	title: "集成动力"
+	icon: "integrateddynamics:menril_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.5d
+			y: 0.0d
+			dependencies: ["737506851A33AED5"]
+			id: "796BBA7D85A827AE"
+			tasks: [{
+				id: "777954E785BC50B0"
+				type: "checkmark"
+				title: "集成动力"
+			}]
+			rewards: [
+				{
+					id: "64D5BFD1FBCD8DE1"
+					type: "item"
+					item: "integrateddynamics:wrench"
+				}
+				{
+					id: "1B7559E2DAE2C93F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6766783049385446679L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["796BBA7D85A827AE"]
+			id: "6D5BA0FA5016EB1C"
+			tasks: [
+				{
+					id: "32270CC831131882"
+					type: "item"
+					item: "integrateddynamics:crystalized_menril_chunk"
+				}
+				{
+					id: "6E0AAB7F165B857C"
+					type: "item"
+					item: "integrateddynamics:menril_berries"
+				}
+			]
+			rewards: [{
+				id: "46F5BFF731410BC9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			dependencies: ["6D5BA0FA5016EB1C"]
+			id: "456CF5D30D1B216B"
+			tasks: [{
+				id: "3514EED7444118EC"
+				type: "item"
+				item: "integrateddynamics:squeezer"
+			}]
+			rewards: [{
+				id: "1BF2B4CB07D7B31D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["6D5BA0FA5016EB1C"]
+			id: "71AA1A8BBA68D11E"
+			tasks: [{
+				id: "6677AA015EB12C04"
+				type: "item"
+				item: "integrateddynamics:drying_basin"
+			}]
+			rewards: [{
+				id: "68DC3382FA9F739B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			dependencies: [
+				"456CF5D30D1B216B"
+				"731E6954A14B1D74"
+			]
+			id: "6349477579EC5357"
+			tasks: [{
+				id: "6241BD7AB337A8C6"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+			rewards: [
+				{
+					id: "3024C28F5E71C807"
+					type: "item"
+					item: "minecraft:pointed_dripstone"
+					count: 4
+				}
+				{
+					id: "15852EDD48A19195"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6766783049385446679L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: [
+				"456CF5D30D1B216B"
+				"07C04522905B9F01"
+			]
+			id: "2C4A214006749C32"
+			tasks: [{
+				id: "000C76769A474127"
+				type: "item"
+				item: "integrateddynamics:mechanical_squeezer"
+			}]
+			rewards: [{
+				id: "4697F57B6FC38500"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: [
+				"71AA1A8BBA68D11E"
+				"07C04522905B9F01"
+			]
+			id: "1A5E001120BB62C7"
+			tasks: [{
+				id: "5D913828BE83B1F2"
+				type: "item"
+				item: "integrateddynamics:mechanical_drying_basin"
+			}]
+			rewards: [{
+				id: "519DDAA6443E7094"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			dependencies: ["456CF5D30D1B216B"]
+			id: "6986F077C4459621"
+			tasks: [{
+				id: "3BCAF669C94CCF1D"
+				type: "item"
+				item: "integrateddynamics:bucket_menril_resin"
+			}]
+			rewards: [{
+				id: "00FE5CBAF6E14E03"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["456CF5D30D1B216B"]
+			id: "1C877808F872FA00"
+			tasks: [{
+				id: "225367921B4D2B6D"
+				type: "item"
+				item: "integrateddynamics:bucket_liquid_chorus"
+			}]
+			rewards: [{
+				id: "588E352ADED842A9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			dependencies: ["71AA1A8BBA68D11E"]
+			id: "2AA6746A22A05277"
+			tasks: [{
+				id: "7A5D04A776CA05EB"
+				type: "item"
+				item: "integratedterminals:menril_glass"
+			}]
+			rewards: [{
+				id: "72D7D4EC379CE37C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["71AA1A8BBA68D11E"]
+			id: "7F58466A2726090B"
+			tasks: [{
+				id: "3C331B258AC30343"
+				type: "item"
+				item: "integratedterminals:chorus_glass"
+			}]
+			rewards: [{
+				id: "30C1174160F47E89"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["6D5BA0FA5016EB1C"]
+			id: "07C04522905B9F01"
+			tasks: [{
+				id: "6218DB209D95508F"
+				type: "item"
+				item: {
+					id: "integrateddynamics:energy_battery"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6CCF1300069ACD65"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["6D5BA0FA5016EB1C"]
+			id: "68EF8ACB0F1881B7"
+			tasks: [{
+				id: "48A0AB97BFE5A51C"
+				type: "item"
+				item: "integrateddynamics:cable"
+			}]
+			rewards: [{
+				id: "28AE2BF0F304F5DA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "6B855FBA29F10CE2"
+			tasks: [{
+				id: "1B4F6CF278FC6196"
+				type: "item"
+				item: "integratedterminals:part_terminal_storage"
+			}]
+			rewards: [{
+				id: "6244C3DB5DAD3479"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "23F01FE5CD8CDBA8"
+			tasks: [{
+				id: "29BBB269B34FCFE4"
+				type: "item"
+				item: "integratedterminals:part_terminal_crafting_job"
+			}]
+			rewards: [{
+				id: "718374FCFB77E1A5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "397219B402A4690E"
+			tasks: [{
+				id: "7E89864BB510DC48"
+				type: "item"
+				item: "integratedterminals:terminal_storage_portable"
+			}]
+			rewards: [{
+				id: "4A7EF0D72640BDCE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "594A6E8DB932ABF3"
+			tasks: [
+				{
+					id: "0BB5445D10191D5F"
+					type: "item"
+					item: "integrateddynamics:part_connector_mono_directional"
+				}
+				{
+					id: "00962EE4EF284085"
+					type: "item"
+					item: "integrateddynamics:part_connector_omni_directional"
+				}
+			]
+			rewards: [{
+				id: "0DE4FC7A83457F66"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "085840629BE7495B"
+			tasks: [{
+				id: "50005D8BAF6E828D"
+				type: "item"
+				item: "integratedtunnels:part_interface_fluid"
+			}]
+			rewards: [{
+				id: "0A38E9F723FC1CD2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "1CA54097E2258154"
+			tasks: [{
+				id: "6CDCC8AECAE943D2"
+				type: "item"
+				item: "integratedtunnels:part_interface_item"
+			}]
+			rewards: [{
+				id: "20B3EBFF2DE6483A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "75AD0CA19D0FF09F"
+			tasks: [{
+				id: "0473988C0C809C7F"
+				type: "item"
+				item: "integratedtunnels:part_interface_energy"
+			}]
+			rewards: [{
+				id: "1BC54315D4FDBD04"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "5E9B64218AE3152D"
+			tasks: [{
+				id: "6760DF3C380AAD0E"
+				type: "item"
+				item: "integratedtunnels:part_importer_world_fluid"
+			}]
+			rewards: [{
+				id: "57816ECE4EDE0C0E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "3598BE43362BA0C2"
+			tasks: [{
+				id: "609BC89E675DF268"
+				type: "item"
+				item: "integratedtunnels:part_exporter_world_fluid"
+			}]
+			rewards: [{
+				id: "089FE4A8E05D8952"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "19E81F1F75EBBF14"
+			tasks: [{
+				id: "25088131174DED0E"
+				type: "item"
+				item: "integratedtunnels:part_exporter_world_item"
+			}]
+			rewards: [{
+				id: "4C154041573516F0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "4BD30ABD19042616"
+			tasks: [{
+				id: "2D64A34ACED36908"
+				type: "item"
+				item: "integratedtunnels:part_exporter_world_energy"
+			}]
+			rewards: [{
+				id: "2DFAAE45C49E48AF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "150C7CF06FB41A24"
+			tasks: [{
+				id: "0DCD73E06C9469FA"
+				type: "item"
+				item: "integratedtunnels:part_importer_world_block"
+			}]
+			rewards: [{
+				id: "66C38C41EDA4C469"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "40A58C7A4938F13A"
+			tasks: [{
+				id: "670B1DD554829A8A"
+				type: "item"
+				item: "integratedtunnels:part_importer_world_item"
+			}]
+			rewards: [{
+				id: "074F01F40376ABEC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "04A5E7FA33D2CE2A"
+			tasks: [{
+				id: "17C96217BE73E3B6"
+				type: "item"
+				item: "integratedtunnels:part_importer_world_energy"
+			}]
+			rewards: [{
+				id: "47B7C94116CE4B8F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "0020D41E5A604FED"
+			tasks: [{
+				id: "01E2ED3B319D003B"
+				type: "item"
+				item: "integratedtunnels:part_player_simulator"
+			}]
+			rewards: [{
+				id: "2B97BD0E2F221CC4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["68EF8ACB0F1881B7"]
+			id: "259186251929F22A"
+			tasks: [{
+				id: "791F5C05E4313012"
+				type: "item"
+				item: "integratedtunnels:part_exporter_world_block"
+			}]
+			rewards: [{
+				id: "4419C22C73E266EA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["085840629BE7495B"]
+			id: "2BCD619A75D76216"
+			tasks: [{
+				id: "4994918642961F35"
+				type: "item"
+				item: "integratedtunnels:part_exporter_fluid"
+			}]
+			rewards: [{
+				id: "321EE1DD0518D71F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["085840629BE7495B"]
+			id: "0F915AA04C15C126"
+			tasks: [{
+				id: "4ABAFFFBD789B684"
+				type: "item"
+				item: "integratedtunnels:part_importer_fluid"
+			}]
+			rewards: [{
+				id: "0FA219D7EDE9888D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["1CA54097E2258154"]
+			id: "5AB07DFDB5AB823E"
+			tasks: [{
+				id: "46AF9570ED40D19B"
+				type: "item"
+				item: "integratedtunnels:part_exporter_item"
+			}]
+			rewards: [{
+				id: "40C2AECC3D2478F1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["1CA54097E2258154"]
+			id: "6D52381A80DA1126"
+			tasks: [{
+				id: "0BFA9A9026F109E3"
+				type: "item"
+				item: "integratedtunnels:part_importer_item"
+			}]
+			rewards: [{
+				id: "1302B4B76EC2D5E9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["75AD0CA19D0FF09F"]
+			id: "7BB7F8B954BC4622"
+			tasks: [{
+				id: "27C0343EACED3C61"
+				type: "item"
+				item: "integratedtunnels:part_importer_energy"
+			}]
+			rewards: [{
+				id: "03EFC7DB5534C012"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["75AD0CA19D0FF09F"]
+			id: "09429E350F75C356"
+			tasks: [{
+				id: "45C4AAACA067ED2C"
+				type: "item"
+				item: "integratedtunnels:part_exporter_energy"
+			}]
+			rewards: [{
+				id: "17EB03F9645878A0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

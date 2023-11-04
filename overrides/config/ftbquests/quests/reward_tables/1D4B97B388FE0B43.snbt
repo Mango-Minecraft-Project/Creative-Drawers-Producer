@@ -1,0 +1,12 @@
+{
+	id: "1D4B97B388FE0B43"
+	order_index: 6
+	title: "一些食物"
+	icon: "reliquary:glowing_bread"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:cooked_beef", count: 8 }
+		{ item: "reliquary:glowing_bread", count: 4 }
+		{ item: "minecraft:golden_apple", count: 2 }
+	]
+}

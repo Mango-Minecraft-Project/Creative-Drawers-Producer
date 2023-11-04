@@ -1,0 +1,9 @@
+{
+	"x": -250,
+	"y": 24,
+	"width": 80,
+	"height": 20,
+	"langKey": "menu.multiplayer",
+	"action": "OPEN_GUI",
+	"data": "MULTIPLAYER"
+}

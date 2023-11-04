@@ -1,0 +1,46 @@
+{
+	id: "5DE87154DAC10D17"
+	order_index: 0
+	title: "经验"
+	icon: "minecraft:experience_bottle"
+	loot_size: 1
+	rewards: [
+		{
+			xp: 1
+			type: "xp"
+		}
+		{
+			xp: 10
+			type: "xp"
+			weight: 5
+		}
+		{
+			xp: 100
+			type: "xp"
+			weight: 2000
+		}
+		{
+			xp: 1000
+			type: "xp"
+			weight: 500
+		}
+		{
+			xp_levels: 1
+			type: "xp_levels"
+		}
+		{
+			xp_levels: 5
+			type: "xp_levels"
+			weight: 2000
+		}
+		{
+			xp_levels: 10
+			type: "xp_levels"
+			weight: 500
+		}
+		{
+			xp_levels: 100
+			type: "xp_levels"
+		}
+	]
+}

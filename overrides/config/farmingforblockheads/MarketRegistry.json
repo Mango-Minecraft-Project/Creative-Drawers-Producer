@@ -1,0 +1,107 @@
+   { "customCategories":{
+          "custom":{
+                "name": "custom",
+                "icon":
+                {
+                  "item": "minecraft:poppy"
+                }
+          }
+    },
+
+    "customEntries":
+[     
+    {
+      "output":
+      {
+        "item": "minecraft:poppy"
+      },
+      "payment":
+      {
+        "item": "thermal:copper_coin"
+      },
+      "category": "custom"
+    },   
+    {
+        "output":
+        {
+          "item": "integrateddynamics:menril_sapling"
+        },
+        "payment":
+        {
+          "item": "naturesaura:ancient_sapling"
+        },
+        "category": "custom"
+    },
+    {
+      "output":
+      {
+        "item": "occultism:datura_seeds"
+      },
+      "payment":
+      {
+        "item": "thermal:gold_coin"
+      },
+      "category": "custom"
+  },
+  {
+    "output":
+    {
+      "item": "bloodmagic:strong_tau"
+    },
+    "payment":
+    {
+      "item": "thermal:gold_coin"
+    },
+    "category": "custom"
+},
+{
+  "output":
+  {
+    "item": "minecraft:dragon_head"
+  },
+  "payment":
+  {
+    "item": "thermal:netherite_coin",
+    "count": 9
+  },
+  "category": "custom"
+},
+{
+  "output":
+  {
+    "item": "farmersdelight:red_mushroom_colony"
+  },
+  "payment":
+  {
+    "item": "thermal:iron_coin",
+    "count": 2
+  },
+  "category": "custom"
+},
+{
+  "output":
+  {
+    "item": "farmersdelight:brown_mushroom_colony"
+  },
+  "payment":
+  {
+    "item": "thermal:iron_coin",
+    "count": 2
+  },
+  "category": "custom"
+},
+{
+  "output":
+  {
+    "item": "minecraft:ink_sac",
+    "count": 8
+  },
+  "payment":
+  {
+    "item": "thermal:iron_coin",
+    "count": 1
+  },
+  "category": "custom"
+}
+]
+   }

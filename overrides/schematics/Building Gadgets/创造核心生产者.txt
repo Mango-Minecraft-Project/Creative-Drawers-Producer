@@ -1,0 +1,36 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "创造核心生产者",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 2,
+      "max_y": 2,
+      "max_z": 2
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 26,
+          "item": {
+            "id": "minecraft:bedrock"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:creative_machine"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/3VRsU7DMBA9u6FKvTExsFTiBxDdssLCghjbLtE1vrYWTVzZDlC+Hqc+Q2lFhrznO997yT0FMIFCY0AFAFIlDiNQnpzBnfkiFxug4MoHDFRC8YItwXVrOmocrkO1Iu1s8zbcOQ6XMGmx2cb+8xPcNL0Ptq0aRxjMO9XcunAQ2UGBenV2Ty4Y8iWM19iYbgPFB/kA2f5f2fg3o731RVS8hZNHMMqzgmCUZxcEo/wZSBOCUWYFkUpCcJ0xXhCsI1jnj4NglNlRcJ1RMsa3ZB3JOjGk8ZZQk4vbwT5srYPJop4btA+zWWyubN9pP4IiZrQYhhKdZ4qfy0Ep0cUvnWdquuXRO267G7Y9frT7w/Q+7vYks/L4cdNVb3Y6BrRBvaHgK9237aE+ifYuRcUBuUOVzjmxOpgdwTd03JA9hwIAAA\u003d\u003d"
+}

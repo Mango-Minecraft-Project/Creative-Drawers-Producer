@@ -1,0 +1,36 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "钢质机壳",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 2,
+      "max_y": 2,
+      "max_z": 2
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "refinedstorage:machine_casing"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 26,
+          "item": {
+            "id": "immersiveengineering:storage_steel"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/41RQU7DMBBcO6FqI36AkBBPoLc+gnPaS7Stl9RS7SDbQcAzOHOCC3c48R8Q/IJNsymlJ3zwjNc7s9a4AJhAbjBhAQC66DlkUEQKFjf2ngJfQAFHMWGiMeSX6AjOrXMUor0h8rX1xM2+nsXUBKypiolo04n+6XYa6IpNjOhnDldrPlcrjGzbPTG7bmLOyhPYW0pQHxSUoD5oUIJ6J+gVSlAPDqovKSV1QW5Q4qPE588EJaiHiUrqglqQdy0+Wnw4+dGa0FAYwwjbtG4CTOZVabG5mE75ctm03sQMcmf9vBP1tBwo3i46p57Of2k5UOsX29mcue8yP/5+ePp6e/l8fP94fuWE975ovH362bK1G8P512hqSnFmWufuqr2f/AHQsXNZPQIAAA\u003d\u003d"
+}

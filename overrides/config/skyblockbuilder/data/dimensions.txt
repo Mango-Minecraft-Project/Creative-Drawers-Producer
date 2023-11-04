@@ -1,0 +1,9 @@
+minecraft:overworld
+compactmachines:compact_world
+minecraft:the_end
+jamd:mining
+bloodmagic:dungeon
+minecraft:the_nether
+ae2:spatial_storage
+undergarden:undergarden
+mythicbotany:alfheim

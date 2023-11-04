@@ -1,0 +1,149 @@
+{
+	id: "728FF22E9A647238"
+	group: "7309DC73431430A6"
+	order_index: 7
+	filename: "728FF22E9A647238"
+	title: "压缩空间"
+	icon: "compactmachines:personal_shrinking_device"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["69F2679E5A97DD16"]
+			id: "7C56F6263DC7C9EC"
+			tasks: [{
+				id: "53BF2629A2B33374"
+				type: "checkmark"
+				title: "压缩空间"
+			}]
+			rewards: [{
+				id: "4759D4E5FCB8EA53"
+				type: "item"
+				item: {
+					id: "create:schematic"
+					Count: 1b
+					tag: {
+						Owner: "Y_Xiao233"
+						Anchor: {
+							X: 0
+							Y: 0
+							Z: 0
+						}
+						Bounds: [
+							3
+							3
+							3
+						]
+						Deployed: 0b
+						File: "压缩空间壁.nbt"
+						Rotation: "NONE"
+						Mirror: "NONE"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["7C56F6263DC7C9EC"]
+			id: "1603C2A850C1035E"
+			tasks: [{
+				id: "6D1308708F14C600"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["41819FF4DB8407D8"]
+			id: "3F5B227B8D3037E8"
+			tasks: [{
+				id: "2AF10B32B88A7581"
+				type: "item"
+				item: "compactmachines:wall"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["3F5B227B8D3037E8"]
+			id: "11AE2B0899D7E795"
+			tasks: [{
+				id: "5196CCDF19E70EAB"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["3F5B227B8D3037E8"]
+			id: "7791A02001D5A4CF"
+			tasks: [{
+				id: "3F2D3502576343E8"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["3F5B227B8D3037E8"]
+			id: "5068290357F9DE50"
+			tasks: [{
+				id: "576C8AFB66F8964A"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["3F5B227B8D3037E8"]
+			id: "1D344CFC2EA94608"
+			tasks: [{
+				id: "1E45C6002D71B965"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["3F5B227B8D3037E8"]
+			id: "16E791E5E479E5D2"
+			tasks: [{
+				id: "04DA904101920FB1"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["3F5B227B8D3037E8"]
+			id: "29AB38CD3E80ED79"
+			tasks: [{
+				id: "09DCCC4BDBB1B205"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["1603C2A850C1035E"]
+			id: "41819FF4DB8407D8"
+			tasks: [{
+				id: "2FF01CB33B692486"
+				type: "item"
+				item: "compactcrafting:field_projector"
+				count: 4L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

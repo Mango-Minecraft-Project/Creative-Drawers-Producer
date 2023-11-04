@@ -1,0 +1,96 @@
+{
+    "name": "裂变燃料生产者",
+    "appearance": {
+        "block": "kubejs:machine/fissile_machine",
+        "hardness": 1,
+        "tool_type": ["minecraft:mineable/pickaxe", "forge:mineable/paxel"],
+        "mining_level": "minecraft:needs_stone_tool",
+        "running": {
+            "block": "kubejs:machine/fissile_machine"
+        }
+    },
+    "gui": [
+      {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 0,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 80,
+        "type": "custommachinery:player_inventory"     
+      },
+      {
+        "x": 47,
+        "y": 30,
+        "type": "custommachinery:energy",
+        "id": "flux1"
+      },
+      {
+        "id": "slot1",
+        "x": 67,
+        "y": 30,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "tank2",
+        "x": 149,
+        "y": 30,
+        "type": "custommachinery:gas"
+      },
+      {
+        "id": "upgrade",
+        "x": 116,
+        "y": 50,
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 116,
+        "y": 30,
+        "type": "custommachinery:progress"
+      },
+      {
+        "x": 236,
+        "y": 5,
+        "type": "custommachinery:status"
+      },
+      {
+        "text": "裂变燃料生产者",
+        "x": 7,
+        "y": 5,
+        "type": "custommachinery:text"
+      }
+    ],
+    "components": [
+      {
+        "mode": "input",
+        "id": "flux1",
+        "capacity": 100000000,
+        "type": "custommachinery:energy"
+      },
+      {
+        "mode": "input",
+        "id": "slot1",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "tank2",
+        "capacity": 1000000,
+        "type": "custommachinery:gas"
+      },
+      {
+        "mode": "input",
+        "id": "upgrade",
+        "type": "custommachinery:item",
+        "variant": "custommachinery:upgrade",
+        "capacity": 64
+      },
+      {
+          "type": "custommachinery:redstone",
+          "poweroutput": 15
+      }
+    ],
+    "catalysts": []
+  }

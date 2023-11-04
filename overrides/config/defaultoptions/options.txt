@@ -1,0 +1,3 @@
+lang:zh_CN
+forceUnicodeFont:true
+resourcePacks:["file/Minecraft-Mod-Language-Modpack-1-18.zip"]

@@ -1,0 +1,64 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "Refine_Proxy",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 6,
+      "max_y": 6,
+      "max_z": 6
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 102,
+          "item": {
+            "id": "minecraft:black_concrete"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 8,
+          "item": {
+            "id": "refinedstorage:machine_casing"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 124,
+          "item": {
+            "id": "thermal:machine_frame"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:modular_master"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 60,
+          "item": {
+            "id": "refinedstorage:quartz_enriched_iron_block"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 48,
+          "item": {
+            "id": "minecraft:red_wool"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/5WXTW/bRhBAl/OxsHUMEKCXAgF6yi1obrq2l1yK3mrnIqwp2iIiiS5FoXV+fZe7j5Yb5BDbhh/H4izJeRxyvArhOtg2TWkVQoiruh00rE7d2Kd9/7Ub8wdhFfw0pam7CvZHOnTh57G774/d9jQNY3ro1ofU7nK8adOpPz7M+//gQu+/Wejvcxqnr5vuOPbtrttu+nE4bu72Q/vlFYv+dMhLtmO6n9Z3+9R+2bTDsR27qXvFGm8ua4z5PP4Zhv0rst9Ou248pP1zYe7H+c/LAlfhmg8+/R7etud89Yf1Ydie92ncHNJpyqt+e4xmOcYqrP4ch8dunPrudBXifWrnmluX88LzCXx/0WxbH4eT5eX+Cs9fTf6uFKjQoLNnJK4JEppCDUKs0KA3df8I6wFynpBHrMQGXciD9YRyHhSo0KArebBegIYGipFHbMRu5MF6wfl4UKA6ecTu5P2vQLmeUKBCgx7ZnXgpTgMFKhdvxE7x41LMpl5kAwUqNOhN3T82FFPIgwIVGnQhD86lLHlQoEKDruTBOaX8ggIVGnSr5xeNPCcPClRo0J3jOSWM1BMK1Eg9iT1Sz/jipg76fLES6o8SG7FT/EhcW6d4EDwIHgQPgoeyToRVdfEgeBA8CB4EDzVPOJ6SBwUqNOhcQlSOZ+RBgQoNunE8mC9Y8CB4EDwIHgQPggfBQ60nlEg9iY3YI/WE4XKTLkVSPBQa9FBbJBLXR1fxoHhQPCgeFA9KP+hFcfGgeFA8KB4UD0o/LLeE4kHxUIqlxAZdyYPz0nhQPCgeFA+Kh5oH56XxoHhQPCgeFA+KB8WD0g9KPygeaj2hR+oJQ6i3fH2SclMtxar9UOihPqIicX11FA+GB8OD4cHwYHiwi9riwfBgeDA8GB6MfrBLaxYPhgejHwwPhgfDg9EPhgfDg+HB8GB4MPrB8GB4MDwYHgwPhoea57U+uUCGB6MfDA9GP9R6RuoJQ6iPnPpm0noG1YNTNKcfHA/LI8rx4HhwPDgeHA+OB7884ooHx4PjwfHgeHA8OB4cD44Hx4PjwfHgeHA8OB4cD44Hx4PjwekHx4PjwfHgeHA8OB6cfnA8OB4cD44Hpx+cfnA8vHjDN3WF+tCPPHQiN32k6JGd4+WVXealQoHKo8uInVd7vLziy+cNFCGP2IhdyIOzEualyLwUmZci81JkXorMS5F5qeYZxyNWYoNu5MF8wZF5qeYRKzToTp4zSkbqCQUqNOiResb5n5S469K2G/Psm87TbhjD9e3mpk/Drx8/5g/vhvNxe8rnmif4W8a1vHmzbKZ/P88r1c3by+bNstkfP5dzy7P0cZ6l42/D49O7D3l2fjGRX5VR4d3dud9v8/j9kLYP3XRab8+Hw9PmxeD+Sx3EGffHp3WNN8s/BlO/78J/B47zw4cNAAA\u003d"
+}

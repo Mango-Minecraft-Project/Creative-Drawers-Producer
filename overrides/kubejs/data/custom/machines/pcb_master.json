@@ -1,0 +1,117 @@
+{
+    "name": "电路生产者",
+    "appearance": {
+        "block": "kubejs:pcb_master",
+        "hardness": 1.5,
+        "tool": "pickaxe",
+        "mininglevel": 1,
+        "running": {
+            "block": "kubejs:pcb_master"
+        }
+    },
+    "gui": [
+      {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 0,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 80,
+        "type": "custommachinery:player_inventory"     
+      },
+      {
+        "x": 47,
+        "y": 30,
+        "type": "custommachinery:energy",
+        "id": "flux1"
+      },
+      {
+        "id": "solt1",
+        "x": 67,
+        "y": 30,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "solt2",
+        "x": 87,
+        "y": 30,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "solt3",
+        "x": 107,
+        "y": 30,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "output1",
+        "x": 169,
+        "y": 30,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "upgrade",
+        "x": 136,
+        "y": 50,
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 134,
+        "y": 30,
+        "type": "custommachinery:progress"
+      },
+      {
+        "x": 236,
+        "y": 5,
+        "type": "custommachinery:status"
+      },
+      {
+        "text": "电路生产者",
+        "x": 7,
+        "y": 5,
+        "type": "custommachinery:text"
+      }
+    ],
+    "components": [
+      {
+        "mode": "input",
+        "id": "flux1",
+        "capacity": 1000000,
+        "type": "custommachinery:energy"
+      },
+      {
+        "mode": "input",
+        "id": "solt1",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "solt2",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "solt3",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output1",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "upgrade",
+        "type": "custommachinery:item",
+        "variant": "custommachinery:upgrade",
+        "capacity": 16
+      },
+      {
+          "type": "custommachinery:redstone",
+          "poweroutput": 15
+      }
+    ],
+    "catalysts": []
+  }

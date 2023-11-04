@@ -1,0 +1,71 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "生命源质转化者",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 4,
+      "max_y": 1,
+      "max_z": 4
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 4,
+          "item": {
+            "id": "bloodmagic:accelerationrune"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "bloodmagic:altar"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:blood_generate"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 4,
+          "item": {
+            "id": "integrateddynamics:crystalized_chorus_block"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "minecraft:netherite_block"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 12,
+          "item": {
+            "id": "extrautilitiesrebirth:octuple_compressed_cobblestone"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 3,
+          "item": {
+            "id": "pneumaticcraft:reinforced_brick_slab"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/41UPY8TMRCd7G5CsjQ0FECDBB0dR7U1DQ2ivLtm5bUnG+v8sbK9ugsVDR0FSIj2WgpKKqT7OQf5GYx3nVMCOl1SjGfsmefnN7MpARZQCBZYCQD3ytGHHEqPTjIl36OjAyhh6gMLOIfiLdMIr/AiONYHqWSQ6B020oVVZXnoO4U1t7pz6D0KcptGoQ/WYIS5A7+E8p2zHbqIOof757TnlG1bFDBdMuUjg7DuEGaNDcFq2DJ63hnsNQuSc8eWoXIozdI6ThQaJ/lZ7RVrDmCwxXvSKGuFZq3kFeMcFToCt8b1Bz1kC/NCmoAtlaIQa8O05L7ibk05sYTkWVnX+5ou42c3sHNYaMZX0uCb1/CQ96SergY+dYsmEsH/bp7cIuFsybg0LRTn1IQbtW4BPfxdjzSxG5U2GFaUG/CfV9wN8mBXYxWYi9OYd9YXlPwYdn6TZLMU52kt9lKyaCbxNEtxnkqLYR2ys3g+HMI0miHOYSwphnUG2d5V2Qg64uYJN0+4e1Qm6aosxXlayRQlzFbIBDpqCn061HhYnNTHktmXR0dlHOjeCJ9DQdKejMXRPd667OI0Io1uTJiM7vF2V5rTgQnJa4Ym//l6ef3l6vevz5uf3zdXP64/fdt8+EgS77RlPijytOmlEjQmLRMtBl+JXut1vdO9Z+PApLF062qM67RR0z8Bwl86Jb00TgQAAA\u003d\u003d"
+}

@@ -1,0 +1,881 @@
+{
+	id: "3F30D3409A788AE3"
+	group: "7309DC73431430A6"
+	order_index: 2
+	filename: "3F30D3409A788AE3"
+	title: "热力系列"
+	icon: "thermal:machine_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["22D98D84D836D739"]
+			id: "77401EBFC770B334"
+			tasks: [{
+				id: "34B0877A639B107E"
+				type: "checkmark"
+				title: "热力系列"
+			}]
+			rewards: [{
+				id: "21289C9A88F7B9EF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["77401EBFC770B334"]
+			id: "06568F726F11AD5E"
+			tasks: [{
+				id: "0E7272A6F36C9E9F"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			rewards: [{
+				id: "600D6DDB10E85F46"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["06568F726F11AD5E"]
+			id: "396D21AB49127F6C"
+			tasks: [{
+				id: "5A678AF546CA08D5"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [{
+				id: "0223069515C71095"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["06568F726F11AD5E"]
+			id: "3F6CEEC498C8B341"
+			tasks: [{
+				id: "58F5E05A4BB9D174"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+			rewards: [{
+				id: "6ECD04711D2F766C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["06568F726F11AD5E"]
+			id: "3B04BBBCB50744C0"
+			tasks: [{
+				id: "368AFB4E754A0C25"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [{
+				id: "7DED0055C413549F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["06568F726F11AD5E"]
+			id: "21EC9D1BAFE3B742"
+			tasks: [{
+				id: "33A262999876420D"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [{
+				id: "558DEAD7C3FCFBDE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["06568F726F11AD5E"]
+			id: "352DDEA114B2924C"
+			tasks: [{
+				id: "68B9139DB285FE43"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [{
+				id: "7D47D6AB85D98194"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["06568F726F11AD5E"]
+			id: "6CCC8261B1BB32C3"
+			tasks: [{
+				id: "412781BB4C932CE4"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [{
+				id: "404CE6C77E5B9FDB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["06568F726F11AD5E"]
+			id: "0B973383A7B46D14"
+			tasks: [{
+				id: "6AB7CCC8124E01ED"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [{
+				id: "6CF933680F2B8742"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["06568F726F11AD5E"]
+			id: "5FFDEEF4E0499F34"
+			tasks: [{
+				id: "6A0C7CDCF3517006"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			rewards: [{
+				id: "4AC6773E7BF92968"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["06568F726F11AD5E"]
+			id: "063CCAA772D17B69"
+			tasks: [{
+				id: "5C4B37C7CF8D343B"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			rewards: [{
+				id: "4CC58007125606F0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["06568F726F11AD5E"]
+			id: "0A511496FF90CDA0"
+			tasks: [{
+				id: "22493E17722AF0EE"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+			rewards: [{
+				id: "460F1A9230F2EECF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["06568F726F11AD5E"]
+			id: "3DBB6BBE22272E15"
+			tasks: [{
+				id: "5C9256A422FE0522"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+			rewards: [{
+				id: "08B6A6277F8F40DD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["06568F726F11AD5E"]
+			id: "5D0AE23EE3F8EC93"
+			tasks: [{
+				id: "673A00A343400CAB"
+				type: "item"
+				item: "thermal:machine_crystallizer"
+			}]
+			rewards: [{
+				id: "5CCEDE2FC7D33E35"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["06568F726F11AD5E"]
+			id: "212D037A5E57487F"
+			tasks: [{
+				id: "3560C3E809B82260"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			rewards: [{
+				id: "73399CB4957977BB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["06568F726F11AD5E"]
+			id: "357979F0A6DCA07C"
+			tasks: [{
+				id: "2595E79FB3708632"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+			rewards: [{
+				id: "79E2BB5E85E0EC7A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["06568F726F11AD5E"]
+			id: "44B810DD2CB1DD1F"
+			tasks: [{
+				id: "227BF80ED9C89B64"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [{
+				id: "37A97440154428A8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "67DB1D6993DB4422"
+			tasks: [{
+				id: "461D497792021F9E"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
+			rewards: [{
+				id: "65875082C87638E5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "1C37353C7A7997F3"
+			tasks: [{
+				id: "053CF4A0A58C3F40"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
+			rewards: [{
+				id: "1AA0F24E449F4B9D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["1C37353C7A7997F3"]
+			id: "6EC5448FB8B915D1"
+			tasks: [{
+				id: "286D47B8A2DAE5AE"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+			rewards: [{
+				id: "20BACF9019CA0625"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["1C37353C7A7997F3"]
+			id: "6571AE17DEB5D8C8"
+			tasks: [{
+				id: "23943A033831CA23"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+			rewards: [{
+				id: "4FA82C06F463A3D3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["1C37353C7A7997F3"]
+			id: "0A1AC45701BFFCB8"
+			tasks: [{
+				id: "72A08F2D54424158"
+				type: "item"
+				item: "thermal:device_collector"
+			}]
+			rewards: [{
+				id: "29A4A48070C98C52"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["1C37353C7A7997F3"]
+			id: "45DE9BD93CFF9BCA"
+			tasks: [{
+				id: "483FC8AF4E664E00"
+				type: "item"
+				item: "thermal:device_nullifier"
+			}]
+			rewards: [{
+				id: "36E37CE6D9639ED9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "748D7CADB8938D57"
+			tasks: [{
+				id: "56C703A1A32CE392"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+			rewards: [{
+				id: "7B4CEF4DD446BADF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "070113CB103CBFEB"
+			tasks: [{
+				id: "2A10CA01606F4FB1"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			rewards: [{
+				id: "2923F58BF51BF50A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "2DE9753A3EB1042E"
+			tasks: [{
+				id: "138CA65FECA69E5C"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+			rewards: [{
+				id: "20887E0DE2771B7A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["67DB1D6993DB4422"]
+			id: "19BD05D6C14D467E"
+			tasks: [{
+				id: "34728A28C5E5C727"
+				type: "item"
+				item: "thermal:rf_coil_augment"
+			}]
+			rewards: [{
+				id: "2EEDD3EFBA5852AD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["67DB1D6993DB4422"]
+			id: "33D8289AA22EB734"
+			tasks: [{
+				id: "272167881C519F62"
+				type: "item"
+				item: "thermal:rf_coil_storage_augment"
+			}]
+			rewards: [{
+				id: "735A80737BB2F26E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["67DB1D6993DB4422"]
+			id: "62E31F9717D30003"
+			tasks: [{
+				id: "6C743F332D92ED8E"
+				type: "item"
+				item: "thermal:rf_coil_xfer_augment"
+			}]
+			rewards: [{
+				id: "3CEE18F8667ECD3B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "32582D3FC1459A7A"
+			tasks: [{
+				id: "5ADDA597F5FDB97E"
+				type: "item"
+				item: "thermal:fluid_tank_augment"
+			}]
+			rewards: [{
+				id: "4D16B9BA03EDA835"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "768530763EBB81ED"
+			tasks: [{
+				id: "68895D6FB34AC634"
+				type: "item"
+				item: "thermal:item_filter_augment"
+			}]
+			rewards: [{
+				id: "00608550B50851BE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "05E8A3A452EF6BB3"
+			tasks: [{
+				id: "5C271CE8A84F5E33"
+				type: "item"
+				item: "thermal:machine_speed_augment"
+			}]
+			rewards: [{
+				id: "3848E5D3B63E59D2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "0C72F061E671FA4B"
+			tasks: [{
+				id: "57CDFC05E1ED46FE"
+				type: "item"
+				item: "thermal:machine_efficiency_augment"
+			}]
+			rewards: [{
+				id: "07B6071A03922C33"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "4DF9194134915AA6"
+			tasks: [{
+				id: "3FCBB8CD0743B8CF"
+				type: "item"
+				item: "thermal:machine_output_augment"
+			}]
+			rewards: [{
+				id: "39FBAFA1BCB19C0B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "01869A4AB4DB89CB"
+			tasks: [{
+				id: "1C5AA1373F1AA286"
+				type: "item"
+				item: "thermal:machine_catalyst_augment"
+			}]
+			rewards: [{
+				id: "66F313AE1F5E7868"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "3EA3B50754A9074D"
+			tasks: [{
+				id: "260C2B05DBE3CFD6"
+				type: "item"
+				item: "thermal:machine_cycle_augment"
+			}]
+			rewards: [{
+				id: "3548A233B96163D5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "2B100AFBCE1AF5B2"
+			tasks: [{
+				id: "09E92355F065A9FD"
+				type: "item"
+				item: "thermal:machine_null_augment"
+			}]
+			rewards: [{
+				id: "7EDAAEFCAD039497"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			dependencies: ["77401EBFC770B334"]
+			id: "11E7A17A850E1212"
+			tasks: [{
+				id: "081F64AE97F70157"
+				type: "item"
+				item: "thermal:dynamo_output_augment"
+			}]
+			rewards: [{
+				id: "3396CEC5CBA9D838"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			dependencies: ["77401EBFC770B334"]
+			id: "6B376C9EB116B845"
+			tasks: [{
+				id: "7245C26D340344B8"
+				type: "item"
+				item: "thermal:dynamo_fuel_augment"
+			}]
+			rewards: [{
+				id: "4239F255BE3E9186"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			dependencies: ["77401EBFC770B334"]
+			id: "00318A63CD59EB9B"
+			tasks: [{
+				id: "12A0E6DCC2343EE0"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [{
+				id: "01BE69EA16CECAFB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["77401EBFC770B334"]
+			id: "35BF001354818457"
+			tasks: [{
+				id: "2683270E71049B62"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [{
+				id: "2F2EF3269D72070D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			dependencies: ["77401EBFC770B334"]
+			id: "107DFDEF67C23DB4"
+			tasks: [{
+				id: "5862F7D0F142C9D9"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [{
+				id: "76D9E50FD5802E77"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			dependencies: ["77401EBFC770B334"]
+			id: "3A5D33A8D8C3BAC9"
+			tasks: [{
+				id: "5F6CB3BD54DE0957"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [{
+				id: "7217AC2B7FBAB8C1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["77401EBFC770B334"]
+			id: "08F9E67C75AC80A1"
+			tasks: [{
+				id: "17FF1CD29B163F5E"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			rewards: [{
+				id: "4A3BBEC9DFE88FF4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			dependencies: ["77401EBFC770B334"]
+			id: "28754819C5699A90"
+			tasks: [{
+				id: "4E307ADFA8944E9B"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+			rewards: [{
+				id: "18F144616A59B2A4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["77401EBFC770B334"]
+			id: "1EC6A751D7814584"
+			tasks: [{
+				id: "6208E8517972F573"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+			rewards: [{
+				id: "05AF6FD5882BC1AF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["77401EBFC770B334"]
+			id: "393278BB26C76A41"
+			tasks: [{
+				id: "1750D3585C474F12"
+				type: "item"
+				item: "thermal:charge_bench"
+			}]
+			rewards: [{
+				id: "30BD3826B5DC646E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["2DE9753A3EB1042E"]
+			id: "01FF269402A8891F"
+			tasks: [{
+				id: "7BD8D537E025BC08"
+				type: "item"
+				item: "kubejs:enderium_upgrade"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 7.5d
+			dependencies: [
+				"77401EBFC770B334"
+				"37772A81F7EA3DAA"
+			]
+			id: "34415B209ADF02A8"
+			tasks: [{
+				id: "40B82B531B72B5ED"
+				type: "item"
+				item: "thermal_extra:soul_infused_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			dependencies: [
+				"77401EBFC770B334"
+				"3F51B5A41061F807"
+			]
+			id: "4BC30C17992E18A2"
+			tasks: [{
+				id: "1C0FE944EE0E0B91"
+				type: "item"
+				item: "thermal_extra:shellite_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			dependencies: [
+				"77401EBFC770B334"
+				"3F51B5A41061F807"
+				"2DE9753A3EB1042E"
+			]
+			id: "4C5ED2864D4FD5EC"
+			tasks: [{
+				id: "6B3FC5CD9DA9ABBB"
+				type: "item"
+				item: "thermal_extra:twinite_ingot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.5d
+			dependencies: [
+				"77401EBFC770B334"
+				"257C1196F8EA5754"
+				"5DF2783B9815C967"
+			]
+			id: "13ED7B4E4FABE32B"
+			tasks: [{
+				id: "18707D3DE4FE4D91"
+				type: "item"
+				item: "thermal_extra:dragonsteel_ingot"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

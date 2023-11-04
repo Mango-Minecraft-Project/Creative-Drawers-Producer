@@ -1,0 +1,50 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "熔融塑料转化器",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 2,
+      "max_y": 3,
+      "max_z": 2
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 26,
+          "item": {
+            "id": "mekanism:dynamic_tank"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "create:fluid_tank"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 8,
+          "item": {
+            "id": "create:framed_glass"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:oil_refine_machine"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/41SsW4UMRAd28tpzx1CFOkihS8g3dY0NCjlJc3KWfvurKztk+3V5fgAKiiQUKQ0SOko+IV8ziX5DOzzLLoDgbKFZ+Z55s3zznCAKVRSRMEBoOLFBwY8KK9Frz8qny6Aw4sQRVQ1VB+EUfDaqCthdTCN3FhhdNdGYa9y3jMJXnVepbCZ+xTJdtGLEJ5RzoGfebdSPmoV6gQuxUrBZK2tdOsaWHQrqKIfUp/JpYvRmRLC2Pfl2LcftDwUXcPUiG6prXr/Do66IaTqxum+9WqewBYv/xJH/iFuMhedtguo1irE3wL+Q5xGwVYuVInzDex9BC09AAgQvKAHCQnHRDoWMCxDS9khNUFLR5fkg2b+XUDRZiiTEYo4RWkMedBSBn8oKpaOTyClFSGIo00nRf0U9VPkp8hPkZ9ymCyVkMqn/yyGuHQepuftTAv39vSU5+EPVgYGldH2vHBkdza64vqiMGU3J7DizkZU24td7zQ3u9v4x0/fnr5/2d59fbi5fbr/uf18s739kUa2twz17g3Hl4PuZZr8QsiFiqGRgzGbdm9nTsoO4Nz9pinxuAht1L2CX6LBISqbAwAA"
+}

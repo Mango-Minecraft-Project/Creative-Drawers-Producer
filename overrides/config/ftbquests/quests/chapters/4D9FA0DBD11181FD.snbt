@@ -1,0 +1,2037 @@
+{
+	id: "4D9FA0DBD11181FD"
+	group: "09648D74820560E0"
+	order_index: 1
+	filename: "4D9FA0DBD11181FD"
+	title: "2.一对大家伙"
+	icon: "create:crushing_wheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["493A531616607F15"]
+			id: "0625E3BF226969E7"
+			tasks: [{
+				id: "2BDF316840B91436"
+				type: "checkmark"
+				title: "利用粉碎轮获得矿物"
+			}]
+			rewards: [{
+				id: "7CF3B776D9BD2710"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["0625E3BF226969E7"]
+			id: "2F3FD2826DAD9705"
+			tasks: [{
+				id: "111B505A3D612BDA"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+			rewards: [{
+				id: "11A66A76B23FB7ED"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["0625E3BF226969E7"]
+			id: "687C2654C5BAC445"
+			tasks: [{
+				id: "30D6CBD7D5AA57B6"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+			rewards: [{
+				id: "198928C856D5C528"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["0625E3BF226969E7"]
+			id: "11CCDD36B868EC1A"
+			tasks: [{
+				id: "61E74B5927A5CD72"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+			rewards: [{
+				id: "1575D095B77F8DE4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["注液器给沙子注水获得黏土块"]
+			dependencies: ["0625E3BF226969E7"]
+			id: "7AB149390FD438D8"
+			tasks: [{
+				id: "4523FC7B11B57B4D"
+				type: "item"
+				item: "minecraft:clay"
+			}]
+			rewards: [{
+				id: "5837A8F2C0825446"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			dependencies: ["2F3FD2826DAD9705"]
+			id: "02AE8CB847F6B283"
+			tasks: [{
+				id: "3806339256EF3227"
+				type: "item"
+				item: "create:crushed_iron_ore"
+			}]
+			rewards: [{
+				id: "6DE9892648BE8833"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			dependencies: ["2F3FD2826DAD9705"]
+			id: "0CEB59035B0D126A"
+			tasks: [{
+				id: "17A9E703288FC95B"
+				type: "item"
+				item: "create:crushed_gold_ore"
+			}]
+			rewards: [{
+				id: "328D939FA30D662A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			dependencies: ["2F3FD2826DAD9705"]
+			id: "52F63F40207AD097"
+			tasks: [{
+				id: "053EFC5C53B34622"
+				type: "item"
+				item: "create:crushed_copper_ore"
+			}]
+			rewards: [{
+				id: "4489062266C5DDA5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			dependencies: ["2F3FD2826DAD9705"]
+			id: "18DBFE92BE717639"
+			tasks: [{
+				id: "26B31F8D3562A78D"
+				type: "item"
+				item: "create:crushed_zinc_ore"
+			}]
+			rewards: [{
+				id: "310E63950D955C16"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 6.5d
+			dependencies: ["2F3FD2826DAD9705"]
+			id: "6EC953E7880676FC"
+			tasks: [{
+				id: "7A3509531E39E227"
+				type: "item"
+				item: "kubejs:diamond_chips"
+			}]
+			rewards: [{
+				id: "6F9D2478E101BD7C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 7.5d
+			dependencies: ["2F3FD2826DAD9705"]
+			id: "593D087FA8BDBEE5"
+			tasks: [{
+				id: "2DA90649A624AD86"
+				type: "item"
+				item: "kubejs:emerald_chips"
+			}]
+			rewards: [
+				{
+					id: "04A334DCDB090600"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6766783049385446679L
+				}
+				{
+					id: "07C378FA73B75ABF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8476566885218942607L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 8.5d
+			dependencies: ["2F3FD2826DAD9705"]
+			id: "2A2C8FB8F99ECE30"
+			tasks: [{
+				id: "210A31EED6430F22"
+				type: "item"
+				item: "kubejs:flint_chips"
+			}]
+			rewards: [{
+				id: "715AA1CB32D7890A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 9.5d
+			dependencies: ["2F3FD2826DAD9705"]
+			id: "7A843E111A4CF952"
+			tasks: [{
+				id: "7ECBCB09B79EDAA3"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+			rewards: [{
+				id: "60EEECD21222DE9C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: [
+				"0625E3BF226969E7"
+				"4476421DD1AF79AB"
+			]
+			id: "380564D6ACCAC646"
+			tasks: [{
+				id: "6CEFC1987FB762D2"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+			rewards: [{
+				id: "07310164C2AD3D72"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: [
+				"0625E3BF226969E7"
+				"4454C81FC200B609"
+			]
+			id: "4C3FBC04E2F59689"
+			tasks: [{
+				id: "2FA83DFA2500C065"
+				type: "item"
+				item: "minecraft:end_stone"
+			}]
+			rewards: [{
+				id: "72D1C0DED8699290"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["11CCDD36B868EC1A"]
+			id: "323FF67AA712CFF9"
+			tasks: [{
+				id: "24CFD68077789976"
+				type: "item"
+				item: "create:crushed_osmium_ore"
+			}]
+			rewards: [{
+				id: "3850EDFF9E12A94A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			dependencies: ["11CCDD36B868EC1A"]
+			id: "4152BC52B4F35466"
+			tasks: [{
+				id: "17B449F2F422CDBF"
+				type: "item"
+				item: "create:crushed_silver_ore"
+			}]
+			rewards: [{
+				id: "29EE7A3DBDEAB083"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			dependencies: ["11CCDD36B868EC1A"]
+			id: "3DF7D3B638B88F04"
+			tasks: [{
+				id: "6FC33A7ADB3F996D"
+				type: "item"
+				item: "create:crushed_tin_ore"
+			}]
+			rewards: [{
+				id: "704C8A0D3259EBE1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			dependencies: ["11CCDD36B868EC1A"]
+			id: "00ED0B7946ABCC43"
+			tasks: [{
+				id: "48AF09DFE841F453"
+				type: "item"
+				item: "create:crushed_lead_ore"
+			}]
+			rewards: [{
+				id: "35AFDB86D6D13687"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			dependencies: ["11CCDD36B868EC1A"]
+			id: "590ACDC3EBBF2791"
+			tasks: [{
+				id: "4EB3B5F70578C384"
+				type: "item"
+				item: "create:crushed_aluminum_ore"
+			}]
+			rewards: [{
+				id: "1FDC12AC78853E62"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.5d
+			dependencies: ["11CCDD36B868EC1A"]
+			id: "60E5D64B4D5DB0AF"
+			tasks: [{
+				id: "091503C3BFFE8780"
+				type: "item"
+				item: "create:crushed_uranium_ore"
+			}]
+			rewards: [{
+				id: "52DA30775EB2BD4E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["11CCDD36B868EC1A"]
+			id: "635A55219583B6E4"
+			tasks: [{
+				id: "2F58A30CC101ADC1"
+				type: "item"
+				item: "create:crushed_nickel_ore"
+			}]
+			rewards: [{
+				id: "7EEEA6D6E13DEB61"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.5d
+			dependencies: ["11CCDD36B868EC1A"]
+			id: "2EDCE13C6B7B87B1"
+			tasks: [
+				{
+					id: "40EE25958DDC799B"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+				{
+					id: "441DD56329DADBF5"
+					type: "item"
+					item: "immersiveengineering:seed"
+				}
+				{
+					id: "1E9C02C744D93461"
+					type: "item"
+					item: "minecraft:bone_meal"
+				}
+				{
+					id: "4911C04FC88C9D38"
+					type: "item"
+					item: "minecraft:sugar_cane"
+				}
+			]
+			rewards: [{
+				id: "7C229A9AC78F05BD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["687C2654C5BAC445"]
+			id: "756A2C48AFD401EA"
+			tasks: [{
+				id: "314C1086E15E65E0"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+			rewards: [{
+				id: "6A212D2007088850"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["687C2654C5BAC445"]
+			id: "13DE67031E7E8C4E"
+			tasks: [{
+				id: "60FA0845136944C0"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+			rewards: [{
+				id: "6421B5C9EC68C22E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			dependencies: ["687C2654C5BAC445"]
+			id: "617C4BCF9B67F591"
+			tasks: [{
+				id: "64A356E6F0B4BC9B"
+				type: "item"
+				item: "minecraft:experience_bottle"
+			}]
+			rewards: [{
+				id: "61BFD20FFD2B7B57"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			dependencies: ["687C2654C5BAC445"]
+			id: "597994557998728D"
+			tasks: [{
+				id: "3B539BA468275343"
+				type: "item"
+				item: "minecraft:gunpowder"
+			}]
+			rewards: [{
+				id: "0BE4AC1409D78FE3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			dependencies: ["687C2654C5BAC445"]
+			id: "731E6954A14B1D74"
+			tasks: [{
+				id: "6A4637AB1AB27D67"
+				type: "item"
+				item: "minecraft:blaze_powder"
+			}]
+			rewards: [{
+				id: "08C477FE2E9CDE8B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.5d
+			dependencies: ["687C2654C5BAC445"]
+			id: "605C67996346592E"
+			tasks: [{
+				id: "4E406932E7084541"
+				type: "item"
+				item: "minecraft:cactus"
+			}]
+			rewards: [{
+				id: "61941E4E34EA9708"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.5d
+			dependencies: ["687C2654C5BAC445"]
+			id: "61D04FD7F4110638"
+			tasks: [{
+				id: "23B9AD0DD93A7F03"
+				type: "item"
+				item: "kubejs:nether_quartz_shard"
+			}]
+			rewards: [{
+				id: "267226727FC9C3F3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 9.5d
+			dependencies: ["687C2654C5BAC445"]
+			id: "785E937A3ACC530E"
+			tasks: [{
+				id: "5E18497CC9AD0681"
+				type: "item"
+				item: "kubejs:obsidian_chips"
+			}]
+			rewards: [{
+				id: "1EDB646F545A2484"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["7AB149390FD438D8"]
+			id: "239F44E85873CB79"
+			tasks: [{
+				id: "6AAB7716F2F17268"
+				type: "item"
+				item: "minecraft:slime_ball"
+			}]
+			rewards: [{
+				id: "679F522D0CCEF6C9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["7AB149390FD438D8"]
+			id: "484A6F01F01F15F2"
+			tasks: [{
+				id: "3DD8F0F7E86DC794"
+				type: "item"
+				item: "minecraft:kelp"
+			}]
+			rewards: [{
+				id: "7558FD02D3E602A8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["7AB149390FD438D8"]
+			id: "15D4792BB7214237"
+			tasks: [{
+				id: "5D0FB3D11F47D3C2"
+				type: "item"
+				item: "minecraft:prismarine_shard"
+			}]
+			rewards: [{
+				id: "36706AFC92F83B00"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			dependencies: ["7AB149390FD438D8"]
+			id: "07EC8F6ACDD4FDEB"
+			tasks: [{
+				id: "51AAFCEB8BFA7BDA"
+				type: "item"
+				item: "minecraft:prismarine_crystals"
+			}]
+			rewards: [{
+				id: "6FD189A67A1E152A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["0293B3E073BD542F"]
+			id: "257C1196F8EA5754"
+			tasks: [{
+				id: "21F2918FEFC7F989"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+			rewards: [
+				{
+					id: "117538FF9A6FD359"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6766783049385446679L
+				}
+				{
+					id: "301E477761FAE2DB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8476566885218942607L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["0293B3E073BD542F"]
+			id: "05744BF0B4909AC2"
+			tasks: [{
+				id: "35CD98A8C399DE0C"
+				type: "item"
+				item: "minecraft:gold_nugget"
+			}]
+			rewards: [{
+				id: "764BB6063277068C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["2F68C4A0FE7E6C5D"]
+			id: "6076DF1E914059AA"
+			tasks: [{
+				id: "7669155805A211B1"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+			rewards: [{
+				id: "7DF0C7090D883415"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.5d
+			dependencies: ["2F68C4A0FE7E6C5D"]
+			id: "4EE07A55B5A7F26F"
+			tasks: [{
+				id: "70F4045781B3D3CA"
+				type: "item"
+				item: "kubejs:nether_star_fragment"
+			}]
+			rewards: [
+				{
+					id: "0EE4D3872854C594"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6766783049385446679L
+				}
+				{
+					id: "35D4366C16B2794B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8476566885218942607L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["380564D6ACCAC646"]
+			id: "0293B3E073BD542F"
+			tasks: [{
+				id: "3FC23C2DD98C5EC7"
+				type: "item"
+				item: "kubejs:netherrack_crushed"
+			}]
+			rewards: [{
+				id: "669BAAE86EB19393"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2110947647706499907L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["4C3FBC04E2F59689"]
+			id: "2F68C4A0FE7E6C5D"
+			tasks: [{
+				id: "34FD4A00E1B0BE36"
+				type: "item"
+				item: "kubejs:endstone_crushed"
+			}]
+			rewards: [{
+				id: "39F0965CA13C2BBF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2110947647706499907L
+			}]
+		}
+		{
+			title: "一些无限矿物"
+			x: -3.5d
+			y: -0.5d
+			shape: "rsquare"
+			subtitle: "但是是粉碎矿物，并不是烧制好的"
+			description: ["无限的铁！金！铜！锌！"]
+			dependencies: [
+				"02AE8CB847F6B283"
+				"0CEB59035B0D126A"
+				"52F63F40207AD097"
+				"18DBFE92BE717639"
+			]
+			id: "390F2C90C21714C1"
+			tasks: [
+				{
+					id: "194C4B57FCF69B7E"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "628528AC636E87C1"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "433004F35697EC40"
+					type: "item"
+					item: "minecraft:copper_block"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "2AF2E02BDEEFBBF6"
+					type: "item"
+					item: "create:zinc_block"
+					count: 640L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0D230B5F967B455C"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_4"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_4"
+								Drawers: [
+									{
+										Item: {
+											id: "create:crushed_iron_ore"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "create:crushed_gold_ore"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "create:crushed_copper_ore"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "create:crushed_zinc_ore"
+											Count: 1b
+										}
+										Count: 1
+									}
+								]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "20DC068AF2BAD8C7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+		{
+			title: "又一些无限矿物"
+			x: -3.5d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "依旧只是一些碎片的无限"
+			description: ["非要多加一步合成！（bushi"]
+			dependencies: [
+				"390F2C90C21714C1"
+				"6EC953E7880676FC"
+				"593D087FA8BDBEE5"
+				"2A2C8FB8F99ECE30"
+				"7A843E111A4CF952"
+			]
+			id: "6049D6F2324AB5A0"
+			tasks: [
+				{
+					id: "072482BED8038489"
+					type: "item"
+					item: "minecraft:diamond_block"
+					count: 320L
+					consume_items: true
+				}
+				{
+					id: "6388DE4150BCF5C0"
+					type: "item"
+					item: "minecraft:emerald_block"
+					count: 320L
+					consume_items: true
+				}
+				{
+					id: "34D1D5B18DA9EA19"
+					type: "item"
+					item: "supplementaries:flint_block"
+					count: 320L
+					consume_items: true
+				}
+				{
+					id: "3242CA5B2A9E363A"
+					type: "item"
+					item: "minecraft:coal_block"
+					count: 320L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1944EF2F9755357C"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_4"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_4"
+								Drawers: [
+									{
+										Item: {
+											id: "kubejs:diamond_chips"
+											Count: 1b
+										}
+										Count: 0
+									}
+									{
+										Item: {
+											id: "kubejs:emerald_chips"
+											Count: 1b
+										}
+										Count: 0
+									}
+									{
+										Item: {
+											id: "minecraft:coal"
+											Count: 1b
+										}
+										Count: 0
+									}
+									{
+										Item: {
+											id: "kubejs:flint_chips"
+											Count: 1b
+										}
+										Count: 0
+									}
+								]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "2EF4D2D5DF35DE0C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+		{
+			title: "又又一些无限矿物"
+			x: -2.0d
+			y: -0.5d
+			shape: "rsquare"
+			subtitle: "他还是粉碎的！"
+			dependencies: [
+				"3DF7D3B638B88F04"
+				"635A55219583B6E4"
+				"323FF67AA712CFF9"
+				"4152BC52B4F35466"
+			]
+			id: "788439265046E612"
+			tasks: [
+				{
+					id: "5BE96E249A28F98D"
+					type: "item"
+					item: "thermal:nickel_block"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "2145A2D0C6795969"
+					type: "item"
+					item: "mekanism:block_osmium"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "4678DF7A1D2D5856"
+					type: "item"
+					item: "thermal:silver_block"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "6585DF4C2F01AD19"
+					type: "item"
+					item: "thermal:tin_block"
+					count: 640L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "164635B3623A2DE1"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_4"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_4"
+								Drawers: [
+									{
+										Item: {
+											id: "create:crushed_osmium_ore"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "create:crushed_silver_ore"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "create:crushed_tin_ore"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "create:crushed_nickel_ore"
+											Count: 1b
+										}
+										Count: 1
+									}
+								]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "2159B38974006AD3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+		{
+			title: "叒一些无限矿物"
+			x: -2.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "没错，还是粉碎的"
+			dependencies: [
+				"60E5D64B4D5DB0AF"
+				"00ED0B7946ABCC43"
+				"590ACDC3EBBF2791"
+				"7BC5A57D16661EA9"
+				"788439265046E612"
+			]
+			id: "78C00E19FD8977A2"
+			tasks: [
+				{
+					id: "0AAC5507B42DCFE9"
+					type: "item"
+					item: "thermal:lead_block"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "479906EA54C81F51"
+					type: "item"
+					item: "immersiveengineering:storage_aluminum"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "62F580BA935D09A1"
+					type: "item"
+					item: "bigreactors:yellorium_block"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "60E9EE3F38F33C01"
+					type: "item"
+					item: "powah:uraninite_block"
+					count: 640L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "719913883CBC6E84"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_4"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_4"
+								Drawers: [
+									{
+										Item: {
+											id: "create:crushed_uranium_ore"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "create:crushed_aluminum_ore"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "powah:uraninite_raw"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "create:crushed_lead_ore"
+											Count: 1b
+										}
+										Count: 1
+									}
+								]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "3369F3F50CD72A37"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 9.5d
+			dependencies: ["11CCDD36B868EC1A"]
+			id: "7BC5A57D16661EA9"
+			tasks: [{
+				id: "697B0A771A3287FC"
+				type: "item"
+				item: "powah:uraninite_raw"
+			}]
+			rewards: [{
+				id: "49B3EF8F9ECEAC8B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			title: "这次是一些无限植物"
+			x: -2.0d
+			y: -2.5d
+			shape: "rsquare"
+			subtitle: "不同的是，他们不是种子！"
+			dependencies: ["2EDCE13C6B7B87B1"]
+			id: "5671894463C32DE8"
+			tasks: [
+				{
+					id: "6627DE3C3E7B89FB"
+					type: "item"
+					item: "thermal:sugar_cane_block"
+					count: 320L
+					consume_items: true
+				}
+				{
+					id: "46B0993354893084"
+					type: "item"
+					item: "minecraft:bone_block"
+					count: 320L
+					consume_items: true
+				}
+				{
+					id: "6FB63151246CC18C"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "6BECBEC1B8C6671B"
+					type: "item"
+					item: "minecraft:string"
+					count: 320L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "3DCDAA89F11968FE"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_4"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_4"
+								Drawers: [
+									{
+										Item: {
+											id: "immersiveengineering:hemp_fiber"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "minecraft:wheat"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "minecraft:sugar_cane"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "minecraft:bone_meal"
+											Count: 1b
+										}
+										Count: 1
+									}
+								]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "56F247E67663F941"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+		{
+			title: "叕一些无限矿物"
+			x: -0.5d
+			y: -0.5d
+			shape: "rsquare"
+			subtitle: "叕是一些粉碎矿物"
+			dependencies: [
+				"756A2C48AFD401EA"
+				"13DE67031E7E8C4E"
+				"61D04FD7F4110638"
+				"785E937A3ACC530E"
+			]
+			id: "69AC9FA518081AE8"
+			tasks: [
+				{
+					id: "63E9D778B930B1A3"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "56E6224CAD649C64"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "28A8B6C525E7BF12"
+					type: "item"
+					item: "minecraft:quartz_block"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "60AF5AA82E89182E"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 320L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5EEEB6D982ED0BE1"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_4"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_4"
+								Drawers: [
+									{
+										Item: {
+											id: "minecraft:redstone"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "minecraft:lapis_lazuli"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "kubejs:nether_quartz_shard"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "kubejs:obsidian_chips"
+											Count: 1b
+										}
+										Count: 1
+									}
+								]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "4E3FE5B74594431F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+		{
+			title: "一些奇怪的东西"
+			x: -0.5d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "你猜是无限的啥呢？"
+			dependencies: [
+				"597994557998728D"
+				"731E6954A14B1D74"
+				"605C67996346592E"
+				"617C4BCF9B67F591"
+				"69AC9FA518081AE8"
+			]
+			id: "5B95F52C1DCB9ADD"
+			tasks: [
+				{
+					id: "0E0F4B4553C452DA"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "205D3BFBC4A4ADF5"
+					type: "item"
+					item: "minecraft:blaze_powder"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "1ED9524E040E78F2"
+					type: "item"
+					item: "minecraft:cactus"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "4F5CCF6C66E15301"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 640L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "22EB8478CE3493FC"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_4"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_4"
+								Drawers: [
+									{
+										Item: {
+											id: "minecraft:gunpowder"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "minecraft:blaze_rod"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "minecraft:experience_bottle"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "minecraft:cactus"
+											Count: 1b
+										}
+										Count: 1
+									}
+								]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "0C6899A5EABED2B7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+		{
+			title: "无限黏液球！无限海带！无限海晶砂砾！无限海晶碎片！"
+			x: 1.5d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: [
+				"239F44E85873CB79"
+				"484A6F01F01F15F2"
+				"07EC8F6ACDD4FDEB"
+				"15D4792BB7214237"
+			]
+			id: "6BF976E61DE4A2AF"
+			tasks: [
+				{
+					id: "034576CBC4875BDB"
+					type: "item"
+					item: "minecraft:slime_block"
+					count: 320L
+					consume_items: true
+				}
+				{
+					id: "089E1DD6D7B4CBF2"
+					type: "item"
+					item: "minecraft:dried_kelp_block"
+					count: 320L
+					consume_items: true
+				}
+				{
+					id: "42A3B3D9C4F9CECD"
+					type: "item"
+					item: "minecraft:sea_lantern"
+					count: 320L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "702DF7D58F312FFA"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_4"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_4"
+								Drawers: [
+									{
+										Item: {
+											id: "minecraft:prismarine_crystals"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "minecraft:prismarine_shard"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "minecraft:slime_ball"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "minecraft:kelp"
+											Count: 1b
+										}
+										Count: 1
+									}
+								]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "1A474BAFFCD57F38"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+		{
+			title: "无限下界合金和金锭"
+			x: 3.0d
+			y: -0.5d
+			shape: "rsquare"
+			subtitle: "这回是锭！"
+			description: ["你可能需要整整一背包的金块"]
+			dependencies: [
+				"257C1196F8EA5754"
+				"05744BF0B4909AC2"
+			]
+			id: "520B04B8DA7A9EDE"
+			tasks: [
+				{
+					id: "7A8C5391C443A53D"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 160L
+					consume_items: true
+				}
+				{
+					id: "2279236EF8137FD9"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 2304L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5CAB0BADD418D6CE"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_2"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_2"
+								Drawers: [
+									{
+										Item: {
+											id: "minecraft:gold_ingot"
+											Count: 1b
+										}
+										Count: 1
+									}
+									{
+										Item: {
+											id: "minecraft:netherite_ingot"
+											Count: 1b
+										}
+										Count: 1
+									}
+								]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "49506B69E7FB7BEF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+		{
+			title: "无限之眼"
+			x: 4.5d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["6076DF1E914059AA"]
+			id: "65776B1412014E96"
+			tasks: [
+				{
+					id: "04C9DF9C7C37D97E"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 640L
+					consume_items: true
+				}
+				{
+					id: "1DF894E84A115D6B"
+					type: "item"
+					item: "minecraft:chorus_fruit"
+					count: 640L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5D0AE3D4C93B2583"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_1"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_1"
+								Drawers: [{
+									Item: {
+										id: "minecraft:ender_pearl"
+										Count: 1b
+									}
+									Count: 1
+								}]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "3DB0F07E8330F1CB"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_1"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_1"
+								Drawers: [{
+									Item: {
+										id: "minecraft:chorus_fruit"
+										Count: 1b
+									}
+									Count: 1
+								}]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "3D15D13F19549AD9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+		{
+			title: "无限之星"
+			x: 4.5d
+			y: -1.5d
+			shape: "rsquare"
+			dependencies: [
+				"4EE07A55B5A7F26F"
+				"65776B1412014E96"
+			]
+			id: "14904517F92251E2"
+			tasks: [{
+				id: "1BD4988AF3B8450D"
+				type: "item"
+				item: "extendedcrafting:nether_star_block"
+				count: 160L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4737203436321B46"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_1"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_1"
+								Drawers: [{
+									Item: {
+										id: "kubejs:nether_star_fragment"
+										Count: 1b
+									}
+									Count: 1
+								}]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "274A0819A7393D00"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+		{
+			icon: "create:creative_motor"
+			x: 0.5d
+			y: -4.0d
+			shape: "heart"
+			dependencies: [
+				"390F2C90C21714C1"
+				"6049D6F2324AB5A0"
+				"788439265046E612"
+				"78C00E19FD8977A2"
+				"69AC9FA518081AE8"
+				"520B04B8DA7A9EDE"
+				"14904517F92251E2"
+				"65776B1412014E96"
+				"6BF976E61DE4A2AF"
+				"5671894463C32DE8"
+				"5B95F52C1DCB9ADD"
+			]
+			optional: true
+			id: "1828585ADCC4F6CA"
+			tasks: [{
+				id: "4EDC68C6B287EB23"
+				type: "checkmark"
+				title: "无限应力！"
+			}]
+			rewards: [
+				{
+					id: "2C7BED005B89A951"
+					type: "item"
+					item: "create:creative_motor"
+				}
+				{
+					id: "6E49B98F8EB49920"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			dependencies: ["07EC8F6ACDD4FDEB"]
+			id: "45DC64038B5CEE53"
+			tasks: [{
+				id: "7FF1B05A1AF58CA4"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["45DC64038B5CEE53"]
+			id: "7BF4AD4DA3C232D5"
+			tasks: [{
+				id: "12ADA56FA04F44B6"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+			rewards: [{
+				id: "34B575B80FFF29B6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.5d
+			description: ["无限荧石"]
+			dependencies: ["7BF4AD4DA3C232D5"]
+			id: "1BCF72D14273B40B"
+			tasks: [{
+				id: "06475A1696E9C4F6"
+				type: "item"
+				item: "minecraft:glowstone"
+				count: 128L
+			}]
+			rewards: [{
+				id: "6AA5629455D4285D"
+				type: "item"
+				item: {
+					id: "storagedrawers:oak_full_drawers_1"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Upgrades: [{
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+								Count: 1b
+							}]
+							id: "storagedrawers:standard_drawers_1"
+							Drawers: [{
+								Item: {
+									id: "minecraft:glowstone"
+									Count: 1b
+								}
+								Count: 1
+							}]
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 11.5d
+			dependencies: ["11CCDD36B868EC1A"]
+			id: "4DF88F75284471BA"
+			tasks: [{
+				id: "7D6CD5DF405558FB"
+				type: "item"
+				item: "kubejs:nether_dye"
+			}]
+			rewards: [
+				{
+					id: "1FB3B8CC1C9600AB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6766783049385446679L
+				}
+				{
+					id: "6E7D792C76DD751D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8476566885218942607L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 10.5d
+			dependencies: ["687C2654C5BAC445"]
+			id: "088FCD5C64E713E2"
+			tasks: [{
+				id: "582B2E439EF05EE8"
+				type: "item"
+				item: "kubejs:end_dye"
+			}]
+			rewards: [
+				{
+					id: "1AE0BD38DF0431C9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6766783049385446679L
+				}
+				{
+					id: "61E6D314A94FA803"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8476566885218942607L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["4C3FBC04E2F59689"]
+			id: "2DF57FFF69DFCCC0"
+			tasks: [{
+				id: "4FB7489A54DE2265"
+				type: "item"
+				item: "minecraft:chorus_fruit"
+			}]
+			rewards: [{
+				id: "46D09982164AEDD1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			dependencies: ["0293B3E073BD542F"]
+			id: "41343D1D449F20E5"
+			tasks: [{
+				id: "5CC0957B0A69AD32"
+				type: "item"
+				item: "minecraft:ghast_tear"
+			}]
+			rewards: [{
+				id: "5E71ED4C1C40E66E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.0d
+			dependencies: [
+				"02AE8CB847F6B283"
+				"18DBFE92BE717639"
+			]
+			id: "662CD51E64F0A0B9"
+			tasks: [{
+				id: "24D0A48744C98B39"
+				type: "item"
+				item: "kubejs:iron_upgrade"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			dependencies: ["0293B3E073BD542F"]
+			id: "0C409E2809743DD0"
+			tasks: [{
+				id: "4BD26F3106BC9A94"
+				type: "item"
+				item: "minecraft:crimson_fungus"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 11.5d
+			dependencies: ["687C2654C5BAC445"]
+			id: "3F51B5A41061F807"
+			tasks: [{
+				id: "104775CDB9493D57"
+				type: "item"
+				item: "minecraft:amethyst_shard"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

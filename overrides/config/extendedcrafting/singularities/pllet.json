@@ -1,0 +1,12 @@
+{
+    "name": "反物质",
+    "colors": [
+      "7A20A2",
+      "9F6AB6"
+    ],
+    "ingredient": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "inUltimateSingularity": false,
+    "materialCount": 50
+  }

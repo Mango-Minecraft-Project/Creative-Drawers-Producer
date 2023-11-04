@@ -1,0 +1,50 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "圆石粉碎锤",
+    "author": "Y_Xiao233",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 0,
+      "max_y": 2,
+      "max_z": 1
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "custom:cobblestone_machine"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "create:deployer"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "create:depot"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "extrautilitiesrebirth:quadruple_compressed_cobblestone"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/4VRy0rDQBS9bdKSBkHXrgT/wIKLrN24EZdtN8Mkc5sMTGbiPLD1AwQ3rlwKgvgF+k1S/AtnmqYtCHY2cy73cc49NwUYQcyopSkAxGmLIYLUoOZU8AfUPgEpDIylFhOIb2iNcFRo9GHGsFE2pA/0pZDeatWgthxNAsM5LbgsfZe6lwmc0AU3hAolSzLn2lgYzKkwCB3d8Y5OqGUYvWFMYFTTouISr6/gtHDGqjorVJ4L9FAi2WT/KOsdUDYwytlqK+C/0Ye376Zc4sJq6iwXPLBpzLm2VXbnKNOuEUgKVTcajUFG9pjCjaJGmTicCLavB9APf38TRAH6vYYVUoba7+KpKqVhNCUTTtXFeOyTuXKSmQjimstp6GzhpIN0MQvjWhgK+i2c7Gpna3q/lFzf5vv1cfX2tfp8Wr0//7x8eLF7NiRrgWe544J5X0vKSrQmY66ul2TPrfPW4I2nepm1cWcy8Z4h/AJbnaVOrgIAAA\u003d\u003d"
+}
