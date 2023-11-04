@@ -1,7 +1,7 @@
 /*
 * This JavaScript file can be used to initialize your own solar panels.
 * First off, all methods have return types (they are specified after the "=>")
-* How-to: (or watch the tutorial https://youtu.be/WVr6-3E7lA8 ;3)
+* How-to: (or watch the tutorial https:// youtu.be/WVr6-3E7lA8 ;3)
 * 1. To create a new panel, you need to make a builder, call panel()=>SolarPanelBuilder to begin the builder chain.
 * 2. Chain elements:
 *    - .name("yourname")=>SolarPanelBuilder // mandatory

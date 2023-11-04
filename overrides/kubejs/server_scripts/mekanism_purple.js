@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  //purple
+  // purple
   event.remove({ id: "mekanism:pigment_extracting/stained_glass_pane/purple" });
   event.remove({ id: "mekanism:pigment_extracting/terracotta/purple" });
   event.remove({ id: "mekanism:pigment_extracting/wool/purple" });

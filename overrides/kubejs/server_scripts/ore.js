@@ -1,6 +1,8 @@
 onEvent("recipes", (event) => {
-  //gravel
-  event.recipes.createCrushing(
+  const { create } = event.recipes;
+
+  // gravel
+  create.crushing(
     [
       Item.of("create:crushed_iron_ore").withChance(0.15),
       Item.of("create:crushed_gold_ore").withChance(0.08),
@@ -15,8 +17,8 @@ onEvent("recipes", (event) => {
   );
   event.remove({ id: "create:crushing/gravel" });
 
-  //dirt
-  event.recipes.createCrushing(
+  // dirt
+  create.crushing(
     [
       Item.of("create:crushed_nickel_ore").withChance(0.08),
       Item.of("create:crushed_osmium_ore").withChance(0.08),
@@ -35,8 +37,8 @@ onEvent("recipes", (event) => {
     "minecraft:dirt"
   );
 
-  //sand
-  event.recipes.createCrushing(
+  // sand
+  create.crushing(
     [
       Item.of("minecraft:redstone").withChance(0.15),
       Item.of("minecraft:lapis_lazuli").withChance(0.15),
@@ -54,8 +56,8 @@ onEvent("recipes", (event) => {
     "minecraft:sand"
   );
 
-  //clay
-  event.recipes.createCrushing(
+  // clay
+  create.crushing(
     [
       Item.of("minecraft:slime_ball").withChance(0.1),
       Item.of("minecraft:kelp").withChance(0.1),
@@ -66,8 +68,8 @@ onEvent("recipes", (event) => {
   );
   event.remove({ id: "create:milling/clay" });
 
-  //netherrack
-  event.recipes.createCrushing(
+  // netherrack
+  create.crushing(
     [
       Item.of("minecraft:netherite_scrap").withChance(0.06),
       Item.of("minecraft:gold_nugget").withChance(0.08),
@@ -77,8 +79,8 @@ onEvent("recipes", (event) => {
     "kubejs:netherrack_crushed"
   );
 
-  //end_stone
-  event.recipes.createCrushing(
+  // end_stone
+  create.crushing(
     [
       Item.of("minecraft:ender_pearl").withChance(0.08),
       Item.of("kubejs:nether_star_fragment").withChance(0.01),
@@ -87,8 +89,8 @@ onEvent("recipes", (event) => {
     "kubejs:endstone_crushed"
   );
 
-  //otherworld
-  event.recipes.createCrushing(
+  // otherworld
+  create.crushing(
     [
       Item.of("occultism:raw_iesnium").withChance(0.08),
       Item.of("occultism:afrit_essence").withChance(0.08),

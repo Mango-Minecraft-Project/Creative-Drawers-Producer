@@ -1,4 +1,6 @@
 onEvent("recipes", (event) => {
+  const { kubejs } = event.recipes;
+
   event.custom({
     type: "integrateddynamics:mechanical_drying_basin",
     item: "integratedterminals:menril_glass",
@@ -6,10 +8,8 @@ onEvent("recipes", (event) => {
       fluid: "integrateddynamics:liquid_chorus",
       amount: 1000,
     },
+    result: { item: "integratedterminals:chorus_glass" },
     duration: 10,
-    result: {
-      item: "integratedterminals:chorus_glass",
-    },
   });
 
   event.custom({
@@ -19,15 +19,13 @@ onEvent("recipes", (event) => {
       fluid: "integrateddynamics:liquid_chorus",
       amount: 1000,
     },
+    result: { item: "integratedterminals:chorus_glass" },
     duration: 10,
-    result: {
-      item: "integratedterminals:chorus_glass",
-    },
   });
 
   event.remove({ output: "integratedterminals:chorus_glass" });
 
-  event.shaped(
+  kubejs.shaped(
     "integratedterminals:part_terminal_storage",
     ["SWS", "ANB", "S S"],
     {
@@ -39,7 +37,7 @@ onEvent("recipes", (event) => {
     }
   );
 
-  event.shaped(
+  kubejs.shaped(
     "integratedterminals:part_terminal_crafting_job",
     ["SWS", " N ", "SAS"],
     {

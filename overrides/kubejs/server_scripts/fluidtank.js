@@ -1,17 +1,19 @@
 onEvent("recipes", (event) => {
-  event.shaped("extrautilitiesrebirth:iron_drum", ["SWS", "SNS", "SWS"], {
+  const { kubejs } = event.recipes;
+
+  kubejs.shaped("extrautilitiesrebirth:iron_drum", ["SWS", "SNS", "SWS"], {
     S: "kubejs:mix_ingot",
     W: "minecraft:heavy_weighted_pressure_plate",
     N: "minecraft:cauldron",
   });
 
-  event.shaped("extrautilitiesrebirth:reinforced_drum", ["SWS", "SNS", "SWS"], {
+  kubejs.shaped("extrautilitiesrebirth:reinforced_drum", ["SWS", "SNS", "SWS"], {
     S: "minecraft:diamond",
     W: "refinedstorage:machine_casing",
     N: "extrautilitiesrebirth:iron_drum",
   });
 
-  event.shaped(
+  kubejs.shaped(
     "3x extrautilitiesrebirth:bedrockium_ingot",
     ["SSS", "SWS", "SSS"],
     {

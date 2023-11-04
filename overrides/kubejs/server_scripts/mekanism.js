@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  //remove
+  // remove
   event.remove({ output: "mekanism:alloy_infused" });
   event.remove({ output: "mekanism:alloy_reinforced" });
   event.remove({ output: "mekanism:alloy_atomic" });
@@ -9,7 +9,7 @@ onEvent("recipes", (event) => {
   event.remove({ output: "mekanism:elite_control_circuit" });
   event.remove({ output: "mekanism:ultimate_control_circuit" });
 
-  //ex crafting table add
+  // ex crafting table add
 
   event.custom({
     type: "extendedcrafting:shaped_table",
@@ -95,9 +95,9 @@ onEvent("recipes", (event) => {
     },
   });
 
-  //mekanism:pigment_extracting add
+  // mekanism:pigment_extracting add
 
-  //purple
+  // purple
   event.custom({
     type: "mekanism:pigment_extracting",
     input: { ingredient: { item: "mekanism:dust_refined_obsidian" } },
@@ -110,7 +110,7 @@ onEvent("recipes", (event) => {
     output: { pigment: "mekanism:purple", amount: 800 },
   });
 
-  //blue
+  // blue
   event.custom({
     type: "mekanism:pigment_extracting",
     input: { ingredient: { item: "thermal:diamond_dust" } },
@@ -123,7 +123,7 @@ onEvent("recipes", (event) => {
     output: { pigment: "mekanism:blue", amount: 800 },
   });
 
-  //red
+  // red
   event.custom({
     type: "mekanism:pigment_extracting",
     input: { ingredient: { item: "minecraft:redstone" } },
@@ -136,7 +136,7 @@ onEvent("recipes", (event) => {
     output: { pigment: "mekanism:red", amount: 800 },
   });
 
-  //green
+  // green
   event.custom({
     type: "mekanism:pigment_extracting",
     input: { ingredient: { item: "immersiveengineering:ingot_uranium" } },
@@ -149,7 +149,7 @@ onEvent("recipes", (event) => {
     output: { pigment: "mekanism:green", amount: 800 },
   });
 
-  //mekanism:metallurgic_infusing  add
+  // mekanism:metallurgic_infusing  add
   event.custom({
     type: "mekanism:metallurgic_infusing",
     itemInput: { ingredient: { tag: "forge:ingots/iron" } },
@@ -164,8 +164,8 @@ onEvent("recipes", (event) => {
     output: { item: "kubejs:uncolored_control_circuit" },
   });
 
-  //mekanism:painting  add
-  //alloy
+  // mekanism:painting  add
+  // alloy
   event.custom({
     type: "mekanism:painting",
     itemInput: {
@@ -205,7 +205,7 @@ onEvent("recipes", (event) => {
     output: { item: "mekanism:alloy_atomic" },
   });
 
-  //circuit
+  // circuit
   event.custom({
     type: "mekanism:painting",
     itemInput: {
@@ -258,7 +258,7 @@ onEvent("recipes", (event) => {
     output: { item: "mekanism:ultimate_control_circuit" },
   });
 
-  //mekanism:enriching add
+  // mekanism:enriching add
   event.custom({
     type: "mekanism:enriching",
     input: { ingredient: { item: "immersiveengineering:ingot_uranium" } },
@@ -271,7 +271,7 @@ onEvent("recipes", (event) => {
     output: { item: "mekanism:yellow_cake_uranium", amount: 4 },
   });
 
-  //mekanism:reaction  add
+  // mekanism:reaction  add
   event.custom({
     type: "mekanism:reaction",
     itemInput: { amount: 1, ingredient: { item: "mekanism:sps_port" } },

@@ -1,6 +1,7 @@
 onEvent("recipes", (event) => {
-  //cobblestone_machine
-  event.recipes.custommachinery
+  const { custommachinery } = event.recipes;
+  // cobblestone_machine
+  custommachinery
     .custom_machine("custom:cobblestone_machine", 20)
     .requireItem(Item.of("minecraft:cobblestone", 1))
     .produceItem(Item.of("minecraft:gravel", 1))
@@ -17,7 +18,7 @@ onEvent("recipes", (event) => {
       }
     );
 
-  event.recipes.custommachinery
+  custommachinery
     .custom_machine("custom:cobblestone_machine", 20)
     .requireItem(Item.of("extrautilitiesrebirth:compressed_cobblestone", 1))
     .produceItem(Item.of("extrautilitiesrebirth:compressed_gravel", 1))
@@ -34,8 +35,8 @@ onEvent("recipes", (event) => {
       }
     );
 
-  //gravel_machie
-  event.recipes.custommachinery
+  // gravel_machie
+  custommachinery
     .custom_machine("custom:gravel_machine", 20)
     .requireItem(Item.of("extrautilitiesrebirth:compressed_gravel", 1))
     .produceItem(Item.of("extrautilitiesrebirth:compressed_dirt", 1))
@@ -52,7 +53,7 @@ onEvent("recipes", (event) => {
       }
     );
 
-  event.recipes.custommachinery
+  custommachinery
     .custom_machine("custom:gravel_machine", 20)
     .requireItem(Item.of("minecraft:gravel", 1))
     .produceItem(Item.of("minecraft:dirt", 1))
@@ -69,7 +70,7 @@ onEvent("recipes", (event) => {
       }
     );
 
-  event.recipes.custommachinery
+  custommachinery
     .custom_machine("custom:gravel_machine", 20)
     .requireItem(Item.of("extrautilitiesrebirth:double_compressed_gravel", 1))
     .produceItem(Item.of("extrautilitiesrebirth:double_compressed_dirt", 1))
@@ -86,8 +87,8 @@ onEvent("recipes", (event) => {
       }
     );
 
-  //dirt_machine
-  event.recipes.custommachinery
+  // dirt_machine
+  custommachinery
     .custom_machine("custom:dirt_machine", 20)
     .requireItem(Item.of("minecraft:dirt", 1))
     .produceItem(Item.of("minecraft:sand", 1))
@@ -104,7 +105,7 @@ onEvent("recipes", (event) => {
       }
     );
 
-  event.recipes.custommachinery
+  custommachinery
     .custom_machine("custom:dirt_machine", 20)
     .requireItem(Item.of("extrautilitiesrebirth:compressed_dirt", 1))
     .produceItem(Item.of("extrautilitiesrebirth:compressed_sand", 1))
@@ -121,7 +122,7 @@ onEvent("recipes", (event) => {
       }
     );
 
-  event.recipes.custommachinery
+  custommachinery
     .custom_machine("custom:dirt_machine", 20)
     .requireItem(Item.of("extrautilitiesrebirth:double_compressed_dirt", 1))
     .produceItem(Item.of("extrautilitiesrebirth:double_compressed_sand", 1))
@@ -138,8 +139,8 @@ onEvent("recipes", (event) => {
       }
     );
 
-  //sand_machine
-  event.recipes.custommachinery
+  // sand_machine
+  custommachinery
     .custom_machine("custom:sand_machine", 20)
     .requireItem(Item.of("minecraft:sand", 1))
     .produceItem(Item.of("minecraft:clay", 1))
@@ -152,8 +153,8 @@ onEvent("recipes", (event) => {
       { a: "create:depot", b: "create:spout", c: "cookingforblockheads:sink" }
     );
 
-  //netherrack_machine
-  event.recipes.custommachinery
+  // netherrack_machine
+  custommachinery
     .custom_machine("custom:netherrack_machine", 80)
     .requireItem(Item.of("minecraft:cobblestone", 1))
     .requireItem(Item.of("kubejs:nether_dye", 1))
@@ -168,8 +169,8 @@ onEvent("recipes", (event) => {
       { a: "minecraft:netherrack", b: "minecraft:redstone_block" }
     );
 
-  //endstone_machine
-  event.recipes.custommachinery
+  // endstone_machine
+  custommachinery
     .custom_machine("custom:endstone_machine", 80)
     .requireItem(Item.of("minecraft:netherrack", 1))
     .requireItem(Item.of("kubejs:end_dye", 1))
@@ -184,14 +185,14 @@ onEvent("recipes", (event) => {
       { a: "minecraft:end_stone", b: "minecraft:redstone_block" }
     );
 
-  //snow_machine
-  event.recipes.custommachinery
+  // snow_machine
+  custommachinery
     .custom_machine("custom:snow_machine", 100)
     .requireFluid(Fluid.of("minecraft:water", 1000))
     .produceItem(Item.of("minecraft:snowball", 1));
 
-  //modular_master
-  event.recipes.custommachinery
+  // modular_master
+  custommachinery
     .custom_machine("custom:modular_master", 200)
     .requireItem(Item.of("refinedstorage:machine_casing", 1))
     .requireEnergyPerTick(500)
@@ -208,7 +209,7 @@ onEvent("recipes", (event) => {
       }
     );
 
-  event.recipes.custommachinery
+  custommachinery
     .custom_machine("custom:modular_master", 200)
     .requireItem(Item.of("refinedstorage:quartz_enriched_iron_block", 1))
     .requireEnergyPerTick(400)
@@ -225,7 +226,7 @@ onEvent("recipes", (event) => {
       }
     );
 
-  event.recipes.custommachinery
+  custommachinery
     .custom_machine("custom:modular_master", 200)
     .requireItem(Item.of("refinedstorage:quartz_enriched_iron", 1))
     .requireEnergyPerTick(200)
@@ -245,16 +246,16 @@ onEvent("recipes", (event) => {
   event.remove({ output: "modularrouters:blank_module" });
   event.remove({ output: "modularrouters:blank_upgrade" });
 
-  //void_oil_machine
-  event.recipes.custommachinery
+  // void_oil_machine
+  custommachinery
     .custom_machine("custom:void_oil_machine", 300)
     .requireFluid(Fluid.of("minecraft:water", 1000))
     .requireEnergy(1000)
     .produceFluid(Fluid.of("thermal:crude_oil", 1000))
     .requireStructure([["a"], ["m"]], { a: "create:mechanical_drill" });
 
-  //pcb_master
-  event.recipes.custommachinery
+  // pcb_master
+  custommachinery
     .custom_machine("custom:pcb_master", 300)
     .requireItem(Item.of("pneumaticcraft:plastic", 1))
     .requireItem(Item.of("minecraft:gold_nugget", 2))
@@ -275,7 +276,7 @@ onEvent("recipes", (event) => {
       }
     );
 
-  event.recipes.custommachinery
+  custommachinery
     .custom_machine("custom:pcb_master", 300)
     .requireItem(Item.of("pneumaticcraft:plastic", 1))
     .requireItem(Item.of("minecraft:gold_nugget", 3))
@@ -296,7 +297,7 @@ onEvent("recipes", (event) => {
       }
     );
 
-  event.recipes.custommachinery
+  custommachinery
     .custom_machine("custom:pcb_master", 300)
     .requireItem(Item.of("pneumaticcraft:empty_pcb", 1))
     .requireItem(Item.of("pneumaticcraft:transistor", 1))
@@ -317,8 +318,8 @@ onEvent("recipes", (event) => {
       }
     );
 
-  //oil_refine_machine
-  event.recipes.custommachinery
+  // oil_refine_machine
+  custommachinery
     .custom_machine("custom:oil_refine_machine", 300)
     .requireFluid(Fluid.of("thermal:crude_oil", 500))
     .requireEnergyPerTick(100)
@@ -337,8 +338,8 @@ onEvent("recipes", (event) => {
       }
     );
 
-  //plastic_machine
-  event.recipes.custommachinery
+  // plastic_machine
+  custommachinery
     .custom_machine("custom:plastic_machine", 300)
     .requireFluid(Fluid.of("pneumaticcraft:plastic", 1000))
     .produceItem(Item.of("pneumaticcraft:smooth_plastic_brick_white", 1))
@@ -356,8 +357,8 @@ onEvent("recipes", (event) => {
       }
     );
 
-  //life_machine
-  event.recipes.custommachinery
+  // life_machine
+  custommachinery
     .custom_machine("custom:life_machine", 300)
     .requireItem(Item.of("minecraft:stone"))
     .produceItem(Item.of("bloodmagic:largebloodstonebrick", 2))
@@ -409,8 +410,8 @@ onEvent("recipes", (event) => {
       }
     );
 
-  //blood_generate
-  event.recipes.custommachinery
+  // blood_generate
+  custommachinery
     .custom_machine("custom:blood_generate", 300)
     .requireItem(Item.of("bloodmagic:largebloodstonebrick"))
     .produceItem(Item.of("kubejs:coagulated_blood"))
@@ -441,8 +442,8 @@ onEvent("recipes", (event) => {
       }
     );
 
-  //pllet_machine
-  event.recipes.custommachinery
+  // pllet_machine
+  custommachinery
     .custom_machine("custom:pllet_machine", 60)
     .requireGas("mekanism:fissile_fuel 2500")
     .requireEnergyPerTick(500000)
@@ -746,8 +747,8 @@ onEvent("recipes", (event) => {
       }
     );
 
-  //ultimate_controller
-  event.recipes.custommachinery
+  // ultimate_controller
+  custommachinery
     .custom_machine("custom:ultimate_controller", 600)
     .requireItem(Item.of("mekanism:pellet_antimatter"))
     .produceEnergyPerTick(1000000000)
@@ -767,8 +768,8 @@ onEvent("recipes", (event) => {
       }
     );
 
-  //creative_machine
-  event.recipes.custommachinery
+  // creative_machine
+  custommachinery
     .custom_machine("custom:creative_machine", 2000)
     .requireItem(Item.of("extendedcrafting:ultimate_singularity", 1))
     .requireEnergyPerTick(100000000)
@@ -782,8 +783,8 @@ onEvent("recipes", (event) => {
       { a: "minecraft:bedrock" }
     );
 
-  //fissile_machine
-  event.recipes.custommachinery
+  // fissile_machine
+  custommachinery
     .custom_machine("custom:fissile_machine", 100)
     .requireItem(Item.of("mekanism:pellet_antimatter"))
     .requireEnergyPerTick(1000000)

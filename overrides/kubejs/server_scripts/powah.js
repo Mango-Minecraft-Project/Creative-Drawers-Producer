@@ -1,22 +1,24 @@
 onEvent("recipes", (event) => {
-  event.shaped("powah:dielectric_rod_horizontal", ["SSS", "WWW", "SSS"], {
+  const { kubejs } = event.recipes;
+
+  kubejs.shaped("powah:dielectric_rod_horizontal", ["SSS", "WWW", "SSS"], {
     S: "powah:dielectric_paste",
     W: "kubejs:mix_bars",
   });
 
-  event.shaped("powah:dielectric_rod", ["SWS", "SWS", "SWS"], {
+  kubejs.shaped("powah:dielectric_rod", ["SWS", "SWS", "SWS"], {
     S: "powah:dielectric_paste",
     W: "kubejs:mix_bars",
   });
 
-  event.shaped("16x kubejs:mix_bars", ["SSS", "SSS", "   "], {
+  kubejs.shaped("16x kubejs:mix_bars", ["SSS", "SSS", "   "], {
     S: "kubejs:mix_ingot",
   });
 
   event.remove({ id: "powah:crafting/dielectric_rod_h" });
   event.remove({ id: "powah:crafting/dielectric_rod" });
 
-  event.shaped("powah:dielectric_casing", ["SWS", "A A", "SWS"], {
+  kubejs.shaped("powah:dielectric_casing", ["SWS", "A A", "SWS"], {
     S: "kubejs:mix_ingot",
     W: "powah:dielectric_rod_horizontal",
     A: "powah:dielectric_rod",
@@ -42,9 +44,7 @@ onEvent("recipes", (event) => {
       { item: "kubejs:mix_block" },
     ],
     energy: 30000,
-    result: {
-      item: "industrialforegoing:machine_frame_pity",
-    },
+    result: { item: "industrialforegoing:machine_frame_pity" },
   });
 
   event.custom({
