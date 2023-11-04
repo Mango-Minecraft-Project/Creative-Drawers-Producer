@@ -2,7 +2,7 @@ onEvent("item.tags", (event) => {
   // hammer
   event.add("kubejs:wooden_hammer", "kubejs:wooden_hammer");
   event.add("kubejs:stone_hammer", "kubejs:stone_hammer");
-  event.add("kubejs:iron_hammer", "kubejs:hammer_iron");
+  event.add("kubejs:iron_hammer", "kubejs:iron_hammer");
   event.add("kubejs:golden_hammer", "kubejs:golden_hammer");
   event.add("kubejs:diamond_hammer", "kubejs:diamond_hammer");
   event.add("kubejs:netherite_hammer", "kubejs:netherite_hammer");
@@ -13,7 +13,7 @@ onEvent("item.tags", (event) => {
     "kubejs:compressed_wooden_hammer"
   );
   event.add("forge:compressed_stone_hammer", "kubejs:compressed_stone_hammer");
-  event.add("forge:compressed_iron_hammer", "kubejs:compressed_hammer_iron");
+  event.add("forge:compressed_iron_hammer", "kubejs:compressed_iron_hammer");
   event.add(
     "forge:compressed_golden_hammer",
     "kubejs:compressed_golden_hammer"

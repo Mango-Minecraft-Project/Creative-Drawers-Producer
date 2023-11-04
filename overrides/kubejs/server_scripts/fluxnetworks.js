@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const { kubejs } = event.recipes;
+  const { kubejs, minecraft } = event.recipes;
 
   minecraft.smelting("fluxnetworks:flux_dust", "minecraft:redstone");
 

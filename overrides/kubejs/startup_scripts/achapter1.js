@@ -11,11 +11,11 @@ onEvent("item.registry", (event) => {
       event
         .create(`${tier}_hammer`)
         .maxStackSize(1)
-        .maxDamage(512 * 2 ** index);
+        .maxDamage(512 * (2 ** index));
       event
         .create(`compressed_${tier}_hammer`)
         .maxStackSize(1)
-        .maxDamage(512 * 2 ** index);
+        .maxDamage(512 * (2 ** index));
     }
   );
 });

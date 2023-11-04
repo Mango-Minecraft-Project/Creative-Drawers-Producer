@@ -109,7 +109,7 @@ onEvent("recipes", (event) => {
     S: "kubejs:stone_rod",
   });
 
-  kubejs.shaped("kubejs:hammer_iron", ["KWK", " S ", " S "], {
+  kubejs.shaped("kubejs:iron_hammer", ["KWK", " S ", " S "], {
     W: "thermal:iron_gear",
     K: "minecraft:iron_ingot",
     S: "kubejs:iron_rod",
@@ -141,8 +141,8 @@ onEvent("recipes", (event) => {
     S: "kubejs:stone_hammer",
   });
 
-  kubejs.shaped("kubejs:compressed_hammer_iron", ["SSS", "SSS", "SSS"], {
-    S: "kubejs:hammer_iron",
+  kubejs.shaped("kubejs:compressed_iron_hammer", ["SSS", "SSS", "SSS"], {
+    S: "kubejs:iron_hammer",
   });
 
   kubejs.shaped("kubejs:compressed_golden_hammer", ["SSS", "SSS", "SSS"], {

@@ -14,25 +14,25 @@ onEvent("recipes", (event) => {
   event.remove({ id: "bigreactors:smelting/graphite_from_coalblock" });
   event.remove({ id: "bigreactors:blasting/graphite_from_coalblock" });
 
-  kubejs.shape("bigreactors:basic_reactorcasing", ["SWS", "WAW", "SWS"], {
+  kubejs.shaped("bigreactors:basic_reactorcasing", ["SWS", "WAW", "SWS"], {
     S: "kubejs:mixed_ingot",
     W: "bigreactors:graphite_ingot",
     A: "thermal:machine_frame",
   });
 
-  kubejs.shape("bigreactors:basic_turbinecasing", ["SWS", "WAW", "SWS"], {
+  kubejs.shaped("bigreactors:basic_turbinecasing", ["SWS", "WAW", "SWS"], {
     S: "kubejs:mixed_ingot",
     W: "bigreactors:cyanite_ingot",
     A: "thermal:machine_frame",
   });
 
-  kubejs.shape("bigreactors:reinforced_reactorcasing", ["SWS", "WAW", "SWS"], {
+  kubejs.shaped("bigreactors:reinforced_reactorcasing", ["SWS", "WAW", "SWS"], {
     S: "immersiveengineering:ingot_steel",
     W: "bigreactors:graphite_ingot",
     A: "thermal:machine_frame",
   });
 
-  kubejs.shape("bigreactors:reinforced_turbinecasing", ["SWS", "WAW", "SWS"], {
+  kubejs.shaped("bigreactors:reinforced_turbinecasing", ["SWS", "WAW", "SWS"], {
     S: "immersiveengineering:ingot_steel",
     W: "bigreactors:cyanite_ingot",
     A: "thermal:machine_frame",
