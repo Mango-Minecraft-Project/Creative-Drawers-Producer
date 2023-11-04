@@ -28,7 +28,7 @@ onEvent("recipes", (event) => {
         ],
       },
     ],
-    catalyst: { id: "kubejs:mix_block", Count: 1 },
+    catalyst: { id: "kubejs:mixed_block", Count: 1 },
     components: {
       A: {
         type: "compactcrafting:block",
@@ -72,7 +72,7 @@ onEvent("recipes", (event) => {
         ],
       },
     ],
-    catalyst: { id: "kubejs:mix_block", Count: 1 },
+    catalyst: { id: "kubejs:mixed_block", Count: 1 },
     components: {
       A: { type: "compactcrafting:block", block: "thermal:machine_frame" },
       B: { type: "compactcrafting:block", block: "minecraft:redstone_block" },
@@ -212,7 +212,7 @@ onEvent("recipes", (event) => {
         ],
       },
     ], //9
-    catalyst: { id: "kubejs:mix_block", Count: 1 },
+    catalyst: { id: "kubejs:mixed_block", Count: 1 },
     components: {
       A: { type: "compactcrafting:block", block: "minecraft:netherite_block" },
       B: { type: "compactcrafting:block", block: "minecraft:smooth_quartz" },

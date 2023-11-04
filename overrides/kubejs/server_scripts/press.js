@@ -4,7 +4,7 @@ onEvent("recipes", (event) => {
     mode: "inscribe",
     result: { item: "kubejs:refined_storage_press" },
     ingredients: {
-      middle: { item: "kubejs:mix_block" },
+      middle: { item: "kubejs:mixed_block" },
       top: { item: "kubejs:refined_storage_press" },
     },
   });
@@ -14,7 +14,7 @@ onEvent("recipes", (event) => {
     mode: "inscribe",
     result: { item: "kubejs:mekanism_press" },
     ingredients: {
-      middle: { item: "kubejs:mix_block" },
+      middle: { item: "kubejs:mixed_block" },
       top: { item: "kubejs:mekanism_press" },
     },
   });

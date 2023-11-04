@@ -7,7 +7,7 @@ onEvent("recipes", (event) => {
 
   event.recipes.botania.mana_infusion(
     "240x powah:dielectric_paste",
-    "kubejs:mix_block",
+    "kubejs:mixed_block",
     2000
   );
 

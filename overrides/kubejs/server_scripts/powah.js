@@ -41,7 +41,7 @@ onEvent("recipes", (event) => {
     type: "powah:energizing",
     ingredients: [
       { item: "powah:dielectric_casing" },
-      { item: "kubejs:mix_block" },
+      { item: "kubejs:mixed_block" },
     ],
     energy: 30000,
     result: { item: "industrialforegoing:machine_frame_pity" },

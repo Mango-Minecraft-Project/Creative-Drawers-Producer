@@ -764,7 +764,7 @@ onEvent("recipes", (event) => {
         A: "mekanismgenerators:fusion_reactor_frame",
         B: "bigreactors:ludicrite_block",
         C: "mekanismgenerators:laser_focus_matrix",
-        D: "kubejs:ultimate_pllet_cell",
+        D: "kubejs:ultimate_pellet_cell",
       }
     );
 

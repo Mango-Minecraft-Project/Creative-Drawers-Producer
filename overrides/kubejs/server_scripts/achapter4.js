@@ -17,7 +17,7 @@ onEvent("recipes", (event) => {
         ]),
         event.recipes.createDeploying("kubejs:middle_blackiron_ingot", [
           "kubejs:middle_blackiron_ingot",
-          "kubejs:mix_block",
+          "kubejs:mixed_block",
         ]),
         event.recipes.createDeploying("kubejs:middle_blackiron_ingot", [
           "kubejs:middle_blackiron_ingot",
@@ -25,11 +25,11 @@ onEvent("recipes", (event) => {
         ]),
         event.recipes.createDeploying("kubejs:middle_blackiron_ingot", [
           "kubejs:middle_blackiron_ingot",
-          "kubejs:printed_rs",
+          "kubejs:printed_refined_storage",
         ]),
         event.recipes.createDeploying("kubejs:middle_blackiron_ingot", [
           "kubejs:middle_blackiron_ingot",
-          "kubejs:printed_mek",
+          "kubejs:printed_mekanism",
         ]),
         event.recipes.createDeploying("kubejs:middle_blackiron_ingot", [
           "kubejs:middle_blackiron_ingot",
@@ -143,7 +143,7 @@ onEvent("recipes", (event) => {
     "immersiveengineering:ingot_uranium",
   ]);
 
-  kubejs.shapeless("9x kubejs:mixed_ingot", ["kubejs:mix_block"]);
+  kubejs.shapeless("9x kubejs:mixed_ingot", ["kubejs:mixed_block"]);
   kubejs.shapeless("9x kubejs:nether_star_fragment", ["minecraft:nether_star"]);
   kubejs.shapeless("4x kubejs:nether_quartz_shard", ["minecraft:quartz"]);
   kubejs.shapeless("4x kubejs:flint_chips", ["minecraft:flint"]);

@@ -792,7 +792,7 @@
 			tasks: [{
 				id: "6566F0FBB556F2BB"
 				type: "item"
-				item: "kubejs:wood_gear"
+				item: "kubejs:wooden_gear"
 			}]
 			rewards: [{
 				id: "4416656EA91CF063"

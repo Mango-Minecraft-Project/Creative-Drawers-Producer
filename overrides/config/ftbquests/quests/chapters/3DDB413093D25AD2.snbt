@@ -31,7 +31,7 @@
 			tasks: [{
 				id: "64C4BF12A7133486"
 				type: "item"
-				item: "kubejs:ultimate_pllet_cell"
+				item: "kubejs:ultimate_pellet_cell"
 			}]
 			rewards: [{
 				id: "7EFE3E27491E36AB"

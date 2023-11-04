@@ -164,7 +164,7 @@
 			tasks: [{
 				id: "6E7A3D0444D721C4"
 				type: "item"
-				item: "kubejs:wood_gear"
+				item: "kubejs:wooden_gear"
 			}]
 			rewards: [{
 				id: "76DFDB60D2C14BDC"
@@ -306,7 +306,7 @@
 		}
 		{
 			icon: {
-				id: "kubejs:hammer_wood"
+				id: "kubejs:wooden_hammer"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -332,7 +332,7 @@
 					id: "5AAD0F658A44AE18"
 					type: "item"
 					item: {
-						id: "kubejs:hammer_wood"
+						id: "kubejs:wooden_hammer"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -379,7 +379,7 @@
 				id: "03D212FBF43EDF99"
 				type: "item"
 				item: {
-					id: "kubejs:compressed_hammer_wood"
+					id: "kubejs:compressed_wooden_hammer"
 					Count: 1b
 					tag: {
 						Damage: 0

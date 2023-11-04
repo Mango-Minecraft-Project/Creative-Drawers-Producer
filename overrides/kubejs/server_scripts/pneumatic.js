@@ -9,7 +9,7 @@ onEvent("recipes", (event) => {
   event.custom({
     type: "pneumaticcraft:pressure_chamber",
     inputs: [
-      { item: "kubejs:mix_block" },
+      { item: "kubejs:mixed_block" },
       { item: "kubejs:mixed_ingot" },
       { item: "rftoolsbase:machine_frame" },
     ],

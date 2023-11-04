@@ -13,7 +13,7 @@ onEvent("recipes", (event) => {
     L: "thermal:silver_ingot",
   });
 
-  kubejs.shaped("kubejs:mix_block", ["SSS", "SSS", "SSS"], {
+  kubejs.shaped("kubejs:mixed_block", ["SSS", "SSS", "SSS"], {
     S: "kubejs:mixed_ingot",
   });
 
@@ -58,12 +58,12 @@ onEvent("recipes", (event) => {
   });
   event.remove({ output: "ae2:inscriber" });
 
-  kubejs.shapeless("2x kubejs:mix_rs_block", [
-    "kubejs:mix_block",
+  kubejs.shapeless("2x kubejs:mixed_refined_storage_block", [
+    "kubejs:mixed_block",
     "refinedstorage:quartz_enriched_iron_block",
   ]);
-  kubejs.shapeless("2x kubejs:mix_mek_block", [
-    "kubejs:mix_block",
+  kubejs.shapeless("2x kubejs:mixed_mekanism_block", [
+    "kubejs:mixed_block",
     "immersiveengineering:storage_steel",
   ]);
 });

@@ -629,7 +629,7 @@
 			tasks: [{
 				id: "5C3C011972E0DB92"
 				type: "item"
-				item: "kubejs:the_ultimate_upgrade"
+				item: "kubejs:ultimate_upgrade"
 			}]
 		}
 		{

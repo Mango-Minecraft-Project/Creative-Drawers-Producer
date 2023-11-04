@@ -6,5 +6,5 @@ onEvent("item.registry", (event) => {
 });
 
 onEvent("block.registry", (event) => {
-  event.create("ultimate_pllet_cell").material("metal").hardness(2.0);
+  event.create("ultimate_pellet_cell").material("metal").hardness(2.0);
 });

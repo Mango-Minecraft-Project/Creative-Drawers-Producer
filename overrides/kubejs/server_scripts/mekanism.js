@@ -43,7 +43,7 @@ onEvent("recipes", (event) => {
       },
     },
     result: {
-      item: "kubejs:ultimate_pllet_cell",
+      item: "kubejs:ultimate_pellet_cell",
     },
   });
 

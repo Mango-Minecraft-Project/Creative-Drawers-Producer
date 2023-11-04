@@ -3,6 +3,6 @@ onEvent("item.registry", (event) => {
   event.create("middle_blackiron_ingot");
   event.create("wblackiron_ingot");
   event.create("coagulated_blood");
-  event.create("black_mix_ingot");
-  event.create("gold_powder__dust");
+  event.create("black_mixed_ingot");
+  event.create("gold_powder_dust");
 });

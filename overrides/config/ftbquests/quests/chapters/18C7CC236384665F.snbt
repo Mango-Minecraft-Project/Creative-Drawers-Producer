@@ -33,7 +33,7 @@
 			tasks: [{
 				id: "7273D01E356713BF"
 				type: "item"
-				item: "kubejs:black_mix_ingot"
+				item: "kubejs:black_mixed_ingot"
 			}]
 			rewards: [{
 				id: "2A13FE72BD10C029"

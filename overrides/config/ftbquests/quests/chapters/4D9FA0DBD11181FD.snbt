@@ -728,7 +728,7 @@
 			tasks: [{
 				id: "3FC23C2DD98C5EC7"
 				type: "item"
-				item: "kubejs:netherrack_crushed"
+				item: "kubejs:crushed_netherrack"
 			}]
 			rewards: [{
 				id: "669BAAE86EB19393"
@@ -745,7 +745,7 @@
 			tasks: [{
 				id: "34FD4A00E1B0BE36"
 				type: "item"
-				item: "kubejs:endstone_crushed"
+				item: "kubejs:crushed_endstone"
 			}]
 			rewards: [{
 				id: "39F0965CA13C2BBF"

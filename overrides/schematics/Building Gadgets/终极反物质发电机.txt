@@ -47,7 +47,7 @@
           "item_type": "buildinggadgets:simple_item",
           "count": 1,
           "item": {
-            "id": "kubejs:ultimate_pllet_cell"
+            "id": "kubejs:ultimate_pellet_cell"
           }
         }
       ]

@@ -6,7 +6,7 @@ onEvent("recipes", (event) => {
   kubejs.shaped("fluxnetworks:flux_point", ["SWS", "WAW", "SWS"], {
     S: "modularrouters:energy_upgrade",
     W: "fluxnetworks:flux_core",
-    A: "kubejs:mix_block",
+    A: "kubejs:mixed_block",
   });
 
   kubejs.shaped("fluxnetworks:flux_plug", ["SWS", "WAW", "SWS"], {

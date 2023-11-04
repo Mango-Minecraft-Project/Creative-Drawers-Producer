@@ -1,5 +1,6 @@
 onEvent("cm_upgrades", (event) => {
-  event.create(Item.of("kubejs:iron_upgrade"))
+  event
+    .create(Item.of("kubejs:iron_upgrade"))
     .machine([
       "custom:blood_generate",
       "custom:cobblestone_machine",
@@ -21,7 +22,8 @@ onEvent("cm_upgrades", (event) => {
     ])
     .modifier(CMRecipeModifierBuilder.expInput("custommachinery:speed", 0.9));
 
-  event.create(Item.of("kubejs:brass_upgrade"))
+  event
+    .create(Item.of("kubejs:brass_upgrade"))
     .machine([
       "custom:blood_generate",
       "custom:cobblestone_machine",
@@ -44,7 +46,8 @@ onEvent("cm_upgrades", (event) => {
     ])
     .modifier(CMRecipeModifierBuilder.expInput("custommachinery:speed", 0.8));
 
-  event.create(Item.of("kubejs:sky_upgrade"))
+  event
+    .create(Item.of("kubejs:sky_upgrade"))
     .machine([
       "custom:blood_generate",
       "custom:cobblestone_machine",
@@ -66,7 +69,8 @@ onEvent("cm_upgrades", (event) => {
     ])
     .modifier(CMRecipeModifierBuilder.expInput("custommachinery:speed", 0.7));
 
-  event.create(Item.of("kubejs:enderium_upgrade"))
+  event
+    .create(Item.of("kubejs:enderium_upgrade"))
     .machine([
       "custom:blood_generate",
       "custom:cobblestone_machine",
@@ -88,7 +92,8 @@ onEvent("cm_upgrades", (event) => {
     ])
     .modifier(CMRecipeModifierBuilder.expInput("custommachinery:speed", 0.6));
 
-  event.create(Item.of("kubejs:pllet_upgrade"))
+  event
+    .create(Item.of("kubejs:pellet_upgrade"))
     .machine([
       "custom:blood_generate",
       "custom:cobblestone_machine",
@@ -110,7 +115,8 @@ onEvent("cm_upgrades", (event) => {
     ])
     .modifier(CMRecipeModifierBuilder.expInput("custommachinery:speed", 0.3));
 
-  event.create(Item.of("kubejs:the_ultimate_upgrade"))
+  event
+    .create(Item.of("kubejs:ultimate_upgrade"))
     .machine([
       "custom:blood_generate",
       "custom:cobblestone_machine",
@@ -162,17 +168,17 @@ onEvent("recipes", (event) => {
   });
 
   // pllet
-  event.shaped("kubejs:pllet_upgrade", ["SWS", "WAW", "SWS"], {
+  event.shaped("kubejs:pellet_upgrade", ["SWS", "WAW", "SWS"], {
     S: "mekanism:pellet_antimatter",
     W: "mekanism:pellet_polonium",
     A: "kubejs:enderium_upgrade",
   });
 
   // the_ultimate
-  event.shaped("kubejs:the_ultimate_upgrade", ["SWS", "BAB", "SWS"], {
+  event.shaped("kubejs:ultimate_upgrade", ["SWS", "BAB", "SWS"], {
     S: "extendedcrafting:the_ultimate_ingot",
     W: "extendedcrafting:ultimate_singularity",
-    A: "kubejs:pllet_upgrade",
+    A: "kubejs:pellet_upgrade",
     B: Item.of("extendedcrafting:singularity", {
       Id: "extendedcrafting:pllet",
     }),

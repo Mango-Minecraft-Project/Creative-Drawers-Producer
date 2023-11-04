@@ -83,7 +83,7 @@ onEvent("recipes", (event) => {
       C: { item: "extendedcrafting:ultimate_singularity" },
       D: { item: "pipez:infinity_upgrade" },
       E: { item: "extendedcrafting:the_ultimate_catalyst" },
-      F: { item: "kubejs:ultimate_pllet_cell" },
+      F: { item: "kubejs:ultimate_pellet_cell" },
       G: { item: "occultism:storage_stabilizer_tier4" },
       H: { item: "minecraft:bedrock" },
       I: {

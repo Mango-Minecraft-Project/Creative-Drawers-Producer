@@ -4,7 +4,7 @@ onEvent("recipes", (event) => {
   thermal
     .smelter("thermal:machine_frame", [
       "industrialforegoing:machine_frame_pity",
-      "kubejs:mix_block",
+      "kubejs:mixed_block",
     ])
     .energy(2000);
 
@@ -21,7 +21,7 @@ onEvent("recipes", (event) => {
   event.remove({ output: "rftoolsbase:machine_frame" });
 
   thermal
-    .smelter("3x pneumaticcraft:compressed_iron_block", "kubejs:mix_block")
+    .smelter("3x pneumaticcraft:compressed_iron_block", "kubejs:mixed_block")
     .energy(2000);
 
   thermal

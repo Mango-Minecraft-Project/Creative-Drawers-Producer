@@ -15,7 +15,7 @@ onEvent("recipes", (event) => {
 
   event.custom({
     type: "occultism:spirit_fire",
-    ingredient: { item: "kubejs:gold_powder__dust" },
+    ingredient: { item: "kubejs:gold_powder_dust" },
     result: { item: "ae2:sky_dust" },
   });
 });

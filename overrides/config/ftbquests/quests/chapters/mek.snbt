@@ -795,7 +795,7 @@
 			tasks: [{
 				id: "4F53B5F01021A88C"
 				type: "item"
-				item: "kubejs:pllet_upgrade"
+				item: "kubejs:pellet_upgrade"
 			}]
 		}
 		{

@@ -1,15 +1,15 @@
 onEvent("item.registry", (event) => {
-  event.create("mix_ingot");
-  event.create("mix_bars");
-  event.create("mix_gear");
-  event.create("rs_press");
-  event.create("mek_press");
-  event.create("printed_rs");
-  event.create("printed_mek");
+  event.create("mixed_ingot");
+  event.create("mixed_bars");
+  event.create("mixed_gear");
+  event.create("refined_storage_press");
+  event.create("mekanism_press");
+  event.create("printed_refined_storage");
+  event.create("printed_mekanism");
 });
 
 onEvent("block.registry", (event) => {
-  event.create("mix_block").material("metal").hardness(2.0);
-  event.create("mix_rs_block").material("metal").hardness(2.0);
-  event.create("mix_mek_block").material("metal").hardness(2.0);
+  event.create("mixed_block").material("metal").hardness(2.0);
+  event.create("mixed_refined_storage_block").material("metal").hardness(2.0);
+  event.create("mixed_mekanism_block").material("metal").hardness(2.0);
 });

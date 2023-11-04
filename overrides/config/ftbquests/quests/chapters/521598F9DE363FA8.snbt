@@ -181,7 +181,7 @@
 			tasks: [{
 				id: "285CA4A8498D9E79"
 				type: "item"
-				item: "kubejs:mix_ingot"
+				item: "kubejs:mixed_ingot"
 			}]
 		}
 		{
@@ -336,12 +336,12 @@
 				{
 					id: "0619547807DF2517"
 					type: "item"
-					item: "kubejs:rs_press"
+					item: "kubejs:refined_storage_press"
 				}
 				{
 					id: "1D6FF109460A974D"
 					type: "item"
-					item: "kubejs:mek_press"
+					item: "kubejs:mekanism_press"
 				}
 				{
 					id: "0C121927C7EE449E"
