@@ -1,20 +1,20 @@
-onEvent('block.registry', event => {
-	event.create("custom:cobblestone_machine", "custommachinery")
-	event.create("custom:gravel_machine", "custommachinery")
-	event.create("custom:dirt_machine", "custommachinery")
-	event.create("custom:sand_machine", "custommachinery")
-	event.create("custom:netherrack_machine", "custommachinery")
-	event.create("custom:endstone_machine", "custommachinery")
-	event.create("custom:snow_machine", "custommachinery")
-	event.create("custom:modular_master", "custommachinery")
-	event.create("custom:void_oil_machine", "custommachinery")
-	event.create("custom:pcb_master", "custommachinery")
-	event.create("custom:oil_refine_machine", "custommachinery")
-	event.create("custom:plastic_machine", "custommachinery")
-	event.create("custom:life_machine", "custommachinery")
-	event.create("custom:blood_generate", "custommachinery")
-	event.create("custom:pllet_machine", "custommachinery")
-	event.create("custom:ultimate_controller", "custommachinery")
-	event.create("custom:creative_machine", "custommachinery")
-	event.create("custom:fissile_machine", "custommachinery")
-})
+onEvent("block.registry", (event) => {
+  event.create("custom:cobblestone_machine", "custommachinery");
+  event.create("custom:gravel_machine", "custommachinery");
+  event.create("custom:dirt_machine", "custommachinery");
+  event.create("custom:sand_machine", "custommachinery");
+  event.create("custom:netherrack_machine", "custommachinery");
+  event.create("custom:endstone_machine", "custommachinery");
+  event.create("custom:snow_machine", "custommachinery");
+  event.create("custom:modular_master", "custommachinery");
+  event.create("custom:void_oil_machine", "custommachinery");
+  event.create("custom:pcb_master", "custommachinery");
+  event.create("custom:oil_refine_machine", "custommachinery");
+  event.create("custom:plastic_machine", "custommachinery");
+  event.create("custom:life_machine", "custommachinery");
+  event.create("custom:blood_generate", "custommachinery");
+  event.create("custom:pllet_machine", "custommachinery");
+  event.create("custom:ultimate_controller", "custommachinery");
+  event.create("custom:creative_machine", "custommachinery");
+  event.create("custom:fissile_machine", "custommachinery");
+});

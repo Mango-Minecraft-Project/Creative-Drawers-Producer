@@ -1,3 +1,3 @@
-onEvent('item.registry', event => {
-	event.create('rainbow_rod')
-})
+onEvent("item.registry", (event) => {
+  event.create("rainbow_rod");
+});
