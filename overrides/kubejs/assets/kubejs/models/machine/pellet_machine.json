@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/block",
 	"textures": {
-		"0": "kubejs:block/pllet_machine_side",
-		"1": "kubejs:block/pllet_machine_front",
-		"particle": "kubejs:block/pllet_machine_side"
+		"0": "kubejs:block/pellet_machine_side",
+		"1": "kubejs:block/pellet_machine_front",
+		"particle": "kubejs:block/pellet_machine_side"
 	},
 	"elements": [
 		{
