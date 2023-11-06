@@ -86,7 +86,7 @@ onEvent("recipes", (event) => {
       Item.of("kubejs:nether_star_fragment").withChance(0.01),
       Item.of("minecraft:chorus_fruit").withChance(0.08),
     ],
-    "kubejs:crushed_endstone"
+    "kubejs:crushed_end_stone"
   );
 
   // otherworld

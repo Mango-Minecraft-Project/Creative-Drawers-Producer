@@ -9,5 +9,5 @@ onEvent("item.registry", (event) => {
 
 onEvent("block.registry", (event) => {
   event.create("crushed_netherrack").material("stone").hardness(2.0);
-  event.create("crushed_endstone").material("stone").hardness(2.0);
+  event.create("crushed_end_stone").material("stone").hardness(2.0);
 });
