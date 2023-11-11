@@ -7,7 +7,7 @@ onEvent("item.registry", (event) => {
     event.create(`${tier}_rod`).tag("forge:rods").tag(`forge:rods/${tier}`);
   });
 
-  [("wooden", "stone", "iron", "golden", "diamond", "netherite")].forEach(
+  ["wooden", "stone", "iron", "golden", "diamond", "netherite"].forEach(
     (tier, index) => {
       index = 2 ** index;
       event
