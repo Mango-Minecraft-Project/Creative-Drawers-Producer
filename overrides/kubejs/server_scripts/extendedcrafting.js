@@ -59,7 +59,6 @@ onEvent("recipes", (event) => {
       { item: "minecraft:copper_ingot" },
       { item: "minecraft:gold_ingot" },
       { item: "minecraft:netherite_ingot" },
-      { item: "dustrial_decor:rusty_iron_ingot" },
       { item: "advancednetherite:netherite_iron_ingot" },
       { item: "advancednetherite:netherite_gold_ingot" },
       { item: "advancednetherite:netherite_emerald_ingot" },
