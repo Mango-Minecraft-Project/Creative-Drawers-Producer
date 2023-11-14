@@ -51,8 +51,6 @@ onEvent("recipes", (event) => {
   event.custom({
     type: "naturesaura:tree_ritual",
     ingredients: [
-      { item: "rainshield:rain_shield" },
-      { item: "rainshield:rain_shield" },
       { item: "spirit:soul_steel_block" },
       { item: "naturesaura:gold_leaf" },
       { item: "minecraft:netherrack" },
