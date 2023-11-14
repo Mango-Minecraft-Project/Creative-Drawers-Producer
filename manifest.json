@@ -11,14 +11,9 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Creative Drawers Producer",
-  "version": "m1.0.2",
-  "author": "",
+  "version": "m1.0.4",
+  "author": "y_xiao233, Mango",
   "files": [
-    {
-      "projectID": 271740,
-      "fileID": 3929072,
-      "required": true
-    },
     {
       "projectID": 626839,
       "fileID": 4066820,
@@ -55,11 +50,6 @@
       "required": true
     },
     {
-      "projectID": 345779,
-      "fileID": 3687629,
-      "required": true
-    },
-    {
       "projectID": 309674,
       "fileID": 4055445,
       "required": true
@@ -92,11 +82,6 @@
     {
       "projectID": 250363,
       "fileID": 3642382,
-      "required": true
-    },
-    {
-      "projectID": 365281,
-      "fileID": 4406458,
       "required": true
     },
     {
@@ -225,11 +210,6 @@
       "required": true
     },
     {
-      "projectID": 458048,
-      "fileID": 3777811,
-      "required": true
-    },
-    {
       "projectID": 325492,
       "fileID": 3669531,
       "required": true
@@ -300,23 +280,8 @@
       "required": true
     },
     {
-      "projectID": 354339,
-      "fileID": 3697234,
-      "required": true
-    },
-    {
       "projectID": 410295,
       "fileID": 4514906,
-      "required": true
-    },
-    {
-      "projectID": 411813,
-      "fileID": 4310525,
-      "required": true
-    },
-    {
-      "projectID": 581495,
-      "fileID": 4578744,
       "required": true
     },
     {
@@ -387,11 +352,6 @@
     {
       "projectID": 689579,
       "fileID": 4110309,
-      "required": true
-    },
-    {
-      "projectID": 238747,
-      "fileID": 3574005,
       "required": true
     },
     {
@@ -750,16 +710,6 @@
       "required": true
     },
     {
-      "projectID": 358304,
-      "fileID": 3751574,
-      "required": true
-    },
-    {
-      "projectID": 255105,
-      "fileID": 4409366,
-      "required": true
-    },
-    {
       "projectID": 398521,
       "fileID": 3999153,
       "required": true
@@ -905,11 +855,6 @@
       "required": true
     },
     {
-      "projectID": 366140,
-      "fileID": 3814624,
-      "required": true
-    },
-    {
       "projectID": 633483,
       "fileID": 4183076,
       "required": true
@@ -947,11 +892,6 @@
     {
       "projectID": 361579,
       "fileID": 3824951,
-      "required": true
-    },
-    {
-      "projectID": 284324,
-      "fileID": 3732908,
       "required": true
     },
     {
@@ -1005,11 +945,6 @@
       "required": true
     },
     {
-      "projectID": 256087,
-      "fileID": 3712112,
-      "required": true
-    },
-    {
       "projectID": 618298,
       "fileID": 4329952,
       "required": true
@@ -1047,11 +982,6 @@
     {
       "projectID": 577850,
       "fileID": 3678727,
-      "required": true
-    },
-    {
-      "projectID": 293702,
-      "fileID": 4378166,
       "required": true
     },
     {
@@ -1105,11 +1035,6 @@
       "required": true
     },
     {
-      "projectID": 371813,
-      "fileID": 3808085,
-      "required": true
-    },
-    {
       "projectID": 378802,
       "fileID": 4018606,
       "required": true
@@ -1122,11 +1047,6 @@
     {
       "projectID": 574856,
       "fileID": 4494903,
-      "required": true
-    },
-    {
-      "projectID": 334853,
-      "fileID": 4377079,
       "required": true
     },
     {
@@ -1185,11 +1105,6 @@
       "required": true
     },
     {
-      "projectID": 360203,
-      "fileID": 3823106,
-      "required": true
-    },
-    {
       "projectID": 282313,
       "fileID": 3757606,
       "required": true
@@ -1215,18 +1130,8 @@
       "required": true
     },
     {
-      "projectID": 250419,
-      "fileID": 4277221,
-      "required": true
-    },
-    {
       "projectID": 532169,
       "fileID": 4032082,
-      "required": true
-    },
-    {
-      "projectID": 316873,
-      "fileID": 3553486,
       "required": true
     },
     {
@@ -1257,11 +1162,6 @@
     {
       "projectID": 429371,
       "fileID": 3923657,
-      "required": true
-    },
-    {
-      "projectID": 358700,
-      "fileID": 3545748,
       "required": true
     },
     {
