@@ -36,7 +36,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["file/Minecraft-Mod-Language-Modpack-1-18.zip"]
+resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
