@@ -1,0 +1,123 @@
+{
+	id: "65107FE0444D0C57"
+	group: "7186BEA3DCCD9782"
+	order_index: 0
+	filename: "65107FE0444D0C57"
+	title: "{chapter.40.title}"
+	icon: "extendedcrafting:the_ultimate_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["082A76E3A62B430A"]
+			id: "68E78561C5D5AF97"
+			tasks: [{
+				id: "6F23435ADF0905BB"
+				type: "checkmark"
+				title: "{chapter.40.quest.1.task.1.title}"
+			}]
+			rewards: [{
+				id: "4E083D6A98976B57"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7824375198584684549L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["68E78561C5D5AF97"]
+			id: "7940EC9F6B70B96E"
+			tasks: [{
+				id: "200F1E0024F429D5"
+				type: "item"
+				item: {
+					id: "kubejs:pellet_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "093EA9CD15AA4702"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7824375198584684549L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["7940EC9F6B70B96E"]
+			id: "61085957E5ACF9E0"
+			tasks: [{
+				id: "1F9CFA22CF911064"
+				type: "item"
+				item: "kubejs:wblackiron_ingot"
+			}]
+			rewards: [{
+				id: "4C32D001A0E96641"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7824375198584684549L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["61085957E5ACF9E0"]
+			id: "1AC5EBCDAE60D69F"
+			tasks: [{
+				id: "600C294454C937B5"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+			rewards: [{
+				id: "762A2ABAF1369C2D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7824375198584684549L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["68E78561C5D5AF97"]
+			id: "4510F811BEE6BDB1"
+			tasks: [{
+				id: "6D3C40421CB3DCAE"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+			}]
+			rewards: [{
+				id: "279F066E5050D190"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7824375198584684549L
+			}]
+		}
+		{
+			icon: "packagedexcrafting:ultimate_crafter"
+			x: 0.0d
+			y: 1.0d
+			description: ["{chapter.40.quest.6.description.1}"]
+			dependencies: ["68E78561C5D5AF97"]
+			id: "41084C5CB52227A1"
+			tasks: [{
+				id: "73BCF7FBB50EDBC5"
+				type: "checkmark"
+				title: "{chapter.40.quest.6.task.1.title}"
+			}]
+			rewards: [{
+				id: "799B99C1EF3D5290"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7824375198584684549L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,23 @@
+{
+	id: "62A5E01229A9594F"
+	group: "7309DC73431430A6"
+	order_index: 17
+	filename: "62A5E01229A9594F"
+	title: "{chapter.39.title}"
+	icon: "artifacts:fire_gauntlet"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		description: ["{chapter.39.quest.1.description.1}"]
+		dependencies: ["4B7CF4B73B3DFCC8"]
+		id: "44911A780E25F3C9"
+		tasks: [{
+			id: "5B546D873339B274"
+			type: "checkmark"
+			title: "{chapter.39.quest.1.task.1.title}"
+		}]
+	}]
+	quest_links: [ ]
+}

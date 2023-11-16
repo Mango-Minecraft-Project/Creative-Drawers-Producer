@@ -1,0 +1,52 @@
+{
+	id: "39EFA4448565342B"
+	group: "7309DC73431430A6"
+	order_index: 14
+	filename: "39EFA4448565342B"
+	title: "{chapter.36.title}"
+	icon: "extrautilitiesrebirth:reinforced_drum"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["69F2679E5A97DD16"]
+			id: "11CE197E8B7708D9"
+			tasks: [{
+				id: "0081F6A72D0E6513"
+				type: "checkmark"
+				title: "{chapter.36.quest.1.task.1.title}"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: [
+				"11CE197E8B7708D9"
+				"69F2679E5A97DD16"
+			]
+			id: "46E841B1B0222798"
+			tasks: [{
+				id: "320FA87526BE6513"
+				type: "item"
+				item: "extrautilitiesrebirth:reinforced_drum"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: [
+				"11CE197E8B7708D9"
+				"517E04AE3B6CBB06"
+			]
+			id: "6DB3DEFD05282501"
+			tasks: [{
+				id: "04A9842ABBBF7BA3"
+				type: "item"
+				item: "extrautilitiesrebirth:bedrock_drum"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

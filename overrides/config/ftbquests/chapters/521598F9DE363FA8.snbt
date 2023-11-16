@@ -1,0 +1,374 @@
+{
+	id: "521598F9DE363FA8"
+	group: "09648D74820560E0"
+	order_index: 3
+	filename: "521598F9DE363FA8"
+	title: "{chapter.6.title}"
+	icon: "thermal:machine_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{chapter.6.quest.1.title}"
+			x: 0.0d
+			y: -1.5d
+			shape: "diamond"
+			min_required_dependencies: 1
+			dependencies: [
+				"390F2C90C21714C1"
+				"6049D6F2324AB5A0"
+				"788439265046E612"
+				"78C00E19FD8977A2"
+				"69AC9FA518081AE8"
+				"520B04B8DA7A9EDE"
+				"14904517F92251E2"
+				"65776B1412014E96"
+				"6BF976E61DE4A2AF"
+				"5671894463C32DE8"
+				"5B95F52C1DCB9ADD"
+			]
+			dependency_requirement: "one_completed"
+			id: "4DC3ABC2E551B69B"
+			tasks: [{
+				id: "6FA96D76E976A43E"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["4DC3ABC2E551B69B"]
+			id: "631F37F11DCD57B7"
+			tasks: [{
+				id: "4B6390ADD6B762E8"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [{
+				id: "74A28C453C7BA69F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: [
+				"631F37F11DCD57B7"
+				"4454C81FC200B609"
+			]
+			id: "3A254C0D39A651CC"
+			tasks: [{
+				id: "16D7CBC81B1F41F8"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "163ACF17134A3FB1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["3A254C0D39A651CC"]
+			id: "0B9D5FE30D458530"
+			tasks: [{
+				id: "57676EEA73FA4EC7"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "2FD81D0D35923A6E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["3A254C0D39A651CC"]
+			id: "0CB3783A4D51B12E"
+			tasks: [{
+				id: "07F7D63C0A021648"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "4257B7C32A415176"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: [
+				"0B9D5FE30D458530"
+				"0CB3783A4D51B12E"
+			]
+			id: "0061CB5C1D817680"
+			tasks: [{
+				id: "3F671B0332FE2353"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "4E0A803976755B1E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			dependencies: ["0061CB5C1D817680"]
+			id: "2A379669A5FFA2F2"
+			tasks: [{
+				id: "3CB8DE82B6624241"
+				type: "item"
+				item: "powah:dielectric_paste"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			dependencies: [
+				"2A379669A5FFA2F2"
+				"3887D539DFD5EA9C"
+			]
+			id: "56B8639AC810A637"
+			tasks: [{
+				id: "1717C351CB6A386E"
+				type: "item"
+				item: "powah:energizing_orb"
+			}]
+			rewards: [{
+				id: "15769087855E3968"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["56B8639AC810A637"]
+			id: "4B7CF4B73B3DFCC8"
+			tasks: [{
+				id: "7A569D8E548A05D8"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			rewards: [{
+				id: "10492C844942A5B2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			dependencies: ["4EE07A55B5A7F26F"]
+			id: "3887D539DFD5EA9C"
+			tasks: [{
+				id: "285CA4A8498D9E79"
+				type: "item"
+				item: "kubejs:mixed_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			dependencies: ["4B7CF4B73B3DFCC8"]
+			id: "22D98D84D836D739"
+			tasks: [{
+				id: "1BF8909464F958FE"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			rewards: [{
+				id: "25899D7156E6FCB9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			dependencies: ["22D98D84D836D739"]
+			id: "1EFC54A2B76BD0B4"
+			tasks: [{
+				id: "1D8BA897BAFAB59F"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+			rewards: [{
+				id: "5F570074B35B8EDF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 11.0d
+			dependencies: ["1EFC54A2B76BD0B4"]
+			id: "7BAEB00A95690289"
+			tasks: [
+				{
+					id: "5D4113C71ED57FFD"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+				}
+				{
+					id: "49E54694BB18D546"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+				{
+					id: "33A8B0295551C8F0"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+				}
+			]
+			rewards: [{
+				id: "16BDC1DD4EDD778A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.0d
+			dependencies: ["22D98D84D836D739"]
+			id: "3D43DE0A2B0407A4"
+			tasks: [{
+				id: "7E5D3F07CFA8A389"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+			rewards: [{
+				id: "6897CDA533CFA6CF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			dependencies: [
+				"7BAEB00A95690289"
+				"3D43DE0A2B0407A4"
+			]
+			id: "04CF9D2FFF0C9F86"
+			tasks: [{
+				id: "04099E8DDEC6020B"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "737EF8867D70150B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 13.0d
+			dependencies: ["04CF9D2FFF0C9F86"]
+			id: "69F2679E5A97DD16"
+			tasks: [{
+				id: "0D130D90B4561C18"
+				type: "item"
+				item: "refinedstorage:machine_casing"
+			}]
+			rewards: [{
+				id: "638A0F9B330E9ECB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 15.0d
+			shape: "gear"
+			dependencies: ["2DEE92801DC7D7D1"]
+			id: "517E04AE3B6CBB06"
+			tasks: [{
+				id: "3FA5E7D516BABD39"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+			rewards: [
+				{
+					id: "752FA2B7B041ADC3"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "195B4500F5FCAD23"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "72EADA59DF6E9659"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+				{
+					id: "6C602329618DE0F2"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+				{
+					id: "0619547807DF2517"
+					type: "item"
+					item: "kubejs:refined_storage_press"
+				}
+				{
+					id: "1D6FF109460A974D"
+					type: "item"
+					item: "kubejs:mekanism_press"
+				}
+				{
+					id: "0C121927C7EE449E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3835561450400936005L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 14.0d
+			dependencies: ["69F2679E5A97DD16"]
+			id: "2DEE92801DC7D7D1"
+			tasks: [{
+				id: "0A5C193532CFC039"
+				type: "item"
+				item: "compactcrafting:field_projector"
+				count: 4L
+			}]
+			rewards: [{
+				id: "473682FC0A5A8CE9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

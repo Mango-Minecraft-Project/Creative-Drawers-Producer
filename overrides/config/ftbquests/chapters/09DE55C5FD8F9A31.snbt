@@ -1,0 +1,558 @@
+{
+	id: "09DE55C5FD8F9A31"
+	group: "09648D74820560E0"
+	order_index: 6
+	filename: "09DE55C5FD8F9A31"
+	title: "{chapter.9.title}"
+	icon: "storagedrawers:creative_vending_upgrade"
+	default_quest_shape: ""
+	default_hide_dependency_lines: true
+	images: [{
+		x: 2.0d
+		y: -4.5d
+		width: 25.0d
+		height: 25.0d
+		rotation: 0.0d
+		image: "storagedrawers:textures/items/upgrade_creative_vend.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "{chapter.9.quest.1.title}"
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["70E57CC37C3FFB7A"]
+			id: "573E4908F78E2595"
+			tasks: [{
+				id: "0E100773A3B69E2E"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["573E4908F78E2595"]
+			id: "066357565E21C470"
+			tasks: [{
+				id: "20F29C633CE298D5"
+				type: "item"
+				item: "custom:creative_machine"
+			}]
+			rewards: [
+				{
+					id: "74B0D4FFE96C9A79"
+					type: "item"
+					item: {
+						id: "create:schematic"
+						Count: 1b
+						tag: {
+							Owner: "Y_Xiao233"
+							Anchor: {
+								X: 48
+								Y: 65
+								Z: 45
+							}
+							Bounds: [
+								3
+								3
+								3
+							]
+							Deployed: 1b
+							File: "创造核心生产机.nbt"
+							Rotation: "NONE"
+							Mirror: "NONE"
+						}
+					}
+				}
+				{
+					id: "6B2647B83F15DFFB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3048787081562464597L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["066357565E21C470"]
+			id: "02243FB75D769BCE"
+			tasks: [{
+				id: "314FDEE22C4E91DC"
+				type: "item"
+				item: "kubejs:creative_core"
+			}]
+			rewards: [{
+				id: "79AD4AEFC837444D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "60B407AC6BC2203B"
+			tasks: [{
+				id: "141319086A81A35F"
+				type: "item"
+				item: "ae2:creative_energy_cell"
+			}]
+			rewards: [{
+				id: "6FC8434E717B45B1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "41C8D88B2C1004A8"
+			tasks: [{
+				id: "37D56CBCC55DCECA"
+				type: "item"
+				item: "ae2:creative_item_cell"
+			}]
+			rewards: [{
+				id: "29E4BEF4B2AC3289"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "7887855D16A77982"
+			tasks: [{
+				id: "492FA257F2C7F7A2"
+				type: "item"
+				item: "ae2:creative_fluid_cell"
+			}]
+			rewards: [{
+				id: "2A1A630D617C5CCC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "294E18134AF0F75C"
+			tasks: [{
+				id: "0712EA9CC9F75605"
+				type: "item"
+				item: "appmek:creative_chemical_cell"
+			}]
+			rewards: [{
+				id: "40D4DAB3D89238A7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "53076EF0B778DF46"
+			tasks: [{
+				id: "4DDAE4D0F68F2CEF"
+				type: "item"
+				item: "thermal:rf_coil_creative_augment"
+			}]
+			rewards: [{
+				id: "0F66E86F1CBA21C6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "6098E6A3FDFEA2BA"
+			tasks: [{
+				id: "655A48B01A3F25E2"
+				type: "item"
+				item: "thermal:fluid_tank_creative_augment"
+			}]
+			rewards: [{
+				id: "7FD4A69D3279698C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "36DB41AA7358C371"
+			tasks: [{
+				id: "2D16130169A21596"
+				type: "item"
+				item: "thermal:machine_efficiency_creative_augment"
+			}]
+			rewards: [{
+				id: "1211397AA2877D02"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "07B3E0B2C652806D"
+			tasks: [{
+				id: "6F7AC447CD25D640"
+				type: "item"
+				item: "thermal:machine_catalyst_creative_augment"
+			}]
+			rewards: [{
+				id: "4947E4CCD001B9DE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "27C1AFEFFF1C907F"
+			tasks: [{
+				id: "4EAB366B343D966C"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+			rewards: [{
+				id: "3DA317C2FF6CFD71"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "1815F1F1CD6B8599"
+			tasks: [{
+				id: "33B4A897DF69C10F"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+			rewards: [{
+				id: "1D491BB6E9EF387F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "5390B54933DD4C0C"
+			tasks: [{
+				id: "4A9058C7CE424F2A"
+				type: "item"
+				item: "pneumaticcraft:creative_compressed_iron_block"
+			}]
+			rewards: [{
+				id: "4A16F246E2B0973F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "408EE748F1CD6276"
+			tasks: [{
+				id: "53446117E5CEABDA"
+				type: "item"
+				item: "pneumaticcraft:creative_compressor"
+			}]
+			rewards: [{
+				id: "6FBB3C041628778E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "729EF039CFABBCB5"
+			tasks: [{
+				id: "0CCC3F5BF55920D2"
+				type: "item"
+				item: "pneumaticcraft:creative_upgrade"
+			}]
+			rewards: [{
+				id: "27ADCC4865F04BEE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "279C01D73CE3C9CD"
+			tasks: [{
+				id: "3D8DC4ED6A179023"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+			rewards: [{
+				id: "7E704B05DDC1B060"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "3DF3507E5456AA2F"
+			tasks: [{
+				id: "5EA6BCBCFDAC4344"
+				type: "item"
+				item: "create:creative_fluid_tank"
+			}]
+			rewards: [{
+				id: "7937C11B267F301C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "0545CEC9C9927091"
+			tasks: [{
+				id: "4454EBA94F5AFE69"
+				type: "item"
+				item: "create:creative_crate"
+			}]
+			rewards: [{
+				id: "73B1E4B2F785FC54"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "6AF993F2F4C5E339"
+			tasks: [{
+				id: "536FCCBA0D4ECFA5"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+			rewards: [{
+				id: "5DC43959C6AC9F4A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "7BC05E1839046985"
+			tasks: [{
+				id: "1A73F37246D19E7A"
+				type: "item"
+				item: {
+					id: "refinedstorage:creative_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							-2111434331
+							-2044702971
+							-1925809413
+							-899994238
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "52B106B0A4C115EA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "4DA2693BBF7BD209"
+			tasks: [{
+				id: "1ED9DB98366ABBB8"
+				type: "item"
+				item: {
+					id: "refinedstorage:creative_fluid_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							1280779499
+							955139342
+							-1600064128
+							699855247
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "355E550BE91F55B8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "399DD5CFC7D99311"
+			tasks: [{
+				id: "0582044CFAE5DAC3"
+				type: "item"
+				item: "refinedstorage:creative_controller"
+			}]
+			rewards: [{
+				id: "7145320CC1E941C8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "3D20BBBF63C60938"
+			tasks: [{
+				id: "0324212DBF73A5F4"
+				type: "item"
+				item: "creativewirelesstransmitter:creative_wireless_transmitter"
+			}]
+			rewards: [{
+				id: "647E8A28F16488BB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "23BB7346D0685041"
+			tasks: [{
+				id: "5D8B8B6A9FB8CDFC"
+				type: "item"
+				item: {
+					id: "universalgrid:creative_wireless_universal_grid"
+					Count: 1b
+					tag: {
+						gridType: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A09D866D7DFD84A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["02243FB75D769BCE"]
+			id: "60A6810FE09A4444"
+			tasks: [{
+				id: "4DCAFAB6C93DAC01"
+				type: "item"
+				item: "rftoolspower:dimensionalcell_creative"
+			}]
+			rewards: [{
+				id: "663CFF00985598A7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			dependencies: [
+				"6098E6A3FDFEA2BA"
+				"1815F1F1CD6B8599"
+				"07B3E0B2C652806D"
+				"294E18134AF0F75C"
+				"41C8D88B2C1004A8"
+				"7887855D16A77982"
+				"7BC05E1839046985"
+				"399DD5CFC7D99311"
+				"3D20BBBF63C60938"
+				"23BB7346D0685041"
+				"0545CEC9C9927091"
+				"408EE748F1CD6276"
+				"5390B54933DD4C0C"
+				"3DF3507E5456AA2F"
+				"4DA2693BBF7BD209"
+				"6AF993F2F4C5E339"
+				"60B407AC6BC2203B"
+				"5BC6DAA13874D08E"
+				"729EF039CFABBCB5"
+				"36DB41AA7358C371"
+				"53076EF0B778DF46"
+				"279C01D73CE3C9CD"
+				"60A6810FE09A4444"
+			]
+			id: "1032206BE4B6DF76"
+			tasks: [{
+				id: "5547394DA79C4296"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+			rewards: [{
+				id: "724811278389FB72"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

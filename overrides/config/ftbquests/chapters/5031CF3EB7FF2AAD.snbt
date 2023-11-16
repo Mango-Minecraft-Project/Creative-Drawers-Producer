@@ -1,0 +1,415 @@
+{
+	id: "5031CF3EB7FF2AAD"
+	group: "09648D74820560E0"
+	order_index: 2
+	filename: "5031CF3EB7FF2AAD"
+	title: "{chapter.5.title}"
+	icon: "minecraft:end_portal_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{chapter.5.quest.1.title}"
+			x: -8.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["785E937A3ACC530E"]
+			id: "3F3B34784DD34749"
+			tasks: [{
+				id: "5FDF305C1A2E748C"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			dependencies: ["3F3B34784DD34749"]
+			id: "3DD0FF833A9F0DED"
+			tasks: [
+				{
+					id: "72639997DEA85749"
+					type: "item"
+					item: "minecraft:obsidian"
+				}
+				{
+					id: "01EEB164E8A8BA53"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "56A4FCC4C204956F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			dependencies: ["3DD0FF833A9F0DED"]
+			id: "12F1804FE5F1571D"
+			tasks: [{
+				id: "015428561FD210BC"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "08A481C800212559"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			dependencies: ["4454C81FC200B609"]
+			id: "4B8FA460F8A3A794"
+			tasks: [{
+				id: "5624E466BF5B4B57"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+			}]
+			rewards: [{
+				id: "6F1FAE5ADB395E8D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			dependencies: ["3F3B34784DD34749"]
+			id: "4454C81FC200B609"
+			tasks: [{
+				id: "5C1471ED1C37EFDE"
+				type: "item"
+				item: "minecraft:end_stone"
+			}]
+			rewards: [{
+				id: "5376939CF39D50BC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			dependencies: ["12F1804FE5F1571D"]
+			id: "4476421DD1AF79AB"
+			tasks: [{
+				id: "2ACE133535B44D31"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+			rewards: [{
+				id: "7BF7ABB4C38A7DA6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			dependencies: ["4B8FA460F8A3A794"]
+			id: "35ABEEC58FC832E2"
+			tasks: [{
+				id: "5F24961A06A2E8C1"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "5D3A8E3FB3F509CD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			description: ["{chapter.5.quest.8.description.1}"]
+			dependencies: ["4476421DD1AF79AB"]
+			id: "57146F9E27A4317B"
+			tasks: [{
+				id: "2123E5BB5FFF798F"
+				type: "item"
+				item: "custom:netherrack_machine"
+			}]
+			rewards: [{
+				id: "7D24BFF10F796CE9"
+				type: "item"
+				item: {
+					id: "create:schematic"
+					Count: 1b
+					tag: {
+						Owner: "Y_Xiao233"
+						Anchor: {
+							X: 46
+							Y: 65
+							Z: 45
+						}
+						Bounds: [
+							3
+							3
+							3
+						]
+						Deployed: 1b
+						File: "下界岩生产者.nbt"
+						Rotation: "NONE"
+						Mirror: "NONE"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			description: ["{chapter.5.quest.9.description.1}"]
+			dependencies: ["35ABEEC58FC832E2"]
+			id: "155B18BDDD8BE690"
+			tasks: [{
+				id: "193357E72B1327C8"
+				type: "item"
+				item: "custom:endstone_machine"
+			}]
+			rewards: [{
+				id: "7C13C6FCB30EE149"
+				type: "item"
+				item: {
+					id: "create:schematic"
+					Count: 1b
+					tag: {
+						Owner: "Y_Xiao233"
+						Anchor: {
+							X: 46
+							Y: 65
+							Z: 46
+						}
+						Bounds: [
+							3
+							3
+							3
+						]
+						Deployed: 1b
+						File: "末地石生产者.nbt"
+						Rotation: "NONE"
+						Mirror: "NONE"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			shape: "gear"
+			dependencies: ["57146F9E27A4317B"]
+			id: "76ACB832D0DA4E89"
+			tasks: [{
+				id: "3FD41D45FDF6DD25"
+				type: "item"
+				item: "minecraft:netherrack"
+				count: 4096L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1838FACBDC406BBC"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_1"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_1"
+								Drawers: [{
+									Item: {
+										id: "minecraft:netherrack"
+										Count: 1b
+									}
+									Count: 0
+								}]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "46767FB5B8680E61"
+					type: "item"
+					item: "kubejs:nether_medal"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			shape: "gear"
+			dependencies: ["155B18BDDD8BE690"]
+			id: "60F6A9B81895F931"
+			tasks: [{
+				id: "6271F7F0F31064F6"
+				type: "item"
+				item: "minecraft:end_stone"
+				count: 2048L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "086274AEEDD5C939"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_1"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_1"
+								Drawers: [{
+									Item: {
+										id: "minecraft:end_stone"
+										Count: 1b
+									}
+									Count: 0
+								}]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "2823CDA764BB59EF"
+					type: "item"
+					item: "kubejs:end_medal"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: [
+				"3F3B34784DD34749"
+				"60F6A9B81895F931"
+				"76ACB832D0DA4E89"
+			]
+			id: "5D14519FD8AADD9E"
+			tasks: [{
+				id: "667E1DD3CA558EAB"
+				type: "item"
+				item: "jamd:mine_portal_block"
+			}]
+			rewards: [{
+				id: "76143355B1060872"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7824375198584684549L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["5D14519FD8AADD9E"]
+			id: "40128D0F884204C3"
+			tasks: [{
+				id: "33598933DD9F7422"
+				type: "item"
+				item: "mekanism:fluorite_gem"
+				count: 4096L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4EDBD6E8B71CE4C0"
+				type: "item"
+				item: {
+					id: "storagedrawers:oak_full_drawers_1"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Upgrades: [{
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+								Count: 1b
+							}]
+							id: "storagedrawers:standard_drawers_1"
+							Drawers: [{
+								Item: {
+									id: "mekanism:fluorite_gem"
+									Count: 1b
+								}
+								Count: 0
+							}]
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["5D14519FD8AADD9E"]
+			id: "0F2961657C62D284"
+			tasks: [{
+				id: "172A1889FA594B60"
+				type: "item"
+				item: "thermal:sulfur"
+				count: 4096L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4A384F4DAE01C5BB"
+				type: "item"
+				item: {
+					id: "storagedrawers:oak_full_drawers_1"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Upgrades: [{
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+								Count: 1b
+							}]
+							id: "storagedrawers:standard_drawers_1"
+							Drawers: [{
+								Item: {
+									id: "thermal:sulfur"
+									Count: 1b
+								}
+								Count: 1
+							}]
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

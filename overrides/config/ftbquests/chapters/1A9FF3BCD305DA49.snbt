@@ -1,0 +1,328 @@
+{
+	id: "1A9FF3BCD305DA49"
+	group: ""
+	order_index: 0
+	filename: "1A9FF3BCD305DA49"
+	title: "{chapter.1.title}"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{chapter.1.quest.1.subtitle}"
+			description: ["{image:storagedrawers:textures/items/upgrade_creative_vend.png width:100 height:100 align:1}"]
+			id: "200584F94441AB93"
+			tasks: [{
+				id: "3A10F12A6CE22C11"
+				type: "checkmark"
+				title: "{chapter.1.quest.1.task.1.title}"
+			}]
+			rewards: [
+				{
+					id: "5C9695FD1B266FD7"
+					type: "item"
+					item: {
+						id: "tiab:time_in_a_bottle"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "62B2C4EC7C429C70"
+					type: "item"
+					item: {
+						id: "buildinggadgets:template"
+						Count: 1b
+						tag: {
+							template_id: [I;
+								-818121088
+								1740000311
+								-2045824063
+								488672573
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "create:wrench"
+			x: 2.0d
+			y: 1.0d
+			subtitle: "{chapter.1.quest.2.subtitle}"
+			dependencies: ["200584F94441AB93"]
+			id: "30E6DB5C68EF28E9"
+			tasks: [{
+				id: "2C40ED001CFB9202"
+				type: "checkmark"
+				title: "{chapter.1.quest.2.task.1.title}"
+			}]
+			rewards: [{
+				id: "78B60D5E064BB168"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: -1.0d
+			description: ["{chapter.1.quest.3.description.1}"]
+			dependencies: ["200584F94441AB93"]
+			id: "1B9C7CA6BE154D28"
+			tasks: [{
+				id: "57DA3F2379CAF496"
+				type: "checkmark"
+				title: "{chapter.1.quest.3.task.1.title}"
+			}]
+			rewards: [{
+				id: "5F1AA8B443AEA095"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			title: "{chapter.1.quest.4.title}"
+			icon: "minecraft:dirt"
+			x: -1.0d
+			y: 2.5d
+			description: ["{chapter.1.quest.4.description.1}"]
+			dependencies: ["200584F94441AB93"]
+			id: "7456911EF017F41D"
+			tasks: [{
+				id: "06EABF613B53E57E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5A6000B20228E914"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			title: "{chapter.1.quest.5.title}"
+			icon: "storagedrawers:creative_vending_upgrade"
+			x: -2.0d
+			y: -1.0d
+			description: ["{chapter.1.quest.5.description.1}"]
+			dependencies: ["200584F94441AB93"]
+			dependency_requirement: "one_completed"
+			id: "31AB91FEF97F5994"
+			tasks: [{
+				id: "0A2D0ED0E1240D9E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1D2E4DD44060718F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			icon: "ftbquests:book"
+			x: 0.0d
+			y: -2.0d
+			description: ["{chapter.1.quest.6.description.1}"]
+			dependencies: ["200584F94441AB93"]
+			id: "764F2254ADE837DD"
+			tasks: [{
+				id: "5F573CA8DA52EE42"
+				type: "checkmark"
+				title: "{chapter.1.quest.6.task.1.title}"
+			}]
+			rewards: [{
+				id: "1DE34B48DA2CA679"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "{chapter.1.quest.7.subtitle}"
+			dependencies: ["764F2254ADE837DD"]
+			id: "0A4E753DE766B289"
+			tasks: [{
+				id: "549FC72E095580A0"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "626A2A3B23DD3B71"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			shape: "gear"
+			subtitle: "{chapter.1.quest.8.subtitle}"
+			dependencies: ["764F2254ADE837DD"]
+			id: "107EB7C6164A4A5E"
+			tasks: [{
+				id: "7B8A90209BF4F748"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5E5F812AC10B9D7D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: -2.0d
+			y: 1.0d
+			description: ["{chapter.1.quest.9.description.1}"]
+			dependencies: ["200584F94441AB93"]
+			id: "71C738B92709BE52"
+			tasks: [{
+				id: "15E846DF3198FCBB"
+				type: "checkmark"
+				title: "{chapter.1.quest.9.task.1.title}"
+			}]
+			rewards: [{
+				id: "0A66411F933879C4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			shape: "rsquare"
+			subtitle: "{chapter.1.quest.10.subtitle}"
+			dependencies: ["764F2254ADE837DD"]
+			id: "294DF626D4AC8C33"
+			tasks: [{
+				id: "5D985FB5F8E723B0"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3A8A4710E62A04B6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			shape: "heart"
+			subtitle: "{chapter.1.quest.11.subtitle}"
+			dependencies: ["764F2254ADE837DD"]
+			id: "68237791E62E63A9"
+			tasks: [{
+				id: "09695AD57555045B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "284D9738073BC019"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			title: "{chapter.1.quest.12.title}"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1710060491
+							1244414724
+							-1706817341
+							1439410764
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5MzUzNTgyMTg2OSwKICAicHJvZmlsZUlkIiA6ICI2NWVkNzNjYjRhMmM0MzA0OWE0NDA4YzM1NWNiYWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJZX1hpYW8yMzMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTkyZDIyNGNlZTQzYTg5ODc4ZTA2M2Y1ZWY0ZGM1YmVjODAxYjkyYzJiMTNiNmMzMWNhODlmNzUzZWNiZjJiMyIKICAgIH0KICB9Cn0="
+								Signature: "FFAGYq26bGwbrznw7kQbLkRbANorqSGpK93E//1ZpfmxEm/J8RHcDHD8Rr5T8dHEr3p7YohZr1Oqf5YadMRhmQOHKUC7smvq4GRT4ERIxKwBpU13x29gBD7aAa0PTTEa7V3DS/ur4LYSYemb5Z5h5uXTyzYXDk3rUJCeHttavETqqvhH2baxnvpqUPfz0pxZ2BWbbtnj9p1E6D7yQYm5XcGUxUZb3o9PbjfuNmk8A/kxYDS81AlhI8Umy3zWckhtXiIO5EQEj4EDfbBfn6JLRhGNZ8MK3yLtusvdlJG+mvYuDGdyJMdrizukrTkxf9NWUm1KEtjV/xigjK1AOWRZDok/ENR5aBpgLTvfzA10zUxOEx9RLhfNZoNDhyWXpL8pNbdG9oeUcGZ9bb4lNG2RYTH1N9v7sGVKCDXCWhtqTI9yInycc8ffzrJZZ6G5MOkW5VUthCfaYuXhuZtKhBozkRhidEQhPf6QV5RN5QKPN+aS4GTwcimpXVygjOv4vZXpK2GRzFD24ZBQSxecf4UNAzNtq/1aLlWxPzeveKywe08Tgea2OHJlSRprWfqqsVBzdf5RKiddKwkUGvaK9tPOZXuOZyOrIlGuP/Rq3uA0+zb65xFhSjaCgxn1ZqJRYYA9gMAbEEL5AWzplIdLm1RfZmi+dfHschAr6HEF19qFfn8="
+							}]
+						}
+						Name: "Y_Xiao233"
+					}
+				}
+			}
+			x: 1.0d
+			y: 2.5d
+			subtitle: "{chapter.1.quest.12.subtitle}"
+			description: ["{chapter.1.quest.12.description.1}"]
+			dependencies: ["200584F94441AB93"]
+			id: "7E26837A33504DC4"
+			tasks: [{
+				id: "5EDD977AEA670326"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "084EE82E52305FBD"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1710060491
+								1244414724
+								-1706817341
+								1439410764
+							]
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5MzUzNTgyMTg2OSwKICAicHJvZmlsZUlkIiA6ICI2NWVkNzNjYjRhMmM0MzA0OWE0NDA4YzM1NWNiYWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJZX1hpYW8yMzMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTkyZDIyNGNlZTQzYTg5ODc4ZTA2M2Y1ZWY0ZGM1YmVjODAxYjkyYzJiMTNiNmMzMWNhODlmNzUzZWNiZjJiMyIKICAgIH0KICB9Cn0="
+									Signature: "FFAGYq26bGwbrznw7kQbLkRbANorqSGpK93E//1ZpfmxEm/J8RHcDHD8Rr5T8dHEr3p7YohZr1Oqf5YadMRhmQOHKUC7smvq4GRT4ERIxKwBpU13x29gBD7aAa0PTTEa7V3DS/ur4LYSYemb5Z5h5uXTyzYXDk3rUJCeHttavETqqvhH2baxnvpqUPfz0pxZ2BWbbtnj9p1E6D7yQYm5XcGUxUZb3o9PbjfuNmk8A/kxYDS81AlhI8Umy3zWckhtXiIO5EQEj4EDfbBfn6JLRhGNZ8MK3yLtusvdlJG+mvYuDGdyJMdrizukrTkxf9NWUm1KEtjV/xigjK1AOWRZDok/ENR5aBpgLTvfzA10zUxOEx9RLhfNZoNDhyWXpL8pNbdG9oeUcGZ9bb4lNG2RYTH1N9v7sGVKCDXCWhtqTI9yInycc8ffzrJZZ6G5MOkW5VUthCfaYuXhuZtKhBozkRhidEQhPf6QV5RN5QKPN+aS4GTwcimpXVygjOv4vZXpK2GRzFD24ZBQSxecf4UNAzNtq/1aLlWxPzeveKywe08Tgea2OHJlSRprWfqqsVBzdf5RKiddKwkUGvaK9tPOZXuOZyOrIlGuP/Rq3uA0+zb65xFhSjaCgxn1ZqJRYYA9gMAbEEL5AWzplIdLm1RfZmi+dfHschAr6HEF19qFfn8="
+								}]
+							}
+							Name: "Y_Xiao233"
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "custom:ultimate_controller"
+			x: 0.0d
+			y: 4.0d
+			description: ["{chapter.1.quest.13.description.1}"]
+			dependencies: ["200584F94441AB93"]
+			id: "5E74F3E1DFD567AD"
+			tasks: [{
+				id: "29400A7A51F915B9"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "11F3A37184D6CD94"
+					type: "item"
+					item: "create:schematic_table"
+				}
+				{
+					id: "16A20278C2AF938D"
+					type: "item"
+					item: "buildinggadgets:template_manager"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

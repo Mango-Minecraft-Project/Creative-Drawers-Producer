@@ -1,0 +1,769 @@
+{
+	id: "3C3674E8212B0BFF"
+	group: "7309DC73431430A6"
+	order_index: 4
+	filename: "3C3674E8212B0BFF"
+	title: "{chapter.26.title}"
+	icon: "pneumaticcraft:pressure_gauge"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["7BAEB00A95690289"]
+			id: "349F20F57A3BA24F"
+			tasks: [{
+				id: "4FF97AE0D655F270"
+				type: "checkmark"
+				title: "{chapter.26.quest.1.task.1.title}"
+			}]
+			rewards: [
+				{
+					id: "51AD62C19B628815"
+					type: "item"
+					item: "pneumaticcraft:pneumatic_wrench"
+				}
+				{
+					id: "2457D9B9712A62C8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8476566885218942607L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["349F20F57A3BA24F"]
+			id: "781FC08FA8857992"
+			tasks: [{
+				id: "43ACEA6EFD8138E2"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+			rewards: [{
+				id: "7D20E275A2161C86"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["781FC08FA8857992"]
+			id: "7E2BD6B628B7CD1F"
+			tasks: [{
+				id: "588CDD1D3B4FC523"
+				type: "item"
+				item: "pneumaticcraft:reinforced_stone"
+			}]
+			rewards: [{
+				id: "75753894E0BE52B1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["781FC08FA8857992"]
+			id: "6270398E00BECBF6"
+			tasks: [
+				{
+					id: "555CD265A42C977F"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+				{
+					id: "03D5120E056F0A5D"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+				}
+				{
+					id: "560CB947BE4A9F20"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+				}
+				{
+					id: "183C853A0B4436D1"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+				}
+			]
+			rewards: [{
+				id: "2B60C460D074E93E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: [
+				"781FC08FA8857992"
+				"7E2BD6B628B7CD1F"
+			]
+			id: "658EB44C67D86A56"
+			tasks: [{
+				id: "6EA390DBEF7AE836"
+				type: "item"
+				item: "pneumaticcraft:air_compressor"
+			}]
+			rewards: [{
+				id: "0424FC0702D8914D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["658EB44C67D86A56"]
+			id: "791F1B3FF91CBFB6"
+			tasks: [{
+				id: "43B1D03AEC24D43D"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+			rewards: [{
+				id: "3ADC8E05BFB5AD64"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["791F1B3FF91CBFB6"]
+			id: "150F4604B53144AF"
+			tasks: [{
+				id: "703982F067883F37"
+				type: "item"
+				item: "pneumaticcraft:upgrade_matrix"
+			}]
+			rewards: [{
+				id: "26182976633A013C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			dependencies: [
+				"150F4604B53144AF"
+				"6270398E00BECBF6"
+			]
+			id: "250C89D925BFFADE"
+			tasks: [{
+				id: "0504058A5326A4BB"
+				type: "item"
+				item: "pneumaticcraft:solar_wafer"
+			}]
+			rewards: [{
+				id: "08E44B33B03E8051"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["658EB44C67D86A56"]
+			id: "25BACAFF3784C4A5"
+			tasks: [
+				{
+					id: "52E4614D11FB7237"
+					type: "item"
+					item: "pneumaticcraft:refinery"
+				}
+				{
+					id: "69B702FE38364EF5"
+					type: "item"
+					item: "pneumaticcraft:refinery_output"
+				}
+			]
+			rewards: [
+				{
+					id: "211CC2D828FF7E11"
+					type: "item"
+					item: "pneumaticcraft:amadron_tablet"
+				}
+				{
+					id: "00CBA030816AF445"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8476566885218942607L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["25BACAFF3784C4A5"]
+			id: "7B30FB061AD2FF3C"
+			tasks: [{
+				id: "5BC4E2C2833EF8BD"
+				type: "item"
+				item: "pneumaticcraft:lpg_bucket"
+			}]
+			rewards: [{
+				id: "61C24C4E29B06A7B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			dependencies: ["791F1B3FF91CBFB6"]
+			id: "3BBCC77713B72B33"
+			tasks: [{
+				id: "2A4D90EFFEAD4F9C"
+				type: "item"
+				item: "pneumaticcraft:plastic_bucket"
+			}]
+			rewards: [{
+				id: "1A894438DE3D3E09"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			dependencies: ["3BBCC77713B72B33"]
+			id: "7BCADC9A02F9EACA"
+			tasks: [{
+				id: "75165E52FFE4DC84"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+			}]
+			rewards: [{
+				id: "019329FD84379B2B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -7.5d
+			dependencies: ["7BCADC9A02F9EACA"]
+			id: "2F12FAB3AD8B69C7"
+			tasks: [
+				{
+					id: "68C2A54F8AB31818"
+					type: "item"
+					item: "pneumaticcraft:capacitor"
+				}
+				{
+					id: "0F3F4146F6E7A85B"
+					type: "item"
+					item: "pneumaticcraft:transistor"
+				}
+			]
+			rewards: [{
+				id: "6995E0F864CF8C35"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -6.0d
+			dependencies: ["181FF7C80FFCF2BF"]
+			id: "675CE7C3AB3BAA6D"
+			tasks: [{
+				id: "274916EE03E7E962"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+			rewards: [{
+				id: "483A83A2F1570A54"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["675CE7C3AB3BAA6D"]
+			id: "4E26F886B19754E1"
+			tasks: [
+				{
+					id: "1BF0222FF6485B69"
+					type: "item"
+					item: "pneumaticcraft:assembly_drill"
+				}
+				{
+					id: "21217F4E5894DC94"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_import"
+				}
+				{
+					id: "32EE40CC65DFB838"
+					type: "item"
+					item: "pneumaticcraft:assembly_platform"
+				}
+				{
+					id: "7186278075220FFC"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_export"
+				}
+			]
+			rewards: [{
+				id: "34C82B8A7BBC7235"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["25BACAFF3784C4A5"]
+			id: "29A45E369A9E7B91"
+			tasks: [{
+				id: "74984D17606B363E"
+				type: "item"
+				item: "pneumaticcraft:assembly_program_drill"
+			}]
+			rewards: [{
+				id: "27D3AB1CAF995693"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.5d
+			dependencies: [
+				"4E26F886B19754E1"
+				"29A45E369A9E7B91"
+				"250C89D925BFFADE"
+			]
+			id: "57833808E2BDBA49"
+			tasks: [{
+				id: "1ED0C9F73D158B76"
+				type: "item"
+				item: "pneumaticcraft:solar_cell"
+			}]
+			rewards: [{
+				id: "32E736609C38F132"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.5d
+			dependencies: ["57833808E2BDBA49"]
+			id: "19F70932E2826558"
+			tasks: [{
+				id: "77DDF12A3970EC01"
+				type: "item"
+				item: "pneumaticcraft:solar_compressor"
+			}]
+			rewards: [{
+				id: "0C8E5B62F926EB5C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			dependencies: ["20A93CCC5BF9C7A6"]
+			id: "2070A48E3A9DCE2B"
+			tasks: [{
+				id: "6C4FA0D162D19F1D"
+				type: "item"
+				item: "custom:void_oil_machine"
+			}]
+			rewards: [
+				{
+					id: "54DDF61005601708"
+					type: "item"
+					item: {
+						id: "create:schematic"
+						Count: 1b
+						tag: {
+							Owner: "Y_Xiao233"
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								1
+								2
+								1
+							]
+							Deployed: 0b
+							File: "虚空石油转化器.nbt"
+							Rotation: "NONE"
+							Mirror: "NONE"
+						}
+					}
+				}
+				{
+					id: "4C811D9E4019AEAC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8476566885218942607L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -7.5d
+			dependencies: ["675CE7C3AB3BAA6D"]
+			id: "3EF7860F05E3AFA0"
+			tasks: [{
+				id: "13042FC0D1F27D66"
+				type: "item"
+				item: "custom:pcb_master"
+			}]
+			rewards: [
+				{
+					id: "7771EC9C35EABF42"
+					type: "item"
+					item: {
+						id: "create:schematic"
+						Count: 1b
+						tag: {
+							Owner: "Y_Xiao233"
+							Anchor: {
+								X: 48
+								Y: 65
+								Z: 45
+							}
+							Bounds: [
+								3
+								4
+								3
+							]
+							Deployed: 1b
+							File: "电路生产者.nbt"
+							Rotation: "NONE"
+							Mirror: "NONE"
+						}
+					}
+				}
+				{
+					id: "737F39885B5FBBC9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8476566885218942607L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			dependencies: ["2070A48E3A9DCE2B"]
+			id: "169A2D9EC7A11E3D"
+			tasks: [{
+				id: "20CF37212D9F6CFB"
+				type: "item"
+				item: "thermal:crude_oil_bucket"
+			}]
+			rewards: [{
+				id: "4359772D57B2C66E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["25BACAFF3784C4A5"]
+			id: "20A93CCC5BF9C7A6"
+			tasks: [{
+				id: "52FDC4829C1387B7"
+				type: "item"
+				item: "pneumaticcraft:oil_bucket"
+			}]
+			rewards: [{
+				id: "752D550990D451DF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["349F20F57A3BA24F"]
+			id: "2B10858EDF77B5D9"
+			tasks: [{
+				id: "7FC1DF54E79A1FD8"
+				type: "item"
+				item: "pneumaticcraft:volume_upgrade"
+			}]
+			rewards: [{
+				id: "18AB13761D075437"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["349F20F57A3BA24F"]
+			id: "7FC813E7DC83317F"
+			tasks: [{
+				id: "226B0E8569F95273"
+				type: "item"
+				item: "pneumaticcraft:dispenser_upgrade"
+			}]
+			rewards: [{
+				id: "3755594354A2E015"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["349F20F57A3BA24F"]
+			id: "0E34950C661EFCB2"
+			tasks: [{
+				id: "35456E17671E85D6"
+				type: "item"
+				item: "pneumaticcraft:speed_upgrade"
+			}]
+			rewards: [{
+				id: "381B4B9A605B9E62"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["349F20F57A3BA24F"]
+			id: "4E3FF3FB9B1DCDF4"
+			tasks: [{
+				id: "0A3AF73624DF7442"
+				type: "item"
+				item: "pneumaticcraft:security_upgrade"
+			}]
+			rewards: [{
+				id: "235AABC64B19177D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -4.5d
+			dependencies: ["19F70932E2826558"]
+			id: "69AC7A346FDA54FC"
+			tasks: [{
+				id: "771B6E242A2FBF87"
+				type: "item"
+				item: "custom:oil_refine_machine"
+			}]
+			rewards: [
+				{
+					id: "0EF5B38CEB02FE03"
+					type: "item"
+					item: {
+						id: "create:schematic"
+						Count: 1b
+						tag: {
+							Owner: "Y_Xiao233"
+							Anchor: {
+								X: 61
+								Y: 65
+								Z: 41
+							}
+							Bounds: [
+								3
+								4
+								3
+							]
+							Deployed: 1b
+							File: "熔融塑料转化器.nbt"
+							Rotation: "NONE"
+							Mirror: "NONE"
+						}
+					}
+				}
+				{
+					id: "2BB18DEF76E6FF41"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8476566885218942607L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: [
+				"349F20F57A3BA24F"
+				"2070A48E3A9DCE2B"
+			]
+			id: "56B858D8D43861EB"
+			tasks: [{
+				id: "33BD6E9FBFCD7973"
+				type: "item"
+				item: "custom:plastic_machine"
+			}]
+			rewards: [
+				{
+					id: "1F7AF1601075AD2B"
+					type: "item"
+					item: {
+						id: "create:schematic"
+						Count: 1b
+						tag: {
+							Owner: "Y_Xiao233"
+							Anchor: {
+								X: 61
+								Y: 65
+								Z: 41
+							}
+							Bounds: [
+								3
+								4
+								3
+							]
+							Deployed: 1b
+							File: "塑料塑形机.nbt"
+							Rotation: "NONE"
+							Mirror: "NONE"
+						}
+					}
+				}
+				{
+					id: "6332BAFDCFAB9F79"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8476566885218942607L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			dependencies: ["4A34D75A63738A68"]
+			id: "3AA7FEF6DBDD5112"
+			tasks: [{
+				id: "67A5246E0B297B54"
+				type: "item"
+				item: "pneumaticcraft:etching_tank"
+			}]
+			rewards: [
+				{
+					id: "22C2B830C647FB7D"
+					type: "item"
+					item: "pneumaticcraft:pcb_blueprint"
+				}
+				{
+					id: "7CC788DA64CDC6C0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8476566885218942607L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			dependencies: ["3BBCC77713B72B33"]
+			id: "4A34D75A63738A68"
+			tasks: [{
+				id: "1B470BB80AE429CE"
+				type: "item"
+				item: "pneumaticcraft:etching_acid_bucket"
+			}]
+			rewards: [{
+				id: "390F1A4B2DCC465F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -6.0d
+			dependencies: ["3AA7FEF6DBDD5112"]
+			id: "2428ED67ADF647CE"
+			tasks: [{
+				id: "79A8E8480F5B7D9C"
+				type: "item"
+				item: "pneumaticcraft:uv_light_box"
+			}]
+			rewards: [{
+				id: "332F208995ACBBD9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -7.5d
+			dependencies: ["7BCADC9A02F9EACA"]
+			id: "7B61557711A0628C"
+			tasks: [{
+				id: "63239484CE4338AD"
+				type: "item"
+				item: "pneumaticcraft:empty_pcb"
+			}]
+			rewards: [{
+				id: "62C8E49D9DEE0C7C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -6.0d
+			dependencies: [
+				"2428ED67ADF647CE"
+				"7B61557711A0628C"
+			]
+			id: "181FF7C80FFCF2BF"
+			tasks: [{
+				id: "085A01A009CAB83E"
+				type: "item"
+				item: "pneumaticcraft:unassembled_pcb"
+			}]
+			rewards: [{
+				id: "73439D9E9BF9B4C0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

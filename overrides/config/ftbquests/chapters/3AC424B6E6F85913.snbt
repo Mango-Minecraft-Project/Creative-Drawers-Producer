@@ -1,0 +1,100 @@
+{
+	id: "3AC424B6E6F85913"
+	group: "096CB91396E10C63"
+	order_index: 2
+	filename: "3AC424B6E6F85913"
+	title: "{chapter.12.title}"
+	icon: "woodenhopper:wooden_hopper"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{chapter.12.quest.1.title}"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{chapter.12.quest.1.subtitle}"
+			description: ["{chapter.12.quest.1.description.1}"]
+			dependencies: ["1891420B456B79FA"]
+			id: "009558313C06E64A"
+			tasks: [{
+				id: "6C350BE5149E3C98"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "040549E96B47C16C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["009558313C06E64A"]
+			id: "1A81DBDC3BC4BC14"
+			tasks: [{
+				id: "7B856A0E109F9522"
+				type: "checkmark"
+				title: "{chapter.12.quest.2.task.1.title}"
+			}]
+			rewards: [{
+				id: "63410A6ECF81B020"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["009558313C06E64A"]
+			id: "076DCE307471C96E"
+			tasks: [{
+				id: "5C4C50F8D4C66B01"
+				type: "checkmark"
+				title: "{chapter.12.quest.3.task.1.title}"
+			}]
+			rewards: [{
+				id: "4772BF4AE0131305"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			dependencies: ["1A81DBDC3BC4BC14"]
+			id: "6AFB0D5476CA17AD"
+			tasks: [{
+				id: "0C162F753FA42A03"
+				type: "item"
+				item: "flopper:flopper"
+			}]
+			rewards: [{
+				id: "2A8F9E61234690D1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			dependencies: ["076DCE307471C96E"]
+			id: "59C907CA307BC30F"
+			tasks: [{
+				id: "5A5A0BE220BC880B"
+				type: "item"
+				item: "woodenhopper:wooden_hopper"
+			}]
+			rewards: [{
+				id: "1C67BF75A4BE3CBA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

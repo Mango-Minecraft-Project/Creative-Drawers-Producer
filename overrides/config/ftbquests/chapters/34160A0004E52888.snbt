@@ -1,0 +1,357 @@
+{
+	id: "34160A0004E52888"
+	group: "7309DC73431430A6"
+	order_index: 6
+	filename: "34160A0004E52888"
+	title: "{chapter.28.title}"
+	icon: "bloodmagic:altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["{chapter.28.quest.1.description.1}"]
+			dependencies: ["04CF9D2FFF0C9F86"]
+			id: "47F8CD65C4AC3DAF"
+			tasks: [{
+				id: "7183A1C0AAB618AD"
+				type: "checkmark"
+				title: "{chapter.28.quest.1.task.1.title}"
+			}]
+			rewards: [
+				{
+					id: "49A9A6AD94CDC460"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+				}
+				{
+					id: "7F0ADA49DEDB0C3D"
+					type: "item"
+					item: {
+						id: "bloodmagic:sacrificialdagger"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["47F8CD65C4AC3DAF"]
+			id: "0D064300819D79E7"
+			tasks: [{
+				id: "17392EDF0B716726"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "1F5ED8381A84E87D"
+				type: "item"
+				item: "bloodmagic:dungeon_metal"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["0D064300819D79E7"]
+			id: "2C579F17AE566692"
+			tasks: [{
+				id: "735513A1D79EA5D0"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [{
+				id: "56608B205B7E422A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["2C579F17AE566692"]
+			id: "59D2A5BB93FA6683"
+			tasks: [{
+				id: "74CB8B1E0F23BD11"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+			rewards: [{
+				id: "432E67F15696412B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["59D2A5BB93FA6683"]
+			id: "1BAD159A4090E566"
+			tasks: [{
+				id: "5007C61B3FFC17B4"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+			rewards: [{
+				id: "519182440C9555FC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: [
+				"1BAD159A4090E566"
+				"43E12999B4A394CD"
+			]
+			id: "46BDD5C4806EC2BE"
+			tasks: [{
+				id: "21C13FAA552CB27E"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+			rewards: [{
+				id: "23A1B1FFADEA1BDC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["46BDD5C4806EC2BE"]
+			id: "1901B1286A30181C"
+			tasks: [{
+				id: "2F7D84FA5E9D01E3"
+				type: "item"
+				item: "bloodmagic:etherealslate"
+			}]
+			rewards: [{
+				id: "02DF5CE61FCF850F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			dependencies: [
+				"1901B1286A30181C"
+				"4A45E083640B1AF9"
+			]
+			id: "6F07BECEFBB3BC58"
+			tasks: [{
+				id: "08438687A5BD9EC6"
+				type: "item"
+				item: "custom:blood_generate"
+			}]
+			rewards: [
+				{
+					id: "416CD199C788FE8C"
+					type: "item"
+					item: {
+						id: "create:schematic"
+						Count: 1b
+						tag: {
+							Owner: "Y_Xiao233"
+							Anchor: {
+								X: 58
+								Y: 65
+								Z: 40
+							}
+							Bounds: [
+								5
+								2
+								5
+							]
+							Deployed: 1b
+							File: "生命源质转化者.nbt"
+							Rotation: "NONE"
+							Mirror: "NONE"
+						}
+					}
+				}
+				{
+					id: "3E84267BA61EBE51"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3835561450400936005L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			dependencies: [
+				"1901B1286A30181C"
+				"64CF8C51A2902FE3"
+			]
+			id: "2AB3CBF2967102E1"
+			tasks: [{
+				id: "55EBD55A36941452"
+				type: "item"
+				item: "custom:life_machine"
+			}]
+			rewards: [
+				{
+					id: "2D1C8536A6C2FBE0"
+					type: "item"
+					item: {
+						id: "create:schematic"
+						Count: 1b
+						tag: {
+							Owner: "Y_Xiao233"
+							Anchor: {
+								X: 44
+								Y: 65
+								Z: 42
+							}
+							Bounds: [
+								9
+								3
+								9
+							]
+							Deployed: 1b
+							File: "血石砖制造者.nbt"
+							Rotation: "NONE"
+							Mirror: "NONE"
+						}
+					}
+				}
+				{
+					id: "048FAACC614201DB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3835561450400936005L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["46BDD5C4806EC2BE"]
+			id: "4A45E083640B1AF9"
+			tasks: [{
+				id: "015B3AF0ACB3D228"
+				type: "item"
+				item: "bloodmagic:accelerationrune"
+			}]
+			rewards: [{
+				id: "72F0B6F9D856CF6C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			dependencies: ["46BDD5C4806EC2BE"]
+			id: "64CF8C51A2902FE3"
+			tasks: [{
+				id: "130A86B0F671E1BD"
+				type: "item"
+				item: "bloodmagic:bettercapacityrune"
+			}]
+			rewards: [{
+				id: "7D098284CDAEC241"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["2C579F17AE566692"]
+			id: "50BDB352AF70F80A"
+			tasks: [{
+				id: "4FA6515391D65C12"
+				type: "item"
+				item: "bloodmagic:blankrune"
+			}]
+			rewards: [{
+				id: "04A0AF9A58232E42"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["6F07BECEFBB3BC58"]
+			id: "6D14D54D1A5A08F7"
+			tasks: [{
+				id: "2CB5D974937660F6"
+				type: "fluid"
+				fluid: "minecraft:water"
+				amount: 10000000L
+			}]
+			rewards: [
+				{
+					id: "13224121BCCDCE80"
+					type: "item"
+					item: {
+						id: "mekanism:creative_fluid_tank"
+						Count: 1b
+						tag: {
+							mekData: {
+								FluidTanks: [{
+									Tank: 0b
+									stored: {
+										FluidName: "bloodmagic:life_essence_fluid"
+										Amount: 2147483647
+									}
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "372C9F48626BB5D2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3835561450400936005L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"47F8CD65C4AC3DAF"
+				"5A2D06CDD4EA6775"
+			]
+			id: "43E12999B4A394CD"
+			tasks: [{
+				id: "3E7A0332A898DAAB"
+				type: "item"
+				item: "bloodmagic:strong_tau"
+			}]
+			rewards: [{
+				id: "0940AF24330AD930"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3835561450400936005L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

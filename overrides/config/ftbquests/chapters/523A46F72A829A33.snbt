@@ -1,0 +1,142 @@
+{
+	id: "523A46F72A829A33"
+	group: "096CB91396E10C63"
+	order_index: 1
+	filename: "523A46F72A829A33"
+	title: "{chapter.11.title}"
+	icon: "minecraft:chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -1.0d
+		width: 10.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "storagedrawers:textures/blocks/drawers_dark_oak_front_1.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "{chapter.11.quest.1.title}"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{chapter.11.quest.1.subtitle}"
+			dependencies: ["1891420B456B79FA"]
+			id: "41CCBE247695691C"
+			tasks: [{
+				id: "6463F9BA4D704AF2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6210504283C7780A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["41CCBE247695691C"]
+			id: "757BB6A40529D104"
+			tasks: [{
+				id: "415A2385A6288B98"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "27C859F3F874E6A9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["41CCBE247695691C"]
+			id: "41A1AB03BD827B6A"
+			tasks: [{
+				id: "7DDADAAD69268B21"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+			rewards: [{
+				id: "3756E64C1DE95F3F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["41CCBE247695691C"]
+			id: "7B32633C7663EBDB"
+			tasks: [{
+				id: "4AA403BAC53B8242"
+				type: "item"
+				title: "{chapter.11.quest.4.task.1.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "06C0EC8013D1D504"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["41CCBE247695691C"]
+			id: "7AF16A4396B2C73C"
+			tasks: [{
+				id: "0AFCD0146BF87FEE"
+				type: "item"
+				title: "{chapter.11.quest.5.task.1.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B50C954D12AD883"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["41CCBE247695691C"]
+			id: "5F169EE1380F07AA"
+			tasks: [{
+				id: "6B21FF51456CC717"
+				type: "item"
+				item: "extrautilitiesrebirth:stone_drum"
+			}]
+			rewards: [{
+				id: "4728B196CFD27501"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+	]
+	quest_links: [ ]
+}
