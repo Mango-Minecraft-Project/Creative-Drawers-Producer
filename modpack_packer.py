@@ -8,7 +8,7 @@ zipped_dirs = [
     "README.md",
 ]
 
-version_number = "m1.0.4"
+version_number = "m1.0.5"
 
 with zipfile.ZipFile(f"Creative-Drawers-Producer-{version_number}.zip", "w") as archive:
     for directory in zipped_dirs:
