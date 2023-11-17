@@ -3,7 +3,7 @@
 	group: "522B815F02CD197F"
 	order_index: 4
 	filename: "7C1AF52B2CAD6FC8"
-	title: "{chapter.21.title}"
+	title: "传输"
 	icon: {
 		id: "laserio:laser_wrench"
 		Count: 1b
@@ -21,14 +21,18 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			subtitle: "{chapter.21.quest.1.subtitle}"
-			description: ["{chapter.21.quest.1.description.1}"]
+			subtitle: "没有未成型的逻辑芯片！"
+			description: [
+				"我删除了未成型的逻辑芯片，"
+				"它现在可以直接合成逻辑芯片！"
+				"只是稍微有点贵"
+			]
 			dependencies: ["0409376E9ADEB0C5"]
 			id: "2E753026E762E095"
 			tasks: [{
 				id: "39FB43DA777A088C"
 				type: "checkmark"
-				title: "{chapter.21.quest.1.task.1.title}"
+				title: "Laserio"
 			}]
 			rewards: [
 				{

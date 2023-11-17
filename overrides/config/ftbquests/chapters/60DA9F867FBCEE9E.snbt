@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 13
 	filename: "60DA9F867FBCEE9E"
-	title: "{chapter.35.title}"
+	title: "存储（工业先锋）"
 	icon: "industrialforegoing:supreme_black_hole_tank"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "7B9E6457AD47BBA5"
 				type: "checkmark"
-				title: "{chapter.35.quest.1.task.1.title}"
+				title: "工业先锋存储"
 			}]
 			rewards: [{
 				id: "5C7C27C706EA40DE"

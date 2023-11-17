@@ -3,7 +3,7 @@
 	group: "522B815F02CD197F"
 	order_index: 2
 	filename: "17C41F9465DA708C"
-	title: "{chapter.19.title}"
+	title: "集成动力"
 	icon: "integrateddynamics:menril_sapling"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "777954E785BC50B0"
 				type: "checkmark"
-				title: "{chapter.19.quest.1.task.1.title}"
+				title: "集成动力"
 			}]
 			rewards: [
 				{

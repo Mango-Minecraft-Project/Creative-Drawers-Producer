@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 3
 	filename: "18C7CC236384665F"
-	title: "{chapter.25.title}"
+	title: "极限反应堆"
 	icon: "bigreactors:basic_reactorfuelrod"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "6711931A350124CB"
 				type: "checkmark"
-				title: "{chapter.25.quest.1.task.1.title}"
+				title: "大型反应堆"
 			}]
 			rewards: [{
 				id: "7B94524088ABC20F"

@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 2
 	filename: "3F30D3409A788AE3"
-	title: "{chapter.24.title}"
+	title: "热力系列"
 	icon: "thermal:machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: true
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "34B0877A639B107E"
 				type: "checkmark"
-				title: "{chapter.24.quest.1.task.1.title}"
+				title: "热力系列"
 			}]
 			rewards: [{
 				id: "21289C9A88F7B9EF"

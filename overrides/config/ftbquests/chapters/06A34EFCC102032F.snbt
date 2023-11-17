@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 1
 	filename: "06A34EFCC102032F"
-	title: "{chapter.23.title}"
+	title: "工业先锋"
 	icon: "industrialforegoing:machine_frame_pity"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "3CADF8488FEE90B5"
 				type: "checkmark"
-				title: "{chapter.23.quest.1.task.1.title}"
+				title: "工业先锋"
 			}]
 			rewards: [{
 				id: "20EC4570A284376B"

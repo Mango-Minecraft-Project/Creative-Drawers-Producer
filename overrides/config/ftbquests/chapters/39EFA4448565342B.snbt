@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 14
 	filename: "39EFA4448565342B"
-	title: "{chapter.36.title}"
+	title: "存储（更多实用设备）"
 	icon: "extrautilitiesrebirth:reinforced_drum"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "0081F6A72D0E6513"
 				type: "checkmark"
-				title: "{chapter.36.quest.1.task.1.title}"
+				title: "更多实用设备存储"
 			}]
 		}
 		{

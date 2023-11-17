@@ -3,7 +3,7 @@
 	group: "7B3AC22CD8E60CFC"
 	order_index: 2
 	filename: "541F2DCDB199B71A"
-	title: "{chapter.16.title}"
+	title: "实用物品"
 	icon: {
 		id: "buildinggadgets:gadget_building"
 		Count: 1b
@@ -22,7 +22,7 @@
 	default_hide_dependency_lines: true
 	quests: [
 		{
-			title: "{chapter.16.quest.1.title}"
+			title: "实用物品"
 			x: 0.0d
 			y: 0.0d
 			dependencies: ["0625E3BF226969E7"]

@@ -3,13 +3,13 @@
 	group: "7B3AC22CD8E60CFC"
 	order_index: 1
 	filename: "2A7524A717418BE7"
-	title: "{chapter.15.title}"
+	title: "传输"
 	icon: "pipez:item_pipe"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.15.quest.1.title}"
+			title: "传输"
 			x: 0.0d
 			y: 0.0d
 			dependencies: ["0625E3BF226969E7"]
@@ -33,7 +33,7 @@
 			tasks: [{
 				id: "3247ABA36E2C00A4"
 				type: "checkmark"
-				title: "{chapter.15.quest.2.task.1.title}"
+				title: "物品传输"
 			}]
 			rewards: [{
 				id: "6418FD7E6517C074"
@@ -50,7 +50,7 @@
 			tasks: [{
 				id: "22269F1657FF0BFC"
 				type: "checkmark"
-				title: "{chapter.15.quest.3.task.1.title}"
+				title: "电力传输"
 			}]
 			rewards: [{
 				id: "04B8FDDDFB3B9839"
@@ -67,7 +67,7 @@
 			tasks: [{
 				id: "2AF1C49FBC7EDA84"
 				type: "checkmark"
-				title: "{chapter.15.quest.4.task.1.title}"
+				title: "流体传输"
 			}]
 			rewards: [{
 				id: "275378AB080D8F80"

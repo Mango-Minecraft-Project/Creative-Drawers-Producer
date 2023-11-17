@@ -3,7 +3,7 @@
 	group: "096CB91396E10C63"
 	order_index: 0
 	filename: "16249CFABD2B7FAF"
-	title: "{chapter.10.title}"
+	title: "机械动力"
 	icon: "create:cogwheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -47,7 +47,7 @@
 	]
 	quests: [
 		{
-			title: "{chapter.10.quest.1.title}"
+			title: "Create"
 			x: 0.0d
 			y: 0.0d
 			dependencies: ["2AC553A135527182"]
@@ -937,8 +937,11 @@
 		{
 			x: 0.0d
 			y: 6.0d
-			subtitle: "{chapter.10.quest.49.subtitle}"
-			description: ["{chapter.10.quest.49.description.1}"]
+			subtitle: "为什么是10次？"
+			description: [
+				"不关我事奥"
+				"群友强烈建议的<_<"
+			]
 			dependencies: ["23B2B6C44F95AB43"]
 			id: "2D175C569C2978D3"
 			tasks: [{

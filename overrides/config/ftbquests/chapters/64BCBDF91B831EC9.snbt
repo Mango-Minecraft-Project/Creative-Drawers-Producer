@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 10
 	filename: "64BCBDF91B831EC9"
-	title: "{chapter.32.title}"
+	title: "存储（Refined Storage）"
 	icon: "refinedstorage:creative_controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "1F74B452C38D1309"
 				type: "checkmark"
-				title: "{chapter.32.quest.1.task.1.title}"
+				title: "精致存储"
 			}]
 			rewards: [{
 				id: "1AF7CD844AD6E4D6"
@@ -730,7 +730,7 @@
 			tasks: [{
 				id: "02743F50EB6B4DAF"
 				type: "item"
-				title: "{chapter.32.quest.41.task.1.title}"
+				title: "Any #refinedstorage:parts/items/256k"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -754,7 +754,7 @@
 			tasks: [{
 				id: "135F350713C58931"
 				type: "item"
-				title: "{chapter.32.quest.42.task.1.title}"
+				title: "Any #refinedstorage:parts/items/1024k"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -778,7 +778,7 @@
 			tasks: [{
 				id: "5F5DBA6002107649"
 				type: "item"
-				title: "{chapter.32.quest.43.task.1.title}"
+				title: "Any #refinedstorage:parts/items/4096k"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -802,7 +802,7 @@
 			tasks: [{
 				id: "162E303F906140D4"
 				type: "item"
-				title: "{chapter.32.quest.44.task.1.title}"
+				title: "Any #refinedstorage:parts/items/16384k"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -826,7 +826,7 @@
 			tasks: [{
 				id: "1C6E50F2F483237E"
 				type: "item"
-				title: "{chapter.32.quest.45.task.1.title}"
+				title: "Any #refinedstorage:parts/items/infinite"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -901,7 +901,7 @@
 			tasks: [{
 				id: "752CB76F76EB9F23"
 				type: "item"
-				title: "{chapter.32.quest.49.task.1.title}"
+				title: "Any #refinedstorage:parts/fluids/16384k"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -925,7 +925,7 @@
 			tasks: [{
 				id: "48F20F3BE8C5FE1E"
 				type: "item"
-				title: "{chapter.32.quest.50.task.1.title}"
+				title: "Any #refinedstorage:parts/fluids/65536k"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -949,7 +949,7 @@
 			tasks: [{
 				id: "1388815C4BCDCDD3"
 				type: "item"
-				title: "{chapter.32.quest.51.task.1.title}"
+				title: "Any #refinedstorage:parts/fluids/262144k"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -973,7 +973,7 @@
 			tasks: [{
 				id: "62ABA76D4B9EA1F4"
 				type: "item"
-				title: "{chapter.32.quest.52.task.1.title}"
+				title: "Any #refinedstorage:parts/fluids/1048576k"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -997,7 +997,7 @@
 			tasks: [{
 				id: "4DE76814A32EA6D2"
 				type: "item"
-				title: "{chapter.32.quest.53.task.1.title}"
+				title: "Any #refinedstorage:parts/fluids/infinite"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

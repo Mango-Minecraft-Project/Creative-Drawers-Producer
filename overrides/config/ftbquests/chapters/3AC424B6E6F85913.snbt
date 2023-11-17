@@ -3,17 +3,17 @@
 	group: "096CB91396E10C63"
 	order_index: 2
 	filename: "3AC424B6E6F85913"
-	title: "{chapter.12.title}"
+	title: "传输"
 	icon: "woodenhopper:wooden_hopper"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.12.quest.1.title}"
+			title: "低级传输"
 			x: 0.0d
 			y: 0.0d
-			subtitle: "{chapter.12.quest.1.subtitle}"
-			description: ["{chapter.12.quest.1.description.1}"]
+			subtitle: "你还无法传输电力！"
+			description: ["只能使用漏斗"]
 			dependencies: ["1891420B456B79FA"]
 			id: "009558313C06E64A"
 			tasks: [{
@@ -35,7 +35,7 @@
 			tasks: [{
 				id: "7B856A0E109F9522"
 				type: "checkmark"
-				title: "{chapter.12.quest.2.task.1.title}"
+				title: "流体传输"
 			}]
 			rewards: [{
 				id: "63410A6ECF81B020"
@@ -52,7 +52,7 @@
 			tasks: [{
 				id: "5C4C50F8D4C66B01"
 				type: "checkmark"
-				title: "{chapter.12.quest.3.task.1.title}"
+				title: "物品传输"
 			}]
 			rewards: [{
 				id: "4772BF4AE0131305"

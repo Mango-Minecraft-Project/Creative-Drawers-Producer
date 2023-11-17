@@ -3,7 +3,7 @@
 	group: "09648D74820560E0"
 	order_index: 1
 	filename: "4D9FA0DBD11181FD"
-	title: "{chapter.4.title}"
+	title: "2.一对大家伙"
 	icon: "create:crushing_wheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -17,7 +17,7 @@
 			tasks: [{
 				id: "2BDF316840B91436"
 				type: "checkmark"
-				title: "{chapter.4.quest.1.task.1.title}"
+				title: "利用粉碎轮获得矿物"
 			}]
 			rewards: [{
 				id: "7CF3B776D9BD2710"
@@ -80,7 +80,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			description: ["{chapter.4.quest.5.description.1}"]
+			description: ["注液器给沙子注水获得黏土块"]
 			dependencies: ["0625E3BF226969E7"]
 			id: "7AB149390FD438D8"
 			tasks: [{
@@ -755,12 +755,12 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.42.title}"
+			title: "一些无限矿物"
 			x: -3.5d
 			y: -0.5d
 			shape: "rsquare"
-			subtitle: "{chapter.4.quest.42.subtitle}"
-			description: ["{chapter.4.quest.42.description.1}"]
+			subtitle: "但是是粉碎矿物，并不是烧制好的"
+			description: ["无限的铁！金！铜！锌！"]
 			dependencies: [
 				"02AE8CB847F6B283"
 				"0CEB59035B0D126A"
@@ -859,12 +859,12 @@
 			]
 		}
 		{
-			title: "{chapter.4.quest.43.title}"
+			title: "又一些无限矿物"
 			x: -3.5d
 			y: -1.5d
 			shape: "rsquare"
-			subtitle: "{chapter.4.quest.43.subtitle}"
-			description: ["{chapter.4.quest.43.description.1}"]
+			subtitle: "依旧只是一些碎片的无限"
+			description: ["非要多加一步合成！（bushi"]
 			dependencies: [
 				"390F2C90C21714C1"
 				"6EC953E7880676FC"
@@ -964,11 +964,11 @@
 			]
 		}
 		{
-			title: "{chapter.4.quest.44.title}"
+			title: "又又一些无限矿物"
 			x: -2.0d
 			y: -0.5d
 			shape: "rsquare"
-			subtitle: "{chapter.4.quest.44.subtitle}"
+			subtitle: "他还是粉碎的！"
 			dependencies: [
 				"3DF7D3B638B88F04"
 				"635A55219583B6E4"
@@ -1067,11 +1067,11 @@
 			]
 		}
 		{
-			title: "{chapter.4.quest.45.title}"
+			title: "叒一些无限矿物"
 			x: -2.0d
 			y: -1.5d
 			shape: "rsquare"
-			subtitle: "{chapter.4.quest.45.subtitle}"
+			subtitle: "没错，还是粉碎的"
 			dependencies: [
 				"60E5D64B4D5DB0AF"
 				"00ED0B7946ABCC43"
@@ -1188,11 +1188,11 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.47.title}"
+			title: "这次是一些无限植物"
 			x: -2.0d
 			y: -2.5d
 			shape: "rsquare"
-			subtitle: "{chapter.4.quest.47.subtitle}"
+			subtitle: "不同的是，他们不是种子！"
 			dependencies: ["2EDCE13C6B7B87B1"]
 			id: "5671894463C32DE8"
 			tasks: [
@@ -1286,11 +1286,11 @@
 			]
 		}
 		{
-			title: "{chapter.4.quest.48.title}"
+			title: "叕一些无限矿物"
 			x: -0.5d
 			y: -0.5d
 			shape: "rsquare"
-			subtitle: "{chapter.4.quest.48.subtitle}"
+			subtitle: "叕是一些粉碎矿物"
 			dependencies: [
 				"756A2C48AFD401EA"
 				"13DE67031E7E8C4E"
@@ -1389,11 +1389,11 @@
 			]
 		}
 		{
-			title: "{chapter.4.quest.49.title}"
+			title: "一些奇怪的东西"
 			x: -0.5d
 			y: -1.5d
 			shape: "rsquare"
-			subtitle: "{chapter.4.quest.49.subtitle}"
+			subtitle: "你猜是无限的啥呢？"
 			dependencies: [
 				"597994557998728D"
 				"731E6954A14B1D74"
@@ -1493,7 +1493,7 @@
 			]
 		}
 		{
-			title: "{chapter.4.quest.50.title}"
+			title: "无限黏液球！无限海带！无限海晶砂砾！无限海晶碎片！"
 			x: 1.5d
 			y: -0.5d
 			shape: "rsquare"
@@ -1588,12 +1588,12 @@
 			]
 		}
 		{
-			title: "{chapter.4.quest.51.title}"
+			title: "无限下界合金和金锭"
 			x: 3.0d
 			y: -0.5d
 			shape: "rsquare"
-			subtitle: "{chapter.4.quest.51.subtitle}"
-			description: ["{chapter.4.quest.51.description.1}"]
+			subtitle: "这回是锭！"
+			description: ["你可能需要整整一背包的金块"]
 			dependencies: [
 				"257C1196F8EA5754"
 				"05744BF0B4909AC2"
@@ -1662,7 +1662,7 @@
 			]
 		}
 		{
-			title: "{chapter.4.quest.52.title}"
+			title: "无限之眼"
 			x: 4.5d
 			y: -0.5d
 			shape: "rsquare"
@@ -1750,7 +1750,7 @@
 			]
 		}
 		{
-			title: "{chapter.4.quest.53.title}"
+			title: "无限之星"
 			x: 4.5d
 			y: -1.5d
 			shape: "rsquare"
@@ -1826,7 +1826,7 @@
 			tasks: [{
 				id: "4EDC68C6B287EB23"
 				type: "checkmark"
-				title: "{chapter.4.quest.54.task.1.title}"
+				title: "无限应力！"
 			}]
 			rewards: [
 				{
@@ -1874,7 +1874,7 @@
 		{
 			x: 1.5d
 			y: 8.5d
-			description: ["{chapter.4.quest.57.description.1}"]
+			description: ["无限荧石"]
 			dependencies: ["7BF4AD4DA3C232D5"]
 			id: "1BCF72D14273B40B"
 			tasks: [{

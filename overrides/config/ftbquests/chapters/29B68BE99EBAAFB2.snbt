@@ -3,7 +3,7 @@
 	group: "522B815F02CD197F"
 	order_index: 3
 	filename: "29B68BE99EBAAFB2"
-	title: "{chapter.20.title}"
+	title: "实用物品"
 	icon: {
 		id: "shrink:shrinking_device"
 		Count: 1b
@@ -13,7 +13,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.20.quest.1.title}"
+			title: "实用工具！"
 			x: 0.0d
 			y: 0.0d
 			dependencies: ["0409376E9ADEB0C5"]

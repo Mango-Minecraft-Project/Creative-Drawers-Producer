@@ -3,7 +3,7 @@
 	group: "522B815F02CD197F"
 	order_index: 1
 	filename: "34EA2F75677FA913"
-	title: "{chapter.18.title}"
+	title: "植物魔法"
 	icon: "botania:natura_pylon"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,13 +11,18 @@
 		{
 			x: -8.5d
 			y: -0.5d
-			description: ["{chapter.18.quest.1.description.1}"]
+			description: [
+				"因为作者不太喜欢此类mod"
+				"所以在该整合包中涉及较少此类mod"
+				"而在整合包中此类的魔改也较少"
+				"所以本章仅显示任务所需"
+			]
 			dependencies: ["4DC3ABC2E551B69B"]
 			id: "303D55DCCC0A3487"
 			tasks: [{
 				id: "16334D8A57A41B8C"
 				type: "checkmark"
-				title: "{chapter.18.quest.1.task.1.title}"
+				title: "植物魔法"
 			}]
 			rewards: [{
 				id: "311ACB6BB1F1E516"

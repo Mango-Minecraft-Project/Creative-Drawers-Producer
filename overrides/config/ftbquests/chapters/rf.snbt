@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 5
 	filename: "rf"
-	title: "{chapter.27.title}"
+	title: "RF工具"
 	icon: "rftoolsbuilder:builder"
 	default_quest_shape: ""
 	default_hide_dependency_lines: true
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "4802616B97CE78F1"
 				type: "checkmark"
-				title: "{chapter.27.quest.1.task.1.title}"
+				title: "RF工具"
 			}]
 			rewards: [{
 				id: "6B02CF3DD69A1F1E"

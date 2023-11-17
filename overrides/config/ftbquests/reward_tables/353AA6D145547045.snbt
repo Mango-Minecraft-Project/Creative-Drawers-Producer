@@ -1,7 +1,7 @@
 {
 	id: "353AA6D145547045"
 	order_index: 2
-	title: "{loot_table.3}"
+	title: "中级钱币奖励"
 	icon: "thermal:iron_coin"
 	loot_size: 1
 	rewards: [

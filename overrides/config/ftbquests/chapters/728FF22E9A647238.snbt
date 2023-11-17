@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 7
 	filename: "728FF22E9A647238"
-	title: "{chapter.29.title}"
+	title: "压缩空间"
 	icon: "compactmachines:personal_shrinking_device"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "53BF2629A2B33374"
 				type: "checkmark"
-				title: "{chapter.29.quest.1.task.1.title}"
+				title: "压缩空间"
 			}]
 			rewards: [{
 				id: "4759D4E5FCB8EA53"

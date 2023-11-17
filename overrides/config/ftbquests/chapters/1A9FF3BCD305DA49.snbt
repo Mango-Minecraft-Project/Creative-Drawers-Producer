@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "1A9FF3BCD305DA49"
-	title: "{chapter.1.title}"
+	title: "&5欢&6迎"
 	icon: "minecraft:grass_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,13 +11,13 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			subtitle: "{chapter.1.quest.1.subtitle}"
+			subtitle: "请仔细阅读本章内容"
 			description: ["{image:storagedrawers:textures/items/upgrade_creative_vend.png width:100 height:100 align:1}"]
 			id: "200584F94441AB93"
 			tasks: [{
 				id: "3A10F12A6CE22C11"
 				type: "checkmark"
-				title: "{chapter.1.quest.1.task.1.title}"
+				title: "欢迎来到Creative Drawers Producer"
 			}]
 			rewards: [
 				{
@@ -51,13 +51,13 @@
 			icon: "create:wrench"
 			x: 2.0d
 			y: 1.0d
-			subtitle: "{chapter.1.quest.2.subtitle}"
+			subtitle: "它属于半专家包，新手以及资深专家慎入"
 			dependencies: ["200584F94441AB93"]
 			id: "30E6DB5C68EF28E9"
 			tasks: [{
 				id: "2C40ED001CFB9202"
 				type: "checkmark"
-				title: "{chapter.1.quest.2.task.1.title}"
+				title: "关于游戏难度"
 			}]
 			rewards: [{
 				id: "78B60D5E064BB168"
@@ -76,13 +76,16 @@
 			}
 			x: 2.0d
 			y: -1.0d
-			description: ["{chapter.1.quest.3.description.1}"]
+			description: [
+				""
+				"1. FTB Ultimine   默认按键为`                      2. OreExcavation 默认按键为`"
+			]
 			dependencies: ["200584F94441AB93"]
 			id: "1B9C7CA6BE154D28"
 			tasks: [{
 				id: "57DA3F2379CAF496"
 				type: "checkmark"
-				title: "{chapter.1.quest.3.task.1.title}"
+				title: "关于连锁"
 			}]
 			rewards: [{
 				id: "5F1AA8B443AEA095"
@@ -92,11 +95,11 @@
 			}]
 		}
 		{
-			title: "{chapter.1.quest.4.title}"
+			title: "关于世界"
 			icon: "minecraft:dirt"
 			x: -1.0d
 			y: 2.5d
-			description: ["{chapter.1.quest.4.description.1}"]
+			description: ["本整合包利用skyblockbuilder使创建世界时默认选择skyblock，所以直接创建世界就行啦；若出现了bug请在更多世界选项中手动选择skyblock"]
 			dependencies: ["200584F94441AB93"]
 			id: "7456911EF017F41D"
 			tasks: [{
@@ -111,11 +114,11 @@
 			}]
 		}
 		{
-			title: "{chapter.1.quest.5.title}"
+			title: "关于整合包"
 			icon: "storagedrawers:creative_vending_upgrade"
 			x: -2.0d
 			y: -1.0d
-			description: ["{chapter.1.quest.5.description.1}"]
+			description: ["该整合包仍处于测试阶段，如果遇到什么问题，请加群号：814125336"]
 			dependencies: ["200584F94441AB93"]
 			dependency_requirement: "one_completed"
 			id: "31AB91FEF97F5994"
@@ -134,13 +137,18 @@
 			icon: "ftbquests:book"
 			x: 0.0d
 			y: -2.0d
-			description: ["{chapter.1.quest.6.description.1}"]
+			description: [
+				"钻石型是一章的开始"
+				"齿轮型是一章的结束，亦是下一章的开始的条件"
+				"圆角正方形是与齿轮形类似，不同的是齿轮型需要全部完成才可以进入下一章，而圆角正方形只要做完其中之一就可以进入下一章"
+				"心形是可以选择的任务"
+			]
 			dependencies: ["200584F94441AB93"]
 			id: "764F2254ADE837DD"
 			tasks: [{
 				id: "5F573CA8DA52EE42"
 				type: "checkmark"
-				title: "{chapter.1.quest.6.task.1.title}"
+				title: "关于任务"
 			}]
 			rewards: [{
 				id: "1DE34B48DA2CA679"
@@ -153,7 +161,7 @@
 			x: -3.0d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "{chapter.1.quest.7.subtitle}"
+			subtitle: "钻石型"
 			dependencies: ["764F2254ADE837DD"]
 			id: "0A4E753DE766B289"
 			tasks: [{
@@ -171,7 +179,7 @@
 			x: 3.0d
 			y: -4.0d
 			shape: "gear"
-			subtitle: "{chapter.1.quest.8.subtitle}"
+			subtitle: "齿轮型"
 			dependencies: ["764F2254ADE837DD"]
 			id: "107EB7C6164A4A5E"
 			tasks: [{
@@ -189,13 +197,17 @@
 			icon: "storagedrawers:oak_full_drawers_1"
 			x: -2.0d
 			y: 1.0d
-			description: ["{chapter.1.quest.9.description.1}"]
+			description: [
+				"通过一些自动化获得特定的大量物品以此来获得某个物品的无限抽屉"
+				"对于任务的bug："
+				"检测标记的任务请不要在未解锁前点击，否则出现bug自行解决"
+			]
 			dependencies: ["200584F94441AB93"]
 			id: "71C738B92709BE52"
 			tasks: [{
 				id: "15E846DF3198FCBB"
 				type: "checkmark"
-				title: "{chapter.1.quest.9.task.1.title}"
+				title: "关于游戏"
 			}]
 			rewards: [{
 				id: "0A66411F933879C4"
@@ -208,7 +220,7 @@
 			x: -1.0d
 			y: -4.5d
 			shape: "rsquare"
-			subtitle: "{chapter.1.quest.10.subtitle}"
+			subtitle: "圆角正方形状"
 			dependencies: ["764F2254ADE837DD"]
 			id: "294DF626D4AC8C33"
 			tasks: [{
@@ -226,7 +238,7 @@
 			x: 1.0d
 			y: -4.5d
 			shape: "heart"
-			subtitle: "{chapter.1.quest.11.subtitle}"
+			subtitle: "心形"
 			dependencies: ["764F2254ADE837DD"]
 			id: "68237791E62E63A9"
 			tasks: [{
@@ -241,7 +253,7 @@
 			}]
 		}
 		{
-			title: "{chapter.1.quest.12.title}"
+			title: "关于作者"
 			icon: {
 				id: "minecraft:player_head"
 				Count: 1b
@@ -265,8 +277,16 @@
 			}
 			x: 1.0d
 			y: 2.5d
-			subtitle: "{chapter.1.quest.12.subtitle}"
-			description: ["{chapter.1.quest.12.description.1}"]
+			subtitle: "作者：Y_Xiao233"
+			description: [
+				"感谢一下对本整合包做出帮助的作者："
+				"Btmy：SFCraft作者兼GreedyCraft2贴图作者，提供部分技术支持"
+				"Red_Tea_co：对部分魔改配方提供帮助，对bug修复提供技术支持，对整合包做出了较大贡献"
+				"莫舍得：DSB及SMM作者，提供部分技术支持"
+				"Star`GT：对变色物品提供支持"
+				"citrus:提供部分支持"
+				"还有部分对本整合包做出贡献的：牛子精灵，行也思君，落秋，LEIEN"
+			]
 			dependencies: ["200584F94441AB93"]
 			id: "7E26837A33504DC4"
 			tasks: [{
@@ -303,7 +323,13 @@
 			icon: "custom:ultimate_controller"
 			x: 0.0d
 			y: 4.0d
-			description: ["{chapter.1.quest.13.description.1}"]
+			description: [
+				"本整合包所有自定义多方块结构均有Create蓝图以及Building Gadgets模板（mod原本的多方块请自行查询）"
+				"所有Create的蓝图均会在有关任务赠送(部分机器在多处均有任务，但只有一处有赠送，请仔细查看任务)，若丢失或出现其他情况，请自行制作蓝图并在蓝图桌内获取"
+				"Building Gadgets的模板之能在文件夹下自行复制使用，若想要使用，请自行复制，文件位置位于："
+				".minecraft/version/Creative Drawers Producer/schematics/Building Gadgets"
+				"请注意多方块的方向可能会导致多方块结构无效，若无效请尝试换个方向"
+			]
 			dependencies: ["200584F94441AB93"]
 			id: "5E74F3E1DFD567AD"
 			tasks: [{

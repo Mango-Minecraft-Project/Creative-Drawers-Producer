@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 12
 	filename: "aers"
-	title: "{chapter.34.title}"
+	title: "AE~RS大联动？！！"
 	icon: "refinedproxy:refined_proxy"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -23,7 +23,11 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["{chapter.34.quest.1.description.1}"]
+			description: [
+				"必须用rs的线缆连接，不能直接放在rs的任何机器边上！！！"
+				"必须用rs的线缆连接，不能直接放在rs的任何机器边上！！！"
+				"必须用rs的线缆连接，不能直接放在rs的任何机器边上！！！"
+			]
 			dependencies: ["517E04AE3B6CBB06"]
 			id: "10C70251150FE5AA"
 			tasks: [{

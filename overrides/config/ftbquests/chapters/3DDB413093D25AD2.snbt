@@ -3,7 +3,7 @@
 	group: "2C067EA168A8ADBD"
 	order_index: 0
 	filename: "3DDB413093D25AD2"
-	title: "{chapter.41.title}"
+	title: "终极发电！"
 	icon: "custom:ultimate_controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -20,7 +20,7 @@
 			tasks: [{
 				id: "1C52E4A32FCB8A32"
 				type: "checkmark"
-				title: "{chapter.41.quest.1.task.1.title}"
+				title: "终极发电！！！"
 			}]
 		}
 		{
@@ -43,6 +43,7 @@
 		{
 			x: 0.0d
 			y: -2.0d
+			description: [""]
 			dependencies: ["0E56F5B6D2021879"]
 			id: "11359B52B5954661"
 			tasks: [{

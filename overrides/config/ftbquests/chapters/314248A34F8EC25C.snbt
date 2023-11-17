@@ -3,13 +3,13 @@
 	group: "7B3AC22CD8E60CFC"
 	order_index: 0
 	filename: "314248A34F8EC25C"
-	title: "{chapter.14.title}"
+	title: "存储"
 	icon: "minecraft:chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: true
 	quests: [
 		{
-			title: "{chapter.14.quest.1.title}"
+			title: "存储"
 			x: 0.0d
 			y: 0.0d
 			dependencies: ["0625E3BF226969E7"]

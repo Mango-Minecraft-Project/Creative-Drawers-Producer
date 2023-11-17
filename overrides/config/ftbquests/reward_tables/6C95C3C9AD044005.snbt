@@ -1,7 +1,7 @@
 {
 	id: "6C95C3C9AD044005"
 	order_index: 5
-	title: "{loot_table.6}"
+	title: "饰品"
 	icon: "artifacts:cross_necklace"
 	loot_size: 1
 	rewards: [

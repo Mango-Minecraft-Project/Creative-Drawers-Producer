@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 16
 	filename: "flux_networks"
-	title: "{chapter.38.title}"
+	title: "通量网络（Flux NetWorks）"
 	icon: "fluxnetworks:flux_dust"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "171F4BBC72E4E2EB"
 				type: "checkmark"
-				title: "{chapter.38.quest.1.task.1.title}"
+				title: "通量网络"
 			}]
 			rewards: [{
 				id: "69113C799484DAF4"

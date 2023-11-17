@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 4
 	filename: "3C3674E8212B0BFF"
-	title: "{chapter.26.title}"
+	title: "气动工艺"
 	icon: "pneumaticcraft:pressure_gauge"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "4FF97AE0D655F270"
 				type: "checkmark"
-				title: "{chapter.26.quest.1.task.1.title}"
+				title: "气动工艺"
 			}]
 			rewards: [
 				{

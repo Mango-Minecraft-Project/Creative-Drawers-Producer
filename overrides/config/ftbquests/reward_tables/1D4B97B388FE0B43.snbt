@@ -1,7 +1,7 @@
 {
 	id: "1D4B97B388FE0B43"
 	order_index: 6
-	title: "{loot_table.7}"
+	title: "一些食物"
 	icon: "reliquary:glowing_bread"
 	loot_size: 1
 	rewards: [

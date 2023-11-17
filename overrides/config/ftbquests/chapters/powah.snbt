@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 0
 	filename: "powah"
-	title: "{chapter.22.title}"
+	title: "Powah!"
 	icon: "powah:energizing_orb"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "{chapter.22.quest.1.title}"
+			title: "Powah!"
 			x: 0.0d
 			y: 0.0d
 			dependencies: ["303D55DCCC0A3487"]
@@ -29,7 +29,7 @@
 			tasks: [{
 				id: "0DD20448360C09DF"
 				type: "checkmark"
-				title: "{chapter.22.quest.1.task.1.title}"
+				title: "Powah!!!"
 			}]
 			rewards: [
 				{

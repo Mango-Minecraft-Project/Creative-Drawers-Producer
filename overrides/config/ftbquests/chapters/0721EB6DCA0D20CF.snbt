@@ -3,13 +3,13 @@
 	group: ""
 	order_index: 1
 	filename: "0721EB6DCA0D20CF"
-	title: "{chapter.2.title}"
+	title: "&6商&4店"
 	icon: "thermal:gold_coin"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.2.quest.1.title}"
+			title: "商店"
 			x: 0.0d
 			y: 0.0d
 			dependencies: ["1A9FF3BCD305DA49"]
@@ -873,7 +873,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.43.title}"
+			title: "无限圆石抽屉"
 			icon: "minecraft:cobblestone"
 			x: 3.0d
 			y: 4.0d
@@ -916,7 +916,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.44.title}"
+			title: "无限圆石抽屉"
 			icon: "minecraft:cobblestone"
 			x: 0.0d
 			y: 4.0d
@@ -959,7 +959,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.45.title}"
+			title: "无限圆石抽屉"
 			icon: "minecraft:cobblestone"
 			x: -3.0d
 			y: 4.0d

@@ -3,13 +3,13 @@
 	group: "7309DC73431430A6"
 	order_index: 15
 	filename: "7FB77A9E3EB6B65C"
-	title: "{chapter.37.title}"
+	title: "传输"
 	icon: "modularrouters:modular_router"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.37.quest.1.title}"
+			title: "高级传输"
 			x: 0.0d
 			y: 0.0d
 			dependencies: ["6E468BD877E046EE"]
@@ -17,7 +17,7 @@
 			tasks: [{
 				id: "1031F7310C3AC47D"
 				type: "checkmark"
-				title: "{chapter.37.quest.1.task.1.title}"
+				title: "modular"
 			}]
 			rewards: [{
 				id: "0EDCED004D9E1F91"
@@ -78,7 +78,7 @@
 			}]
 		}
 		{
-			title: "{chapter.37.quest.5.title}"
+			title: "工业先锋"
 			icon: "industrialforegoing:machine_frame_pity"
 			x: 0.0d
 			y: -1.5d
@@ -90,7 +90,7 @@
 			tasks: [{
 				id: "1C2C7E7BEAE4F85F"
 				type: "checkmark"
-				title: "{chapter.37.quest.5.task.1.title}"
+				title: "工业先锋传输"
 			}]
 			rewards: [{
 				id: "5954663DA2858836"
@@ -108,7 +108,7 @@
 			tasks: [{
 				id: "582ECA53D54EDF22"
 				type: "checkmark"
-				title: "{chapter.37.quest.6.task.1.title}"
+				title: "模块化路由器"
 			}]
 			rewards: [
 				{
@@ -153,7 +153,7 @@
 			tasks: [{
 				id: "2ED7782554C96991"
 				type: "checkmark"
-				title: "{chapter.37.quest.7.task.1.title}"
+				title: "Xnet"
 			}]
 			rewards: [{
 				id: "5C7EF7279D60A0C6"

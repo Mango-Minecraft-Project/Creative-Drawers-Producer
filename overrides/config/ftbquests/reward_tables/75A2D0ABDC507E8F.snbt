@@ -1,7 +1,7 @@
 {
 	id: "75A2D0ABDC507E8F"
 	order_index: 1
-	title: "{loot_table.2}"
+	title: "基础钱币奖励"
 	icon: "thermal:copper_coin"
 	loot_size: 1
 	rewards: [

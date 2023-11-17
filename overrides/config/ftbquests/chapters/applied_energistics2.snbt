@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 11
 	filename: "applied_energistics2"
-	title: "{chapter.33.title}"
+	title: "存储（Applied Energistics2）"
 	icon: "ae2:singularity"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "227BE1B26DAAE917"
 				type: "checkmark"
-				title: "{chapter.33.quest.1.task.1.title}"
+				title: "应用能源2"
 			}]
 			rewards: [{
 				id: "304BFA913EC1A0F1"

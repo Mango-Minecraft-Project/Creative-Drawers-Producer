@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 6
 	filename: "34160A0004E52888"
-	title: "{chapter.28.title}"
+	title: "血魔法"
 	icon: "bloodmagic:altar"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,13 +11,13 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["{chapter.28.quest.1.description.1}"]
+			description: ["或许你可以搭配rf工具的环境控制器以此更快的用牺牲匕首"]
 			dependencies: ["04CF9D2FFF0C9F86"]
 			id: "47F8CD65C4AC3DAF"
 			tasks: [{
 				id: "7183A1C0AAB618AD"
 				type: "checkmark"
-				title: "{chapter.28.quest.1.task.1.title}"
+				title: "血魔法"
 			}]
 			rewards: [
 				{
@@ -300,7 +300,7 @@
 			tasks: [{
 				id: "2CB5D974937660F6"
 				type: "fluid"
-				fluid: "minecraft:water"
+				fluid: "hexerei:blood_flowing"
 				amount: 10000000L
 			}]
 			rewards: [

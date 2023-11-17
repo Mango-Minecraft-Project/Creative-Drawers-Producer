@@ -3,18 +3,18 @@
 	group: "09648D74820560E0"
 	order_index: 0
 	filename: "1A96F6C481618C6C"
-	title: "{chapter.3.title}"
+	title: "1.从木头开始"
 	icon: "minecraft:oak_sapling"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.3.quest.1.title}"
+			title: "属于你的第一个创造抽屉"
 			x: -5.5d
 			y: 0.0d
 			shape: "diamond"
-			subtitle: "{chapter.3.quest.1.subtitle}"
-			description: ["{chapter.3.quest.1.description.1}"]
+			subtitle: "没有跳舞生长mod"
+			description: ["它的用处貌似不是用来种的"]
 			dependencies: ["1A9FF3BCD305DA49"]
 			id: "12046DF8C17795D5"
 			tasks: [{
@@ -53,7 +53,7 @@
 		{
 			x: -4.0d
 			y: 0.0d
-			description: ["{chapter.3.quest.2.description.1}"]
+			description: ["查询jei了解如何用树苗合成木板"]
 			dependencies: ["12046DF8C17795D5"]
 			id: "42CB65ADDC71C300"
 			tasks: [{
@@ -71,7 +71,7 @@
 		{
 			x: -2.5d
 			y: 0.0d
-			subtitle: "{chapter.3.quest.3.subtitle}"
+			subtitle: "它的配方貌似被修改了"
 			dependencies: ["42CB65ADDC71C300"]
 			id: "1891420B456B79FA"
 			tasks: [{
@@ -89,8 +89,8 @@
 		{
 			x: -2.5d
 			y: 1.5d
-			subtitle: "{chapter.3.quest.4.subtitle}"
-			description: ["{chapter.3.quest.4.description.1}"]
+			subtitle: "可以用原版的堆肥桶制作"
+			description: ["当然你也可以制作一个刷怪塔"]
 			dependencies: ["1891420B456B79FA"]
 			id: "2AC03A2792024F7B"
 			tasks: [{
@@ -108,8 +108,8 @@
 		{
 			x: -2.5d
 			y: -1.5d
-			subtitle: "{chapter.3.quest.5.subtitle}"
-			description: ["{chapter.3.quest.5.description.1}"]
+			subtitle: "它居然可以随身携带！"
+			description: ["更加便捷的工作台"]
 			dependencies: ["1891420B456B79FA"]
 			id: "479A626FBC6A9EAE"
 			tasks: [{
@@ -127,8 +127,8 @@
 		{
 			x: -1.0d
 			y: 0.0d
-			subtitle: "{chapter.3.quest.6.subtitle}"
-			description: ["{chapter.3.quest.6.description.1}"]
+			subtitle: "你现在只能在工作台内合成它"
+			description: ["如果你非要使一棵树长大来合成的话当我没说qwq"]
 			dependencies: ["1891420B456B79FA"]
 			id: "7B019B84F0CC19B1"
 			tasks: [{
@@ -140,7 +140,7 @@
 		{
 			x: 0.5d
 			y: -3.0d
-			subtitle: "{chapter.3.quest.7.subtitle}"
+			subtitle: "前期快速获取原木的一种办法,其实也只有这一种方法"
 			hide_dependency_lines: false
 			dependencies: ["5980C29C94468030"]
 			id: "4759BD440B573FAA"
@@ -210,8 +210,8 @@
 		{
 			x: 2.0d
 			y: -3.0d
-			subtitle: "{chapter.3.quest.10.subtitle}"
-			description: ["{chapter.3.quest.10.description.1}"]
+			subtitle: "无限的原木"
+			description: ["你可以选择现在做这个任务，你也可以等你有更多的应力后做"]
 			dependencies: ["4759BD440B573FAA"]
 			optional: true
 			id: "61B65DC0BA56A0AD"
@@ -254,8 +254,8 @@
 		{
 			x: 0.5d
 			y: -1.5d
-			subtitle: "{chapter.3.quest.11.subtitle}"
-			description: ["{chapter.3.quest.11.description.1}"]
+			subtitle: "目前只有原版箱子，其他都被ban掉咯"
+			description: ["所有配方都被删除了，只剩这一个"]
 			dependencies: ["2AC553A135527182"]
 			id: "2B5316295980E433"
 			tasks: [{
@@ -314,8 +314,14 @@
 			}
 			x: 0.5d
 			y: 0.0d
-			subtitle: "{chapter.3.quest.14.subtitle}"
-			description: ["{chapter.3.quest.14.description.1}"]
+			subtitle: "我不要用手锤石头，这太痛了！！"
+			description: [
+				"也许可以用机械手！"
+				"木锤有512耐久;石锤有1024耐久;铁锤有2048耐久;"
+				"金锤有4096耐久;钻石锤有16384耐久;而下界合金锤不消耗耐久！！"
+				"压缩锤子可以锤压缩的石头/沙砾/泥土/沙子"
+				""
+			]
 			dependencies: [
 				"2AC553A135527182"
 				"7B019B84F0CC19B1"
@@ -361,8 +367,12 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			subtitle: "{chapter.3.quest.15.subtitle}"
-			description: ["{chapter.3.quest.15.description.1}"]
+			subtitle: "更高的效率！"
+			description: [
+				"作为平衡，他们压缩后耐久与原物品相同"
+				"不同的是，压缩木锤和压缩铁锤只能锤一重压缩的"
+				"而其他的可以锤一重及二重的压缩物品"
+			]
 			dependencies: ["360300207598130F"]
 			id: "3CF9867415E53F45"
 			tasks: [{
@@ -406,7 +416,7 @@
 		{
 			x: -1.0d
 			y: 4.5d
-			subtitle: "{chapter.3.quest.17.subtitle}"
+			subtitle: "无限圆石！"
 			dependencies: ["17185A9549FDB017"]
 			id: "65201EA728BBC45A"
 			tasks: [{
@@ -447,7 +457,7 @@
 		{
 			x: -1.0d
 			y: 1.5d
-			description: ["{chapter.3.quest.18.description.1}"]
+			description: ["制作一个原版刷石机"]
 			dependencies: ["7B019B84F0CC19B1"]
 			id: "3D0DA7A6FC472F33"
 			tasks: [{
@@ -479,7 +489,7 @@
 			x: 0.5d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapter.3.quest.19.subtitle}"
+			subtitle: "无限的沙砾！泥土！沙子！"
 			dependencies: [
 				"15BBB968ED4C91E7"
 				"52D10E42C9F9D2C0"
@@ -605,7 +615,7 @@
 		{
 			x: -1.0d
 			y: 3.0d
-			description: ["{chapter.3.quest.20.description.1}"]
+			description: ["什么？你说太慢了，试试这个！"]
 			dependencies: ["3D0DA7A6FC472F33"]
 			id: "17185A9549FDB017"
 			tasks: [{
@@ -623,7 +633,7 @@
 		{
 			x: -2.5d
 			y: 4.5d
-			description: ["{chapter.3.quest.21.description.1}"]
+			description: ["无限骨粉"]
 			dependencies: ["288C83062E4367EB"]
 			id: "0FB0A7D24C5A3831"
 			tasks: [{
@@ -664,8 +674,11 @@
 		{
 			x: 0.5d
 			y: 3.0d
-			subtitle: "{chapter.3.quest.22.subtitle}"
-			description: ["{chapter.3.quest.22.description.1}"]
+			subtitle: "什么？你说没有应力太慢了？"
+			description: [
+				"不妨试试这个机器"
+				"他不消耗电量！"
+			]
 			dependencies: ["4474CC63C565059C"]
 			id: "15BBB968ED4C91E7"
 			tasks: [{

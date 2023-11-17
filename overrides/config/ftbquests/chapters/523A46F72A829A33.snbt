@@ -3,7 +3,7 @@
 	group: "096CB91396E10C63"
 	order_index: 1
 	filename: "523A46F72A829A33"
-	title: "{chapter.11.title}"
+	title: "存储"
 	icon: "minecraft:chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,10 +21,10 @@
 	}]
 	quests: [
 		{
-			title: "{chapter.11.quest.1.title}"
+			title: "低级存储"
 			x: 0.0d
 			y: 0.0d
-			subtitle: "{chapter.11.quest.1.subtitle}"
+			subtitle: "你现在貌似只能使用这五种存储"
 			dependencies: ["1891420B456B79FA"]
 			id: "41CCBE247695691C"
 			tasks: [{
@@ -80,7 +80,7 @@
 			tasks: [{
 				id: "4AA403BAC53B8242"
 				type: "item"
-				title: "{chapter.11.quest.4.task.1.title}"
+				title: "Any #storagedrawers:drawers"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -104,7 +104,7 @@
 			tasks: [{
 				id: "0AFCD0146BF87FEE"
 				type: "item"
-				title: "{chapter.11.quest.5.task.1.title}"
+				title: "Any #functionalstorage:drawer"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

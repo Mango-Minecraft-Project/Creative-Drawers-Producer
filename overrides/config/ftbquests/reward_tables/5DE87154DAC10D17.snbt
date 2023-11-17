@@ -1,7 +1,7 @@
 {
 	id: "5DE87154DAC10D17"
 	order_index: 0
-	title: "{loot_table.1}"
+	title: "经验"
 	icon: "minecraft:experience_bottle"
 	loot_size: 1
 	rewards: [

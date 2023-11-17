@@ -3,7 +3,7 @@
 	group: "7186BEA3DCCD9782"
 	order_index: 0
 	filename: "65107FE0444D0C57"
-	title: "{chapter.40.title}"
+	title: "合成拓展"
 	icon: "extendedcrafting:the_ultimate_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "6F23435ADF0905BB"
 				type: "checkmark"
-				title: "{chapter.40.quest.1.task.1.title}"
+				title: "合成拓展！"
 			}]
 			rewards: [{
 				id: "4E083D6A98976B57"
@@ -103,13 +103,17 @@
 			icon: "packagedexcrafting:ultimate_crafter"
 			x: 0.0d
 			y: 1.0d
-			description: ["{chapter.40.quest.6.description.1}"]
+			description: [
+				"本整合包有封包合成以及其拓展，"
+				"但是未对其进行魔改，为正常配方，"
+				"请自行查询jei"
+			]
 			dependencies: ["68E78561C5D5AF97"]
 			id: "41084C5CB52227A1"
 			tasks: [{
 				id: "73BCF7FBB50EDBC5"
 				type: "checkmark"
-				title: "{chapter.40.quest.6.task.1.title}"
+				title: "关于封包合成"
 			}]
 			rewards: [{
 				id: "799B99C1EF3D5290"

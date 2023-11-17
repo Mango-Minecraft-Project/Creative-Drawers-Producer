@@ -3,7 +3,7 @@
 	group: "09648D74820560E0"
 	order_index: 6
 	filename: "09DE55C5FD8F9A31"
-	title: "{chapter.9.title}"
+	title: "7.结束了！"
 	icon: "storagedrawers:creative_vending_upgrade"
 	default_quest_shape: ""
 	default_hide_dependency_lines: true
@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "{chapter.9.quest.1.title}"
+			title: "是时候该结束了！"
 			x: 0.0d
 			y: 0.0d
 			shape: "diamond"

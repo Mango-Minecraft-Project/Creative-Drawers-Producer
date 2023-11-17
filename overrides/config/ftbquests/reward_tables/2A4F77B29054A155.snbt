@@ -1,7 +1,7 @@
 {
 	id: "2A4F77B29054A155"
 	order_index: 4
-	title: "{loot_table.5}"
+	title: "终极钱币奖励"
 	icon: "thermal:netherite_coin"
 	loot_size: 1
 	rewards: [

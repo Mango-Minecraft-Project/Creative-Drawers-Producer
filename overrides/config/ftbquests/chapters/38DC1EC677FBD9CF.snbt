@@ -3,7 +3,7 @@
 	group: "096CB91396E10C63"
 	order_index: 3
 	filename: "38DC1EC677FBD9CF"
-	title: "{chapter.13.title}"
+	title: "实用物品"
 	icon: {
 		id: "constructionwand:stone_wand"
 		Count: 1b
@@ -18,13 +18,16 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["{chapter.13.quest.1.description.1}"]
+			description: [
+				"才第一章就想要什么实用物品？"
+				"想屁吃呢>_>"
+			]
 			dependencies: ["12046DF8C17795D5"]
 			id: "79D0FC96883EC1E5"
 			tasks: [{
 				id: "362B6B5E334327B0"
 				type: "checkmark"
-				title: "{chapter.13.quest.1.task.1.title}"
+				title: "低级实用物品"
 			}]
 			rewards: [{
 				id: "1E25B0182EA07550"
@@ -60,7 +63,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["{chapter.13.quest.3.description.1}"]
+			description: ["你也许可以制作一个刷怪塔来获取你的第一个背包"]
 			dependencies: ["79D0FC96883EC1E5"]
 			id: "28AF0EE8EE2D0BBB"
 			tasks: [{

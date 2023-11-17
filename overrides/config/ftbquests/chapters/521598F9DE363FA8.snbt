@@ -3,13 +3,13 @@
 	group: "09648D74820560E0"
 	order_index: 3
 	filename: "521598F9DE363FA8"
-	title: "{chapter.6.title}"
+	title: "4.科技,魔法时代"
 	icon: "thermal:machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.6.quest.1.title}"
+			title: "疯狂的机器"
 			x: 0.0d
 			y: -1.5d
 			shape: "diamond"

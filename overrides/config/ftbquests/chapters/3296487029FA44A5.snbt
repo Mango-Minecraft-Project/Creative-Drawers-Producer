@@ -3,13 +3,13 @@
 	group: "522B815F02CD197F"
 	order_index: 0
 	filename: "3296487029FA44A5"
-	title: "{chapter.17.title}"
+	title: "自然灵气"
 	icon: "naturesaura:gold_leaf"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.17.quest.1.title}"
+			title: "自然灵气"
 			x: -8.5d
 			y: 0.0d
 			dependencies: ["0CEB59035B0D126A"]

@@ -3,13 +3,13 @@
 	group: "09648D74820560E0"
 	order_index: 5
 	filename: "7D8C6CEE583C23CE"
-	title: "{chapter.8.title}"
+	title: "6.结束了？"
 	icon: "extendedcrafting:ultimate_singularity"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.8.quest.1.title}"
+			title: "压缩！！！"
 			x: 0.0d
 			y: 0.0d
 			shape: "diamond"
@@ -635,7 +635,7 @@
 		{
 			x: 0.0d
 			y: -2.0d
-			description: ["{chapter.8.quest.27.description.1}"]
+			description: ["只是5重压缩圆石的无限"]
 			dependencies: ["5C7BF6C18E465556"]
 			id: "35C6F5E354A12038"
 			tasks: [{

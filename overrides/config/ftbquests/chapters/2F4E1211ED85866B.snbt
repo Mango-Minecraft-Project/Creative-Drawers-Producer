@@ -3,13 +3,13 @@
 	group: "09648D74820560E0"
 	order_index: 4
 	filename: "2F4E1211ED85866B"
-	title: "{chapter.7.title}"
+	title: "5.结束之前"
 	icon: "extendedcrafting:the_ultimate_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.7.quest.1.title}"
+			title: "合成拓展"
 			x: 0.0d
 			y: -1.0d
 			shape: "diamond"

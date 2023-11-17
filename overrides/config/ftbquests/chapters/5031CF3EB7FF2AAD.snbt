@@ -3,13 +3,13 @@
 	group: "09648D74820560E0"
 	order_index: 2
 	filename: "5031CF3EB7FF2AAD"
-	title: "{chapter.5.title}"
+	title: "3.其他维度"
 	icon: "minecraft:end_portal_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.5.quest.1.title}"
+			title: "其他维度！"
 			x: -8.5d
 			y: 2.0d
 			shape: "diamond"
@@ -138,7 +138,7 @@
 		{
 			x: -2.5d
 			y: 1.0d
-			description: ["{chapter.5.quest.8.description.1}"]
+			description: ["只能在下界工作！"]
 			dependencies: ["4476421DD1AF79AB"]
 			id: "57146F9E27A4317B"
 			tasks: [{
@@ -175,7 +175,7 @@
 		{
 			x: -2.5d
 			y: 3.0d
-			description: ["{chapter.5.quest.9.description.1}"]
+			description: ["只能在末地工作！"]
 			dependencies: ["35ABEEC58FC832E2"]
 			id: "155B18BDDD8BE690"
 			tasks: [{

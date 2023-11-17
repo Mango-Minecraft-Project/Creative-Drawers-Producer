@@ -3,7 +3,7 @@
 	group: "7309DC73431430A6"
 	order_index: 8
 	filename: "mek"
-	title: "{chapter.30.title}"
+	title: "Mek"
 	icon: "mekanism:steel_casing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "08FB58F0A0B4E34D"
 				type: "checkmark"
-				title: "{chapter.30.quest.1.task.1.title}"
+				title: "Mek"
 			}]
 			rewards: [{
 				id: "630709A8E22BFA4E"
