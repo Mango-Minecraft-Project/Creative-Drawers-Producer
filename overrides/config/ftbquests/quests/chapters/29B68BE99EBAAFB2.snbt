@@ -1,0 +1,263 @@
+{
+	id: "29B68BE99EBAAFB2"
+	group: "522B815F02CD197F"
+	order_index: 3
+	filename: "29B68BE99EBAAFB2"
+	title: "{chapter.21.title}"
+	icon: {
+		id: "shrink:shrinking_device"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{chapter.21.quest.1.title}"
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["0409376E9ADEB0C5"]
+			id: "00E6F360D4A638D3"
+			tasks: [{
+				id: "4B2913689462AE3B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6D5DE27FC2C4A9DD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["00E6F360D4A638D3"]
+			id: "1A95A4B19D3F56FD"
+			tasks: [{
+				id: "4EB39ECC2C6FC2C0"
+				type: "item"
+				item: "mininggadgets:upgrade_empty"
+			}]
+			rewards: [{
+				id: "0910698B606C2447"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["1A95A4B19D3F56FD"]
+			id: "0A90EC3413768348"
+			tasks: [{
+				id: "60D1DBF89B6C9362"
+				type: "item"
+				item: {
+					id: "mininggadgets:mininggadget"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "52EE83882B6B8F8C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["1A95A4B19D3F56FD"]
+			id: "4BC61C63C24C41D9"
+			tasks: [{
+				id: "3A83016734F28F45"
+				type: "item"
+				item: "mininggadgets:upgrade_silk"
+			}]
+			rewards: [{
+				id: "7D080EB427FD64F5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["1A95A4B19D3F56FD"]
+			id: "400E028906CE1044"
+			tasks: [{
+				id: "50A68D0EF2BC63C3"
+				type: "item"
+				item: "mininggadgets:upgrade_void_junk"
+			}]
+			rewards: [{
+				id: "0C298BAC134E407C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["1A95A4B19D3F56FD"]
+			id: "359F6684CF3E0A3A"
+			tasks: [{
+				id: "317DE1A7B48671B6"
+				type: "item"
+				item: "mininggadgets:upgrade_light_placer"
+			}]
+			rewards: [{
+				id: "1A27D6E50F559BAE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			dependencies: ["1A95A4B19D3F56FD"]
+			id: "0C9C865C7E6B9689"
+			tasks: [{
+				id: "5C50E5FD8AA75A5B"
+				type: "item"
+				item: "mininggadgets:upgrade_freezing"
+			}]
+			rewards: [{
+				id: "2E64AC046F770EEF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["1A95A4B19D3F56FD"]
+			id: "15A7B3EACCE582CD"
+			tasks: [{
+				id: "3C1C0C8C2CDF9E75"
+				type: "item"
+				item: "mininggadgets:upgrade_magnet"
+			}]
+			rewards: [{
+				id: "7D9BEB0530041172"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["1A95A4B19D3F56FD"]
+			id: "5E79D3670CF44B4C"
+			tasks: [{
+				id: "6689166F624CCC34"
+				type: "item"
+				item: "mininggadgets:upgrade_three_by_three"
+			}]
+			rewards: [{
+				id: "52E09624F6260B28"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["1A95A4B19D3F56FD"]
+			id: "41BCD9AD5BA6ED0F"
+			tasks: [{
+				id: "34EDF17045159EEE"
+				type: "item"
+				item: "mininggadgets:upgrade_range_1"
+			}]
+			rewards: [{
+				id: "48777FB8950CF95C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["1A95A4B19D3F56FD"]
+			id: "70BA78116DC12F5C"
+			tasks: [{
+				id: "79B30DBE407419F2"
+				type: "item"
+				item: "mininggadgets:upgrade_fortune_1"
+			}]
+			rewards: [{
+				id: "20A2A920FD34E47A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["1A95A4B19D3F56FD"]
+			id: "686D759014872A41"
+			tasks: [{
+				id: "56A7EF068E11674C"
+				type: "item"
+				item: "mininggadgets:upgrade_battery_1"
+			}]
+			rewards: [{
+				id: "58C71E9FBF2CEC21"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["1A95A4B19D3F56FD"]
+			id: "02745A466D96BA14"
+			tasks: [{
+				id: "72F401E7A3D3CFE2"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_1"
+			}]
+			rewards: [{
+				id: "17FD0ED2443C1D31"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["00E6F360D4A638D3"]
+			id: "3B514DBB09EB263A"
+			tasks: [{
+				id: "142C22FAD6F5F593"
+				type: "item"
+				item: {
+					id: "shrink:shrinking_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6C59D7C392504B8E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

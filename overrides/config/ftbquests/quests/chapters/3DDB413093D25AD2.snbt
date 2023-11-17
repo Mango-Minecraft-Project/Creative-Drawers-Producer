@@ -1,0 +1,117 @@
+{
+	id: "3DDB413093D25AD2"
+	group: "2C067EA168A8ADBD"
+	order_index: 0
+	filename: "3DDB413093D25AD2"
+	title: "{chapter.42.title}"
+	icon: "custom:ultimate_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: [
+				"04B612D65FEA92A4"
+				"3D511974637BE00E"
+				"7954B45A102B8AD1"
+			]
+			id: "7A4DC0470E928F2D"
+			tasks: [{
+				id: "1C52E4A32FCB8A32"
+				type: "checkmark"
+				title: "{chapter.42.quest.1.task.1.title}"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["7A4DC0470E928F2D"]
+			id: "0E56F5B6D2021879"
+			tasks: [{
+				id: "64C4BF12A7133486"
+				type: "item"
+				item: "kubejs:ultimate_pellet_cell"
+			}]
+			rewards: [{
+				id: "7EFE3E27491E36AB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["0E56F5B6D2021879"]
+			id: "11359B52B5954661"
+			tasks: [{
+				id: "3C1A04DBD518EA31"
+				type: "item"
+				item: "custom:ultimate_controller"
+			}]
+			rewards: [
+				{
+					id: "3BFA57FF7B2722F7"
+					type: "item"
+					item: {
+						id: "create:schematic"
+						Count: 1b
+						tag: {
+							Owner: "Y_Xiao233"
+							Anchor: {
+								X: 45
+								Y: 65
+								Z: 44
+							}
+							Bounds: [
+								5
+								5
+								5
+							]
+							Deployed: 1b
+							File: "终极反物质发电机.nbt"
+							Rotation: "NONE"
+							Mirror: "NONE"
+						}
+					}
+				}
+				{
+					id: "309E0342B7A944A4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3048787081562464597L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["11359B52B5954661"]
+			id: "5BC6DAA13874D08E"
+			tasks: [{
+				id: "089D2565694DD2DC"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "27D47B64878E72E5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3048787081562464597L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

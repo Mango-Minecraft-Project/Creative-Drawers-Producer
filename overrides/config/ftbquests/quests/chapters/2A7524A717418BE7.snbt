@@ -1,0 +1,252 @@
+{
+	id: "2A7524A717418BE7"
+	group: "7B3AC22CD8E60CFC"
+	order_index: 1
+	filename: "2A7524A717418BE7"
+	title: "{chapter.16.title}"
+	icon: "pipez:item_pipe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{chapter.16.quest.1.title}"
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["0625E3BF226969E7"]
+			id: "385CD0CB8FA644E8"
+			tasks: [{
+				id: "2FFC6749505A2B62"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "477575C72D447E3B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["385CD0CB8FA644E8"]
+			id: "5323EB90562E4414"
+			tasks: [{
+				id: "3247ABA36E2C00A4"
+				type: "checkmark"
+				title: "{chapter.16.quest.2.task.1.title}"
+			}]
+			rewards: [{
+				id: "6418FD7E6517C074"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["385CD0CB8FA644E8"]
+			id: "7F08D3A665675A4C"
+			tasks: [{
+				id: "22269F1657FF0BFC"
+				type: "checkmark"
+				title: "{chapter.16.quest.3.task.1.title}"
+			}]
+			rewards: [{
+				id: "04B8FDDDFB3B9839"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["385CD0CB8FA644E8"]
+			id: "0486BF32361AB027"
+			tasks: [{
+				id: "2AF1C49FBC7EDA84"
+				type: "checkmark"
+				title: "{chapter.16.quest.4.task.1.title}"
+			}]
+			rewards: [{
+				id: "275378AB080D8F80"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["5323EB90562E4414"]
+			id: "171C4C6D7026035B"
+			tasks: [{
+				id: "3DEFBFF8595593DD"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+			rewards: [{
+				id: "3BEA2CA8A5FE9E7F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["385CD0CB8FA644E8"]
+			id: "5AB68AA3CFCA2E1C"
+			tasks: [{
+				id: "7E4602FA3715A0A5"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+			rewards: [{
+				id: "36839A6B45E1027E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			dependencies: ["5AB68AA3CFCA2E1C"]
+			id: "32D06F8137EBC889"
+			tasks: [{
+				id: "25115351AEDDCD7B"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+			rewards: [{
+				id: "0332AA1BFE6C9009"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			dependencies: ["32D06F8137EBC889"]
+			id: "0C83A4DD295555F9"
+			tasks: [{
+				id: "3B2E94FF061339A3"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+			rewards: [{
+				id: "2A60EF746115CCC5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			dependencies: ["0C83A4DD295555F9"]
+			id: "10ADFFD1E2DA7244"
+			tasks: [{
+				id: "46193DBE7AE7543E"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+			rewards: [{
+				id: "488AF6A497B65880"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["385CD0CB8FA644E8"]
+			id: "0BFDFBD1F0E18294"
+			tasks: [{
+				id: "43670BC1FA788F0A"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+			rewards: [{
+				id: "2F5E40C59DDF120C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["0486BF32361AB027"]
+			id: "15B9A4D1336C3F01"
+			tasks: [{
+				id: "0CB5D7B573942679"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+			rewards: [{
+				id: "4A44782229AFC985"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["7F08D3A665675A4C"]
+			id: "07428A93A71229CA"
+			tasks: [{
+				id: "21B6F19B0E1BAD4B"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+			rewards: [{
+				id: "77A4364186271F92"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			dependencies: ["7F40DBD8F3B58D25"]
+			id: "1F1046723D4CD7DF"
+			tasks: [{
+				id: "2F0DAD6D654795E7"
+				type: "item"
+				item: "itemcollectors:advanced_collector"
+			}]
+			rewards: [{
+				id: "58505F4788A217A3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			dependencies: ["6076DF1E914059AA"]
+			id: "7F40DBD8F3B58D25"
+			tasks: [{
+				id: "7621A5E072488B78"
+				type: "item"
+				item: "itemcollectors:basic_collector"
+			}]
+			rewards: [{
+				id: "4EF3E8B0DE20DB41"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

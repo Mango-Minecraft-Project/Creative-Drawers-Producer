@@ -1,0 +1,389 @@
+{
+	id: "7C1AF52B2CAD6FC8"
+	group: "522B815F02CD197F"
+	order_index: 4
+	filename: "7C1AF52B2CAD6FC8"
+	title: "{chapter.22.title}"
+	icon: {
+		id: "laserio:laser_wrench"
+		Count: 1b
+		tag: {
+			connectionpos: {
+				X: -4
+				Y: 65
+				Z: 15
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{chapter.22.quest.1.subtitle}"
+			description: ["{chapter.22.quest.1.description.1}"]
+			dependencies: ["0409376E9ADEB0C5"]
+			id: "2E753026E762E095"
+			tasks: [{
+				id: "39FB43DA777A088C"
+				type: "checkmark"
+				title: "{chapter.22.quest.1.task.1.title}"
+			}]
+			rewards: [
+				{
+					id: "091FC0E3F873F929"
+					type: "item"
+					item: "laserio:laser_wrench"
+				}
+				{
+					id: "04BA4DA2BF54CE05"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8476566885218942607L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			hide_dependency_lines: false
+			dependencies: ["2E753026E762E095"]
+			id: "72B8793B0D8F15E2"
+			tasks: [{
+				id: "26C2575C6DA1A39B"
+				type: "item"
+				item: "laserio:logic_chip"
+			}]
+			rewards: [{
+				id: "4F3836CE0C98131D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			hide_dependency_lines: false
+			dependencies: ["72B8793B0D8F15E2"]
+			hide_text_until_complete: false
+			id: "021C9140564CFA09"
+			tasks: [{
+				id: "1F5F37328007EDF4"
+				type: "item"
+				item: "laserio:laser_connector"
+			}]
+			rewards: [{
+				id: "3662586C9AB0090A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			hide_dependency_lines: false
+			dependencies: ["021C9140564CFA09"]
+			id: "6BE7187FCDB705B7"
+			tasks: [{
+				id: "09A7011FF01064F9"
+				type: "item"
+				item: "laserio:laser_node"
+			}]
+			rewards: [{
+				id: "5F93EFDCCD13D559"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["72B8793B0D8F15E2"]
+			id: "638255EEB8A16617"
+			tasks: [{
+				id: "2F206222268D47B5"
+				type: "item"
+				item: "laserio:card_item"
+			}]
+			rewards: [{
+				id: "12E38AAF109D9EBF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			dependencies: ["72B8793B0D8F15E2"]
+			id: "5694143AE84CA225"
+			tasks: [{
+				id: "6894F176D680ABFF"
+				type: "item"
+				item: "laserio:card_fluid"
+			}]
+			rewards: [{
+				id: "7C9F7958AC67DF70"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["72B8793B0D8F15E2"]
+			id: "3329D12860A5EB6E"
+			tasks: [{
+				id: "290259F302F12B3D"
+				type: "item"
+				item: "laserio:card_energy"
+			}]
+			rewards: [{
+				id: "1F7B343398C336A7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["72B8793B0D8F15E2"]
+			id: "72435ABA67A71A97"
+			tasks: [{
+				id: "1DC1B64804649A6F"
+				type: "item"
+				item: "laserio:card_redstone"
+			}]
+			rewards: [{
+				id: "300F9B01C505F5EE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["72B8793B0D8F15E2"]
+			id: "53E3A7915D6F5E85"
+			tasks: [{
+				id: "47E360A9B10D655A"
+				type: "item"
+				item: {
+					id: "laserio:filter_basic"
+					Count: 1b
+					tag: {
+						inv: {
+							Size: 15
+							Items: [ ]
+						}
+						compareNBT: 0b
+						allowList: 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "24E85FE79443B30E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			dependencies: ["72B8793B0D8F15E2"]
+			id: "072274E549F84031"
+			tasks: [{
+				id: "5149516036D95CA7"
+				type: "item"
+				item: {
+					id: "laserio:filter_count"
+					Count: 1b
+					tag: {
+						inv: {
+							Size: 15
+							Items: [ ]
+						}
+						counts: [
+							{
+								MBAmount: 0
+								Slot: 0
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 1
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 2
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 3
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 4
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 5
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 6
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 7
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 8
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 9
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 10
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 11
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 12
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 13
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 14
+								Count: 0
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F687A98A1CDEAF1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			dependencies: ["72B8793B0D8F15E2"]
+			id: "0E7678603BEB1A82"
+			tasks: [{
+				id: "4984774C78C05A24"
+				type: "item"
+				item: {
+					id: "laserio:filter_tag"
+					Count: 1b
+					tag: {
+						tags: [ ]
+						allowList: 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "758ED4BFF5A43AF4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["72B8793B0D8F15E2"]
+			id: "46ADE8F573FC5D76"
+			tasks: [{
+				id: "5E1D294E2E549E4F"
+				type: "item"
+				item: {
+					id: "laserio:filter_mod"
+					Count: 1b
+					tag: {
+						inv: {
+							Size: 15
+							Items: [ ]
+						}
+						compareNBT: 0b
+						allowList: 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D46E2BCEBBF1F67"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["72B8793B0D8F15E2"]
+			id: "43A776BBB2BBA5D7"
+			tasks: [{
+				id: "07EE12F16524DDD5"
+				type: "item"
+				item: "laserio:overclocker_card"
+			}]
+			rewards: [{
+				id: "0C601EB6371E879F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			dependencies: ["72B8793B0D8F15E2"]
+			id: "08F4FA0478AD8E92"
+			tasks: [{
+				id: "55732B464E792DE9"
+				type: "item"
+				item: "laserio:overclocker_node"
+			}]
+			rewards: [{
+				id: "1BDB4ACC54527806"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8476566885218942607L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

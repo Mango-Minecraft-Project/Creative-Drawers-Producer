@@ -1,0 +1,20 @@
+{
+	id: "75A2D0ABDC507E8F"
+	order_index: 1
+	title: "{loot_table.2}"
+	icon: "thermal:copper_coin"
+	loot_size: 1
+	rewards: [
+		{ item: "thermal:copper_coin", weight: 32 }
+		{ item: "thermal:iron_coin", weight: 12 }
+		{ item: "thermal:gold_coin", weight: 6 }
+		{ item: "thermal:netherite_coin" }
+		{ item: "thermal:copper_coin", count: 4, weight: 16 }
+		{ item: "thermal:copper_coin", count: 2, weight: 24 }
+		{ item: "thermal:copper_coin", count: 8, weight: 8 }
+		{ item: "thermal:iron_coin", count: 4, weight: 8 }
+		{ item: "thermal:iron_coin", count: 8, weight: 6 }
+		{ item: "thermal:gold_coin", count: 2, weight: 4 }
+		{ item: "thermal:gold_coin", count: 4, weight: 2 }
+	]
+}

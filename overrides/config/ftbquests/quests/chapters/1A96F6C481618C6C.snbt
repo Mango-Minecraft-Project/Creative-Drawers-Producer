@@ -1,0 +1,922 @@
+{
+	id: "1A96F6C481618C6C"
+	group: "09648D74820560E0"
+	order_index: 0
+	filename: "1A96F6C481618C6C"
+	title: "{chapter.4.title}"
+	icon: "minecraft:oak_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{chapter.4.quest.1.title}"
+			x: -5.5d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "{chapter.4.quest.1.subtitle}"
+			description: ["{chapter.4.quest.1.description.1}"]
+			dependencies: ["1A9FF3BCD305DA49"]
+			id: "12046DF8C17795D5"
+			tasks: [{
+				id: "481E820933E92BE0"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "238C510DF8003DFD"
+				type: "item"
+				item: {
+					id: "storagedrawers:oak_full_drawers_1"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Upgrades: [{
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+								Count: 1b
+							}]
+							id: "storagedrawers:standard_drawers_1"
+							Drawers: [{
+								Item: {
+									id: "minecraft:oak_sapling"
+									Count: 1b
+								}
+								Count: 1
+							}]
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			description: ["{chapter.4.quest.2.description.1}"]
+			dependencies: ["12046DF8C17795D5"]
+			id: "42CB65ADDC71C300"
+			tasks: [{
+				id: "76817B8A93D1A9C9"
+				type: "item"
+				item: "minecraft:oak_planks"
+			}]
+			rewards: [{
+				id: "0488409068485C73"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2110947647706499907L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "{chapter.4.quest.3.subtitle}"
+			dependencies: ["42CB65ADDC71C300"]
+			id: "1891420B456B79FA"
+			tasks: [{
+				id: "117127215406DA9F"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "1F468526CD79E559"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			subtitle: "{chapter.4.quest.4.subtitle}"
+			description: ["{chapter.4.quest.4.description.1}"]
+			dependencies: ["1891420B456B79FA"]
+			id: "2AC03A2792024F7B"
+			tasks: [{
+				id: "4EC1DC7FC76F36CD"
+				type: "item"
+				item: "minecraft:bone_meal"
+			}]
+			rewards: [{
+				id: "3ECF4313679E1D4B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			subtitle: "{chapter.4.quest.5.subtitle}"
+			description: ["{chapter.4.quest.5.description.1}"]
+			dependencies: ["1891420B456B79FA"]
+			id: "479A626FBC6A9EAE"
+			tasks: [{
+				id: "7EF52166523D1737"
+				type: "item"
+				item: "crafting_on_a_stick:crafting_table"
+			}]
+			rewards: [{
+				id: "2903933A318FEAF5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			subtitle: "{chapter.4.quest.6.subtitle}"
+			description: ["{chapter.4.quest.6.description.1}"]
+			dependencies: ["1891420B456B79FA"]
+			id: "7B019B84F0CC19B1"
+			tasks: [{
+				id: "7039657B7A4069A9"
+				type: "item"
+				item: "minecraft:stick"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			subtitle: "{chapter.4.quest.7.subtitle}"
+			hide_dependency_lines: false
+			dependencies: ["5980C29C94468030"]
+			id: "4759BD440B573FAA"
+			tasks: [{
+				id: "016DBE55C9E309CA"
+				type: "item"
+				item: "minecraft:oak_log"
+			}]
+			rewards: [{
+				id: "39668C27A8A114CB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["7B019B84F0CC19B1"]
+			id: "2AC553A135527182"
+			tasks: [{
+				id: "6E7A3D0444D721C4"
+				type: "item"
+				item: "kubejs:wooden_gear"
+			}]
+			rewards: [{
+				id: "76DFDB60D2C14BDC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["2AC553A135527182"]
+			id: "5980C29C94468030"
+			tasks: [{
+				id: "4A1F48A6432834E2"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [
+				{
+					id: "300B1DC0A5D41A92"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "60312A4624A85134"
+					type: "item"
+					item: "create:basin"
+				}
+				{
+					id: "1C428D839FC06354"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "08F7DFCF093A341F"
+					type: "item"
+					item: "create:brass_funnel"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			subtitle: "{chapter.4.quest.10.subtitle}"
+			description: ["{chapter.4.quest.10.description.1}"]
+			dependencies: ["4759BD440B573FAA"]
+			optional: true
+			id: "61B65DC0BA56A0AD"
+			tasks: [{
+				id: "65A42EAC8456F386"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 1024L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2F0F1D36491A9F51"
+				type: "item"
+				item: {
+					id: "storagedrawers:oak_full_drawers_1"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Upgrades: [{
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+								Count: 1b
+							}]
+							id: "storagedrawers:standard_drawers_1"
+							Drawers: [{
+								Item: {
+									id: "minecraft:oak_log"
+									Count: 1b
+								}
+								Count: 1024
+							}]
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			subtitle: "{chapter.4.quest.11.subtitle}"
+			description: ["{chapter.4.quest.11.description.1}"]
+			dependencies: ["2AC553A135527182"]
+			id: "2B5316295980E433"
+			tasks: [{
+				id: "6979E08CFFF93355"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "0ED12E5F96021C8D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["2B5316295980E433"]
+			id: "58028A1C965F56B0"
+			tasks: [{
+				id: "1E6FF307ECBEAB90"
+				type: "item"
+				item: "woodenhopper:wooden_hopper"
+			}]
+			rewards: [{
+				id: "10548ED4AA374182"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			dependencies: ["2AC03A2792024F7B"]
+			id: "288C83062E4367EB"
+			tasks: [{
+				id: "5E270BA1B9C58C76"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+			rewards: [{
+				id: "3D7250C04C47117D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:wooden_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: 0.0d
+			subtitle: "{chapter.4.quest.14.subtitle}"
+			description: ["{chapter.4.quest.14.description.1}"]
+			dependencies: [
+				"2AC553A135527182"
+				"7B019B84F0CC19B1"
+			]
+			id: "360300207598130F"
+			tasks: [
+				{
+					id: "5AAD0F658A44AE18"
+					type: "item"
+					item: {
+						id: "kubejs:wooden_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "096DE8987C32A90E"
+					type: "item"
+					item: "create:cogwheel"
+				}
+			]
+			rewards: [
+				{
+					id: "169F2324356B838A"
+					type: "item"
+					item: "create:depot"
+				}
+				{
+					id: "193F9F32172B50A4"
+					type: "item"
+					item: "create:deployer"
+				}
+				{
+					id: "5994AD138C8A568E"
+					type: "item"
+					item: "create:brass_funnel"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "{chapter.4.quest.15.subtitle}"
+			description: ["{chapter.4.quest.15.description.1}"]
+			dependencies: ["360300207598130F"]
+			id: "3CF9867415E53F45"
+			tasks: [{
+				id: "03D212FBF43EDF99"
+				type: "item"
+				item: {
+					id: "kubejs:compressed_wooden_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A4BB00261F1EB2E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6766783049385446679L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: [
+				"65201EA728BBC45A"
+				"360300207598130F"
+			]
+			id: "4474CC63C565059C"
+			tasks: [{
+				id: "0AACE8E8CBE87183"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+			rewards: [{
+				id: "28E174DD960B5EE0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2110947647706499907L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			subtitle: "{chapter.4.quest.17.subtitle}"
+			dependencies: ["17185A9549FDB017"]
+			id: "65201EA728BBC45A"
+			tasks: [{
+				id: "4358732EE310C748"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 512L
+			}]
+			rewards: [{
+				id: "7100DDE6E5CBAED0"
+				type: "item"
+				item: {
+					id: "storagedrawers:oak_full_drawers_1"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Upgrades: [{
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+								Count: 1b
+							}]
+							id: "storagedrawers:standard_drawers_1"
+							Drawers: [{
+								Item: {
+									id: "minecraft:cobblestone"
+									Count: 1b
+								}
+								Count: 0
+							}]
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			description: ["{chapter.4.quest.18.description.1}"]
+			dependencies: ["7B019B84F0CC19B1"]
+			id: "3D0DA7A6FC472F33"
+			tasks: [{
+				id: "509B7469E5C98676"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "44CFFEBDE26CDA9A"
+					type: "item"
+					item: "minecraft:water_bucket"
+					count: 2
+				}
+				{
+					id: "740D8B5916F3EAD4"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			shape: "gear"
+			subtitle: "{chapter.4.quest.19.subtitle}"
+			dependencies: [
+				"15BBB968ED4C91E7"
+				"52D10E42C9F9D2C0"
+				"7031BB860B290019"
+			]
+			id: "493A531616607F15"
+			tasks: [
+				{
+					id: "20D281B477D31F83"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 1024L
+					consume_items: true
+				}
+				{
+					id: "198D7F1371A494EF"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 512L
+					consume_items: true
+				}
+				{
+					id: "3C8D94F60CD79C9B"
+					type: "item"
+					item: "minecraft:sand"
+					count: 256L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "28EFC6345443768A"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_1"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_1"
+								Drawers: [{
+									Item: {
+										id: "minecraft:gravel"
+										Count: 1b
+									}
+									Count: 1
+								}]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "2C3D08D1530174D1"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_1"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_1"
+								Drawers: [{
+									Item: {
+										id: "minecraft:dirt"
+										Count: 1b
+									}
+									Count: 1
+								}]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "028BECB3AFA7DC10"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_1"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_1"
+								Drawers: [{
+									Item: {
+										id: "minecraft:sand"
+										Count: 1b
+									}
+									Count: 1
+								}]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "62EB39F2DEDE22DC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["{chapter.4.quest.20.description.1}"]
+			dependencies: ["3D0DA7A6FC472F33"]
+			id: "17185A9549FDB017"
+			tasks: [{
+				id: "5274D5B0086B550A"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 128L
+			}]
+			rewards: [{
+				id: "5104D37E19FC5DDF"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			description: ["{chapter.4.quest.21.description.1}"]
+			dependencies: ["288C83062E4367EB"]
+			id: "0FB0A7D24C5A3831"
+			tasks: [{
+				id: "7FFE6CD5B4BAA752"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 128L
+			}]
+			rewards: [{
+				id: "0629CE88A7C44EBE"
+				type: "item"
+				item: {
+					id: "storagedrawers:oak_full_drawers_1"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Upgrades: [{
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+								Count: 1b
+							}]
+							id: "storagedrawers:standard_drawers_1"
+							Drawers: [{
+								Item: {
+									id: "minecraft:bone_meal"
+									Count: 1b
+								}
+								Count: 1
+							}]
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			subtitle: "{chapter.4.quest.22.subtitle}"
+			description: ["{chapter.4.quest.22.description.1}"]
+			dependencies: ["4474CC63C565059C"]
+			id: "15BBB968ED4C91E7"
+			tasks: [{
+				id: "07F49AA426EB72D2"
+				type: "item"
+				item: "custom:cobblestone_machine"
+			}]
+			rewards: [{
+				id: "6D9AAEDDE75195D9"
+				type: "item"
+				item: {
+					id: "create:schematic"
+					Count: 1b
+					tag: {
+						Owner: "Y_Xiao233"
+						Anchor: {
+							X: 47
+							Y: 65
+							Z: 45
+						}
+						Bounds: [
+							1
+							3
+							2
+						]
+						Deployed: 1b
+						File: "圆石粉碎锤.nbt"
+						Rotation: "NONE"
+						Mirror: "NONE"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["53CD2B7D2C61741C"]
+			id: "0D50DFD0ABBB3FC0"
+			tasks: [{
+				id: "2347AA4415D0CD97"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+			rewards: [{
+				id: "52A672079E807851"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2110947647706499907L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["4474CC63C565059C"]
+			id: "53CD2B7D2C61741C"
+			tasks: [{
+				id: "3EFBA53B506C54E7"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+			rewards: [
+				{
+					id: "24A16581BC596CEA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6766783049385446679L
+				}
+				{
+					id: "01E5426D5C795C77"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2110947647706499907L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["53CD2B7D2C61741C"]
+			id: "52D10E42C9F9D2C0"
+			tasks: [{
+				id: "756B5755C76064FB"
+				type: "item"
+				item: "custom:gravel_machine"
+			}]
+			rewards: [{
+				id: "442E4A37350CE017"
+				type: "item"
+				item: {
+					id: "create:schematic"
+					Count: 1b
+					tag: {
+						Owner: "Y_Xiao233"
+						Anchor: {
+							X: 0
+							Y: 0
+							Z: 0
+						}
+						Bounds: [
+							1
+							3
+							2
+						]
+						Deployed: 0b
+						File: "沙砾粉碎锤.nbt"
+						Rotation: "NONE"
+						Mirror: "NONE"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			dependencies: ["0D50DFD0ABBB3FC0"]
+			id: "7031BB860B290019"
+			tasks: [{
+				id: "66435320E70BEF32"
+				type: "item"
+				item: "custom:dirt_machine"
+			}]
+			rewards: [{
+				id: "633FA5E1F8043C09"
+				type: "item"
+				item: {
+					id: "create:schematic"
+					Count: 1b
+					tag: {
+						Owner: "Y_Xiao233"
+						Anchor: {
+							X: 0
+							Y: 0
+							Z: 0
+						}
+						Bounds: [
+							1
+							3
+							2
+						]
+						Deployed: 0b
+						File: "泥土粉碎锤.nbt"
+						Rotation: "NONE"
+						Mirror: "NONE"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["0D50DFD0ABBB3FC0"]
+			id: "724587A7F2A71FA4"
+			tasks: [{
+				id: "483AAFFEBA7EA8DF"
+				type: "item"
+				item: "minecraft:clay"
+			}]
+			rewards: [{
+				id: "2AB8A4C859BAA1FB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2110947647706499907L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			dependencies: ["724587A7F2A71FA4"]
+			id: "63A666261E8F8F9C"
+			tasks: [{
+				id: "4002F6416820B5D3"
+				type: "item"
+				item: "custom:sand_machine"
+			}]
+			rewards: [{
+				id: "1AF0174C01040E98"
+				type: "item"
+				item: {
+					id: "create:schematic"
+					Count: 1b
+					tag: {
+						Owner: "Y_Xiao233"
+						Anchor: {
+							X: 48
+							Y: 65
+							Z: 45
+						}
+						Bounds: [
+							1
+							3
+							2
+						]
+						Deployed: 1b
+						File: "沙子灌注机.nbt"
+						Rotation: "NONE"
+						Mirror: "NONE"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			shape: "heart"
+			dependencies: ["63A666261E8F8F9C"]
+			optional: true
+			id: "57F0B216D30C7B87"
+			tasks: [{
+				id: "19031FF21A3BB794"
+				type: "item"
+				item: "minecraft:clay"
+				count: 2048L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "44BC96A6454C6629"
+					type: "item"
+					item: {
+						id: "storagedrawers:oak_full_drawers_1"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Upgrades: [{
+									Slot: 0b
+									id: "storagedrawers:creative_vending_upgrade"
+									Count: 1b
+								}]
+								id: "storagedrawers:standard_drawers_1"
+								Drawers: [{
+									Item: {
+										id: "minecraft:clay"
+										Count: 1b
+									}
+									Count: 1
+								}]
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
+				{
+					id: "1AFA65302CB6DAD0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7824375198584684549L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}
