@@ -8,7 +8,7 @@ zipped_dirs = [
     "README.md",
 ]
 MODPACK_NAME = "Creative-Drawers-Producer"
-VERSION = "m1.0.6"
+VERSION = "m1.0.7"
 
 print(f"> Start Packing Modpack - {MODPACK_NAME} {VERSION}")
 with zipfile.ZipFile(f"{MODPACK_NAME}-{VERSION}.zip", "w") as archive:
