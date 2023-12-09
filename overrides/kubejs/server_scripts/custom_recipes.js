@@ -3,18 +3,18 @@ onEvent("recipes", (event) => {
 
   kubejs.shaped("custom:cobblestone_machine", ["ASA", "AWA", "ASA"], {
     S: "extrautilitiesrebirth:quadruple_compressed_cobblestone",
-    W: "#forge:tools/stone_hammerss",
+    W: "#forge:tools/stone_hammers",
     A: "extrautilitiesrebirth:triple_compressed_cobblestone",
   });
 
   kubejs.shaped("custom:gravel_machine", ["SSS", "SWS", "SSS"], {
     S: "extrautilitiesrebirth:double_compressed_gravel",
-    W: "#forge:tools/stone_hammerss",
+    W: "#forge:tools/stone_hammers",
   });
 
   kubejs.shaped("custom:dirt_machine", ["SSS", "SWS", "SSS"], {
     S: "extrautilitiesrebirth:double_compressed_dirt",
-    W: "#forge:tools/stone_hammerss",
+    W: "#forge:tools/stone_hammers",
   });
 
   kubejs.shaped("custom:sand_machine", ["SAS", "SWS", "SBS"], {
