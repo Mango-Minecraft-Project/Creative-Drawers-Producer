@@ -129,7 +129,7 @@ onEvent("recipes", (event) => {
 
   event.smithing(
     "kubejs:netherite_hammer",
-    "#forge:diamond_hammer",
+    "#forge:tools/diamond_hammers",
     "minecraft:netherite_ingot"
   );
 
